@@ -50,7 +50,7 @@ function CV() {
         <td>
         <h1>Experience</h1>
         <img src={logo_nttdata} width="240vw" height="240vh"></img>
-        <div class="section" style={{marginLeft: "-7vw"}}>
+        <div id="timeline" >
 
             <Timeline>
             <TimelineItem>

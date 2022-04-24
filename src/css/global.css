@@ -27,11 +27,11 @@ li {
     display: block;
   }
   .nav {
-    width: 89vw;
+    width: 94vw;
     text-align: center;
   }
   h1,h2,h3,.p-title {
-    width: 40vw !important;
+    width: 55vw !important;
   }
   .paragraph {
     width: 60vw !important;
@@ -40,6 +40,12 @@ li {
     padding: 0px !important;
     margin: 0 auto !important;
   }
+  #timeline {
+    margin-left: -10vw !important;
+  }
+}
+#timeline {
+  margin-left: -30vw;
 }
 h1,h2,h3,.paragraph,.p-title {
   width: 27vw;
