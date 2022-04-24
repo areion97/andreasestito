@@ -4,7 +4,7 @@ function Home() {
   return (
     
   <div>
-      <div class="body">
+      <div class="section">
         <img src={profile} id="profile"></img>
           <div class="section">
             <h1>About</h1>

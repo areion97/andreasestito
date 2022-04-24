@@ -113,16 +113,15 @@ function App() {
                 <br/>
                 <br/>
                 <h2>
-                B
                 </h2>
                 <br/>
-                <h2>R</h2>
+                <h2></h2>
                 <h3 class="paragraph">T
                 </h3>
-                <h2>A</h2>
+                <h2></h2>
                 <h3 class="paragraph">T
                 </h3>
-                <h2>A</h2>
+                <h2></h2>
                 <h3 class="paragraph">
                 </h3>
 
