@@ -1,11 +1,17 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/andreasestito/static/css/main.4eeac9e0.css",
     "main.js": "/andreasestito/static/js/main.d008f327.js",
+=======
+    "main.css": "/andreasestito/static/css/main.81fc147c.css",
+    "main.js": "/andreasestito/static/js/main.98b8ad6a.js",
+>>>>>>> 02e4cd42894df694c7c84afe75b7d2269fcb8947
     "static/js/787.28cb0dcd.chunk.js": "/andreasestito/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile.jpg": "/andreasestito/static/media/profile.500d82f6921fa304d305.jpg",
     "static/media/logo_polimi.png": "/andreasestito/static/media/logo_polimi.d15aae1a8c4940522e08.png",
     "index.html": "/andreasestito/index.html",
+<<<<<<< HEAD
     "main.4eeac9e0.css.map": "/andreasestito/static/css/main.4eeac9e0.css.map",
     "main.d008f327.js.map": "/andreasestito/static/js/main.d008f327.js.map",
     "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
@@ -13,5 +19,14 @@
   "entrypoints": [
     "static/css/main.4eeac9e0.css",
     "static/js/main.d008f327.js"
+=======
+    "main.81fc147c.css.map": "/andreasestito/static/css/main.81fc147c.css.map",
+    "main.98b8ad6a.js.map": "/andreasestito/static/js/main.98b8ad6a.js.map",
+    "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fc147c.css",
+    "static/js/main.98b8ad6a.js"
+>>>>>>> 02e4cd42894df694c7c84afe75b7d2269fcb8947
   ]
 }
