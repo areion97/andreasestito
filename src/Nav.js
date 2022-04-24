@@ -1,19 +1,11 @@
-
+import {Link} from "react-router-dom"
 function Nav() {
-    function goToCvPage() {
-        window.history.pushState('Curriculum Vitae', 'Title', '/andreasestito/cv');
-        window.location.reload();
-    }
-    function goToHomePage() {
-        window.history.pushState('Home', 'Title', '/andreasestito');
-        window.location.reload();
-    }
     return (
         <nav>
             <ul class="nav">
-                <li><a onClick={()=>goToHomePage()}><h1>Home</h1></a></li>
-                <li><a onClick={()=>goToCvPage()}><h1>Curriculum Vitae</h1></a></li>
-                <li><a><h1>Contacts</h1></a></li>
+                <li><Link to="/andreasestito"><h1>Home</h1></Link></li>
+                <li><Link to="/andreasestito/cv"><h1>Curriculum Vitae</h1></Link></li>
+                <li><Link to="/andreasestito/contacts"><h1>Contacts</h1></Link></li>
             </ul>
         </nav>
     );
