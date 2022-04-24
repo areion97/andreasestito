@@ -1,0 +1,80 @@
+#profile {
+  width: 18%;
+  height: 18%;
+  margin-top: 20px;
+}
+td {
+  width: 33%;
+}
+body {
+    min-height: 100vh;
+    width: 200vh;
+    margin: 0 auto;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  width: auto;
+  overflow: hidden;
+  background-color: rgb(140,0,0);
+}
+
+li {
+  float: left;
+  margin-left: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  opacity: 33%;
+}
+.section {
+  word-wrap: break-word;
+  width: 70%;
+
+}
+.content {
+  padding: 10px;
+  width: 0.7vw;
+}
+.paragraph {
+  width: 500px;
+}
+h3 {
+  font-weight: normal;
+}
+#logo-polimi {
+  object-fit: scale-down;
+  width: 78%;
+}
+
+td {
+  padding: 20px;
+  vertical-align: text-top !important;
+}
+
+table {
+  width: 100%;
+
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
