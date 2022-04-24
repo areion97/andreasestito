@@ -2,10 +2,9 @@ import './css/global.css'
 import profile from "../src/images/profile.jpg"
 function Home() {
   return (
-    
   <div>
       <div class="body">
-        <img src={profile} id="profile"></img>
+        <img src={profile} style={{padding:"20px"}}id="profile"></img>
           <div class="section">
             <h1>About</h1>
             <h3>
