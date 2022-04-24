@@ -36,6 +36,9 @@ li {
   .paragraph {
     width: 60vw !important;
   }
+  .section {
+    margin-left: 11vw;
+  }
   body {
     padding: 0px !important;
     margin: 0 auto !important;

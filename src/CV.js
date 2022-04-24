@@ -19,12 +19,11 @@ function CV() {
       <table>
       <tr>
         <td>
+        <h1>Education</h1>
+        <br/>
+        <br/>
+        <img src={logo_polimi} width="250vw" height="190vh"></img>
         <div class="section">
-            <h1>Education</h1>
-            <img src={logo_polimi} width="240vw" height="180vh"></img>
-            <br/>
-            <br/>
-            <br/>
             <h2 class="p-title">
             Bachelor's Degree in Engineering of Computing Systems
             </h2>
@@ -49,6 +48,8 @@ function CV() {
         </td>
         <td>
         <h1>Experience</h1>
+        <br/>
+        <br/>
         <img src={logo_nttdata} width="240vw" height="240vh"></img>
         <div id="timeline" >
 
@@ -110,6 +111,8 @@ function CV() {
         <td>
             <div class="section">
                 <h1>Courses</h1>
+                <br/>
+                <br/>
                 <img src={logo_coursera} width="240vw" height="240vh"></img>
                 <br/>
                 <br/>
@@ -124,11 +127,11 @@ function CV() {
                 <a href="https://www.credly.com/badges/6f23312d-eb7c-49a9-9bb1-d4ff017abcb7/public_url"><h2 class="paragraph">Developing Cloud Apps with Node.js and React</h2></a>
                 <img  src="https://images.credly.com/size/110x110/images/73c1a67e-b3e8-44f1-a049-a91532e4f19c/Developing_Cloud_Apps_with_Node.js_and_React.png" width="150" height="150"/>
                 <h2>JMeter™ Intro</h2>
-                <img src={logo_blazemeter} width="300vw" height="126px"></img>
+                <img src={logo_blazemeter} width="270vw" height="126vh"></img>
                 <h2>JMeter™ Pro</h2>
-                <img src={logo_blazemeter} width="300vw" height="126px"></img>
+                <img src={logo_blazemeter} width="270vw" height="126vh"></img>
                 <h2 class="p-title">First Certificate in English - Level B2</h2>
-                <img src={logo_cambridge} width="250vw" height="250px"></img>
+                <img src={logo_cambridge} width="250vw" height="250vh"></img>
                 
             </div>
         </td>
