@@ -10,9 +10,9 @@ function Router() {
   <div>
       <Nav/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cv" element={<CV />} />
-        <Route path="/about" element={<About />} />
+        <Route exact path="/andreasestito" element={<Home />} />
+        <Route exact path="/andreasestito/cv" element={<CV />} />
+        <Route exact path="/andreasestito/about" element={<About />} />
       </Routes>
   </div>
   );

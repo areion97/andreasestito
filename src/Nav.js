@@ -1,11 +1,11 @@
 
 function Nav() {
     function goToCvPage() {
-        window.history.pushState('Curriculum Vitae', 'Title', '/cv');
+        window.history.pushState('Curriculum Vitae', 'Title', '/andreasestito/cv');
         window.location.reload();
     }
     function goToHomePage() {
-        window.history.pushState('Home', 'Title', '/');
+        window.history.pushState('Home', 'Title', '/andreasestito');
         window.location.reload();
     }
     return (
