@@ -20,7 +20,6 @@ root.render(
         <Routes>
           <Route path="/andreasestito" element={<Home />} />
           <Route path="/andreasestito/cv" element={<CV />} />
-          <Route path="/andreasestito/about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </React.Fragment>

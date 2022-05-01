@@ -24,18 +24,24 @@ function CV() {
  
             <br/>
             <h2 class="p-title">Ranking Dijkstra shortest path</h2>
-            <h3 class="paragraph">The focus of the project was to return the first k graphs given n in input ordering them by shortest path to reach every node starting from an initial node.
+            <h3 class="paragraph">
+                <i>The project was developed for Bachelor's Thesis for the course of Algorithms and Principles of Computer Science.</i><br/><br/>
+                The focus of the project was to return the first k graphs given n in input ordering them by shortest path to reach every node starting from an initial node.
                 Code needed to be strongly optimized in terms of memory and computational complexity.
             </h3>
             <h2 class="p-title">A VHDL solution for transferring addresses in microprocessors buses</h2>
-            <h3 class="paragraph">The project was developed for Bachelor's Thesis for the course of Logical Networks.
+            <h3 class="paragraph">
+                <i>The project was developed for Bachelor's Thesis for the course of Logical Networks.</i><br/><br/>
+                The project was developed for Bachelor's Thesis for the course of Logical Networks.
                 The aim of the project was to develop a VHDL entity which implemented working-zone encoding.¹
                 As IDE to support code editing and run simulations I used Vivado Design Suite: Behavioural and Post Sythesis Functional were successfully accomplished on top of FPGA xc7a200tfbg484-1.
                 <br/><br/>
                 ¹Working-zone methodology is used in modern microprocessors to reduce power consumption when sending adresses through buses.
             </h3>
             <h2 class="p-title">Adrenaline: online multiplayer</h2>
-            <h3 class="paragraph">It is a first prototype of multiplayer game inspired by the board game Adrenaline written in Java.
+            <h3 class="paragraph">
+                <i>The project was developed for Bachelor's Thesis for the course of Software Engineering.</i><br/><br/>
+                It is a first prototype of multiplayer game inspired by the board game Adrenaline written in Java.
                 OOP paradigms are fully exploited in order to give to the project a solid structure; furthermore its architecture composed by MVC, State and Strategy design patterns enhances project mantainability and evolvability.
             </h3>
             <br/>
@@ -55,7 +61,6 @@ function CV() {
             <h3 class="paragraph">
             <b>Apprenticeship</b>
             <br/>
-            Sep 2020 - Present · 1 yr 8 mos
             <br/>
             I developed a test automation for REST APIs incrementing project maintainability and reliability; I was focusing on software scalability according to client requirements.
 
@@ -65,8 +70,7 @@ function CV() {
             </h3>
             <h2 class="p-title">Software Developer Engineer</h2>
             <h3 class="paragraph">
-            <b>Apprenticeship</b><br/>
-            Jan 2020 - Sep 2020 · 9 mos <br/>
+            <b>Apprenticeship</b><br/><br/>
             I've worked in team where I learnt basics of Git and Agile methodology actively contributing to test coverage structuring a complete Test automation suite:
             architecture as-is enables functional testing as well as performance testing.I've worked in team where I learnt basics of Git and Agile methodology actively
             contributing to test coverage structuring a complete Test automation suite: architecture as-is enables functional testing as well as performance testing.
@@ -75,7 +79,6 @@ function CV() {
             <h2 class="p-title">Internship</h2>
            
             <h3 class="paragraph">
-            Sep 2019 - Dec 2019 · 4 mos <br/>
             I've been studying web application fundamentals from its structure to life-cycle.
             Later on I developed a Web App covering architectural aspects such as deploying on a Servlet Container, setting up Apache Web Server and installing SSL certificate enabling HTTPS protocol.
             </h3>
@@ -104,7 +107,6 @@ function CV() {
                 <img src={logo_blazemeter} width="260vw" height="100vh"></img>
                 <h2 class="p-title">First Certificate in English - Level B2</h2>
                 <img src={logo_cambridge} width="250vw" height="250vh"></img>
-               
             </div>
         </td>
       </tr>
