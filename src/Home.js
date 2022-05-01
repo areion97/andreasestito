@@ -3,7 +3,7 @@ import profile from "../src/images/profile.jpg"
 function Home() {
   return (
       <div class="content">
-          <img src={profile} width="250vw" height="300vh"></img>
+          <img src={profile} style={{paddingTop: "10px"}} width="250vw" height="300vh"></img>
 
           <table>
             <tr>

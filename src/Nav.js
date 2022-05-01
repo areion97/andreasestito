@@ -5,15 +5,14 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Fade from '@mui/material/Fade';
+import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
 function Nav() {
     const [anchorEl, setAnchorEl] = useState(null)
     const open = Boolean(anchorEl);
     const handleClick = (event: React.MouseEvent<HTMLElement>) => {
       setAnchorEl(event.currentTarget);
     };
-    function downloadCV() {
-        setAnchorEl(null);
-    }
+
     const handleClose = () => {
       setAnchorEl(null);
     };
@@ -33,7 +32,7 @@ function Nav() {
                 onClose={handleClose}
                 TransitionComponent={Fade}
             >
-                <MenuItem onClick={downloadCV}><h3><b>Download PDF</b></h3></MenuItem>
+                <MenuItem onClick={handleClose}><a target="_blank" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a></MenuItem>
             </Menu>
         </nav>
     );
