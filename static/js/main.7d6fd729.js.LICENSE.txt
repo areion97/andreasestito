@@ -1,3 +1,9 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
 /**
  * @license React
  * react-dom.production.min.js
@@ -38,12 +44,6 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-<<<<<<<< HEAD:static/js/main.d008f327.js.LICENSE.txt
-/** @license MUI v5.6.1
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
-========
 /**
  * React Router DOM v6.3.0
  *
@@ -64,5 +64,4 @@
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
->>>>>>>> 0c36588ed1a23e1abf379e2af95997eec399c272:static/js/main.67a5dbb1.js.LICENSE.txt
  */
