@@ -32,7 +32,7 @@ function Nav() {
                 onClose={handleClose}
                 TransitionComponent={Fade}
             >
-                <MenuItem onClick={handleClose}><a target="_blank" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a></MenuItem>
+                <MenuItem onClick={handleClose}><a target="_blank" class="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a></MenuItem>
             </Menu>
         </nav>
     );

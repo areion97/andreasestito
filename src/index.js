@@ -4,7 +4,6 @@ import reportWebVitals from './reportWebVitals';
 import { Helmet } from 'react-helmet'
 import CV from './CV'
 import Nav from './Nav';
-import About from './About'
 import Home from './Home'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));

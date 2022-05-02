@@ -21,7 +21,6 @@ function CV() {
         </h2>
         <img src={logo_polimi} width="250vw" height="190vh"></img>
         <div class="section">
- 
             <br/>
             <h2 class="p-title">Ranking Dijkstra shortest path</h2>
             <h3 class="paragraph">

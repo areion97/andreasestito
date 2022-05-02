@@ -7,6 +7,10 @@
   overflow: hidden;
   background-color: rgb(140,0,0);
 }
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  background-color: rgb(140,0,0) !important;
+  top: 100px !important;
+}
 a {
   text-decoration: none;
 }
@@ -15,6 +19,9 @@ a {
   width: 100%;
   padding: 10px;
   text-decoration: none;
+}
+.nav-submenu {
+  color: white;
 }
 td {
   width: 33%;
