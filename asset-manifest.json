@@ -1,34 +1,20 @@
 {
   "files": {
-<<<<<<< HEAD
-    "main.css": "/andreasestito/static/css/main.4eeac9e0.css",
-    "main.js": "/andreasestito/static/js/main.d008f327.js",
-=======
-    "main.css": "/andreasestito/static/css/main.a5332c89.css",
-    "main.js": "/andreasestito/static/js/main.3ca81255.js",
->>>>>>> a5eceba4503fbe94f657af591854b4af99640f4a
+    "main.css": "/andreasestito/static/css/main.cd8f69d8.css",
+    "main.js": "/andreasestito/static/js/main.88eaec57.js",
     "static/js/787.28cb0dcd.chunk.js": "/andreasestito/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Curriculum Andrea Sestito.pdf": "/andreasestito/static/media/Curriculum Andrea Sestito.b206de72eb7efa5d09ab.pdf",
     "static/media/profile.jpg": "/andreasestito/static/media/profile.500d82f6921fa304d305.jpg",
     "static/media/ulivi.jpg": "/andreasestito/static/media/ulivi.d0d01605eb6ab45f57aa.jpg",
     "static/media/cambridge-logo.jpg": "/andreasestito/static/media/cambridge-logo.e1f5f4c0c21ff83bdf77.jpg",
     "static/media/logo_polimi.png": "/andreasestito/static/media/logo_polimi.d15aae1a8c4940522e08.png",
     "index.html": "/andreasestito/index.html",
-<<<<<<< HEAD
-    "main.4eeac9e0.css.map": "/andreasestito/static/css/main.4eeac9e0.css.map",
-    "main.d008f327.js.map": "/andreasestito/static/js/main.d008f327.js.map",
+    "main.cd8f69d8.css.map": "/andreasestito/static/css/main.cd8f69d8.css.map",
+    "main.88eaec57.js.map": "/andreasestito/static/js/main.88eaec57.js.map",
     "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4eeac9e0.css",
-    "static/js/main.d008f327.js"
-=======
-    "main.a5332c89.css.map": "/andreasestito/static/css/main.a5332c89.css.map",
-    "main.3ca81255.js.map": "/andreasestito/static/js/main.3ca81255.js.map",
-    "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.a5332c89.css",
-    "static/js/main.3ca81255.js"
->>>>>>> a5eceba4503fbe94f657af591854b4af99640f4a
+    "static/css/main.cd8f69d8.css",
+    "static/js/main.88eaec57.js"
   ]
 }
