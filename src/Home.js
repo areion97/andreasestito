@@ -1,9 +1,13 @@
 import './css/global.css'
 import profile from "../src/images/profile.jpg"
+import instagram_logo from "../src/images/instagram_logo.webp"
+import linkedin_logo from "../src/images/linkedin-logo.png"
+import facebook_logo from "../src/images/fb-logo.png"
+
 function Home() {
   return (
-      <div class="content">
-          <img src={profile} style={{padding: "20px"}} width="250vw" height="300vh"></img>
+      <div class="content" >
+          <img style={{boxShadow: "9px 8px 20px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
           <table>
             <tr>
               <td>
@@ -20,8 +24,25 @@ function Home() {
               </td>
             </tr>
           </table>
-
+          <footer>
+              <div>
+                <table>
+                  <tr>
+                    <td>
+                      <a href=""><img  src={facebook_logo} width="58px" height="58px"></img></a>
+                    </td>
+                    <td>
+                      <a href="https://www.linkedin.com/in/andrea-sestito-505b07200/"><img  src={linkedin_logo} width="58px" height="58px"></img></a>
+                    </td>
+                    <td>
+                      <a href="https://www.instagram.com/sestitoandre/"><img  src={instagram_logo} width="58px" height="58px"></img></a>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+          </footer>
       </div>
+
   );
 }
 

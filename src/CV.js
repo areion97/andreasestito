@@ -5,6 +5,7 @@ import logo_coursera from "./images/coursera.png"
 import logo_blazemeter from "./images/blazemeter-logo.jpg"
 import logo_cambridge from "./images/cambridge-logo.jpg"
 import logo_ulivi from "./images/ulivi.jpg"
+import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
 
 
 function CV() {
@@ -14,13 +15,14 @@ function CV() {
       <table>
       <tr>
         <td>
+        <div class="section">
+
         <h1>Education</h1>
         <br/>
         <h2 class="p-title">
             Bachelor's Degree in Engineering of Computing Systems
         </h2>
         <img src={logo_polimi} width="250vw" height="190vh"></img>
-        <div class="section">
             <br/>
             <h2 class="p-title">Ranking Dijkstra shortest path</h2>
             <h3 class="paragraph">
@@ -110,9 +112,7 @@ function CV() {
         </td>
       </tr>
       </table>
-
-      <footer>
-      </footer>
+      <a style={{textDecoration: "underline"}} target="_blank" class="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a>
     </div>
   </div>
   );

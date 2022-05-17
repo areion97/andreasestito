@@ -4,13 +4,40 @@
   width: 100%;
   list-style-type: none;
   margin: 0;
+  z-index: 999;
   overflow: hidden;
   background-color: rgb(140,0,0);
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  font-size: 35px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
 }
 
 a {
   text-decoration: none;
 }
+
+footer {
+  background-color: rgb(200,226,253);
+}
+
 .nav-link {
   color: white;
   width: 100%;
@@ -43,6 +70,7 @@ code {
 .section {
   word-wrap: break-word;
   width: auto;
+  padding: 20px;
 }
 h3 {
   font-weight: normal;
@@ -66,7 +94,7 @@ table {
 @media (max-width: 543px) {
   .content {
     padding: 10px;
-    padding-top: 20vh;
+    padding-top: 13vh;
 
   }
   td {
