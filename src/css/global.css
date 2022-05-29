@@ -87,14 +87,14 @@ table {
 
   .content {
     padding: 10px;
-    padding-top: 13vh;
+    padding-top: 15vh;
   }
 }
 
 @media (max-width: 543px) {
   .content {
     padding: 10px;
-    padding-top: 13vh;
+    padding-top: 15vh;
 
   }
   td {

@@ -32,10 +32,10 @@ function Home() {
                       <a href=""><img  src={facebook_logo} width="58px" height="58px"></img></a>
                     </td>
                     <td>
-                      <a href="https://www.linkedin.com/in/andrea-sestito-505b07200/"><img  src={linkedin_logo} width="58px" height="58px"></img></a>
+                      <a href="https://www.linkedin.com/in/andrea-sestito-505b07200/"><img src={linkedin_logo} style={{backgroundColor: "white"}} width="58px" height="58px"></img></a>
                     </td>
                     <td>
-                      <a href="https://www.instagram.com/sestitoandre/"><img  src={instagram_logo} width="58px" height="58px"></img></a>
+                      <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} width="58px" height="58px"></img></a>
                     </td>
                   </tr>
                 </table>
