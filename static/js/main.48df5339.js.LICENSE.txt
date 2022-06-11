@@ -71,8 +71,6 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-<<<<<<< HEAD:static/js/main.d008f327.js.LICENSE.txt
-=======
 
 /** @license React v16.13.1
  * react-is.production.min.js
@@ -82,4 +80,3 @@ object-assign
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
->>>>>>> c18ab813b0bdabc11751cc5cd9eb8570b196f514:static/js/main.bdf4391e.js.LICENSE.txt
