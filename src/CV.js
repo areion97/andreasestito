@@ -102,6 +102,8 @@ function CV() {
                 <img  src="https://images.credly.com/size/110x110/images/3545154f-08b4-4f6f-9592-c356d7108965/Developing_Cloud_Native_Applications.png" width="150" height="150"/>
                 <a href="https://www.credly.com/badges/6f23312d-eb7c-49a9-9bb1-d4ff017abcb7/public_url"><h2 class="paragraph">Developing Cloud Apps with Node.js and React</h2></a>
                 <img  src="https://images.credly.com/size/110x110/images/73c1a67e-b3e8-44f1-a049-a91532e4f19c/Developing_Cloud_Apps_with_Node.js_and_React.png" width="150" height="150"/>
+                <a href="https://www.credly.com/badges/1edcdbcc-9941-4d99-9610-ac98358f047a/public_url"><h2 class="paragraph">Containers &amp; Kubernetes Essentials</h2></a>
+                <img  src="https://images.credly.com/size/340x340/images/66bed44e-4917-48b7-8e88-1b0c83d50437/Containers_and_Kubernetes_Essentials.png" width="150" height="150"/>
                 <h2>JMeter™ Intro</h2>
                 <img src={logo_blazemeter} width="260vw" height="100vh"></img>
                 <h2>JMeter™ Pro</h2>

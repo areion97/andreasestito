@@ -1,15 +1,9 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/andreasestito/static/css/main.4eeac9e0.css",
     "main.js": "/andreasestito/static/js/main.d008f327.js",
-=======
-    "main.css": "/andreasestito/static/css/main.7ec2064b.css",
-    "main.js": "/andreasestito/static/js/main.ec0dd21b.js",
->>>>>>> bb2ef329d2cef2da60b0e69878f2bc38e7a1a844
     "static/js/787.28cb0dcd.chunk.js": "/andreasestito/static/js/787.28cb0dcd.chunk.js",
     "static/media/profile.jpg": "/andreasestito/static/media/profile.500d82f6921fa304d305.jpg",
-<<<<<<< HEAD
     "static/media/logo_polimi.png": "/andreasestito/static/media/logo_polimi.d15aae1a8c4940522e08.png",
     "index.html": "/andreasestito/index.html",
     "main.4eeac9e0.css.map": "/andreasestito/static/css/main.4eeac9e0.css.map",
@@ -19,19 +13,5 @@
   "entrypoints": [
     "static/css/main.4eeac9e0.css",
     "static/js/main.d008f327.js"
-=======
-    "static/media/instagram_logo.webp": "/andreasestito/static/media/instagram_logo.e6fc9a0816b3cc8ee915.webp",
-    "static/media/ulivi.jpg": "/andreasestito/static/media/ulivi.d0d01605eb6ab45f57aa.jpg",
-    "static/media/cambridge-logo.jpg": "/andreasestito/static/media/cambridge-logo.e1f5f4c0c21ff83bdf77.jpg",
-    "static/media/logo_polimi.png": "/andreasestito/static/media/logo_polimi.d15aae1a8c4940522e08.png",
-    "index.html": "/andreasestito/index.html",
-    "main.7ec2064b.css.map": "/andreasestito/static/css/main.7ec2064b.css.map",
-    "main.ec0dd21b.js.map": "/andreasestito/static/js/main.ec0dd21b.js.map",
-    "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.7ec2064b.css",
-    "static/js/main.ec0dd21b.js"
->>>>>>> bb2ef329d2cef2da60b0e69878f2bc38e7a1a844
   ]
 }
