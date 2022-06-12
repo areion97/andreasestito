@@ -4,6 +4,8 @@ import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
 import logo_blazemeter from "./images/blazemeter-logo.jpg"
 import logo_cambridge from "./images/cambridge-logo.jpg"
+import logo_ibm from "./images/ibm-logo.png"
+
 import logo_ulivi from "./images/ulivi.jpg"
 import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
 
@@ -104,12 +106,16 @@ function CV() {
                 <img  src="https://images.credly.com/size/110x110/images/73c1a67e-b3e8-44f1-a049-a91532e4f19c/Developing_Cloud_Apps_with_Node.js_and_React.png" width="150" height="150"/>
                 <a href="https://www.credly.com/badges/1edcdbcc-9941-4d99-9610-ac98358f047a/public_url"><h2 class="paragraph">Containers &amp; Kubernetes Essentials</h2></a>
                 <img  src="https://images.credly.com/size/340x340/images/66bed44e-4917-48b7-8e88-1b0c83d50437/Containers_and_Kubernetes_Essentials.png" width="150" height="150"/>
+                <a href="https://www.coursera.org/account/accomplishments/certificate/68JHBLGCQLEN"><h2 class="paragraph">Getting Started with Git and GitHub</h2></a>
+                <img src={logo_ibm} width="250" height="100"/>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XABSSQDSSKQU"><h2 class="paragraph">Cloud Application Development Foundations</h2></a>
+                <img src={logo_ibm} width="250" height="100"/>
                 <h2>JMeter™ Intro</h2>
-                <img src={logo_blazemeter} width="260vw" height="100vh"></img>
+                <img src={logo_blazemeter} width="175" height="70"></img>
                 <h2>JMeter™ Pro</h2>
-                <img src={logo_blazemeter} width="260vw" height="100vh"></img>
+                <img src={logo_blazemeter} width="175" height="70"></img>
                 <h2 class="p-title">First Certificate in English - Level B2</h2>
-                <img src={logo_cambridge} width="250vw" height="250vh"></img>
+                <img src={logo_cambridge} width="250" height="250"></img>
             </div>
         </td>
       </tr>
