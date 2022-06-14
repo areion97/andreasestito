@@ -2,7 +2,7 @@ import './css/global.css';
 import logo_polimi from "./images/logo_polimi.png"
 import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
-import logo_blazemeter from "./images/blazemeter-logo.jpg"
+import logo_blazemeter from "./images/blazemeter-logo.svg"
 import logo_cambridge from "./images/cambridge-logo.jpg"
 import logo_ibm from "./images/ibm-logo.png"
 
@@ -24,7 +24,7 @@ function CV() {
         <h2 class="p-title">
             Bachelor's Degree in Engineering of Computing Systems
         </h2>
-        <img src={logo_polimi} width="250vw" height="190vh"></img>
+        <img src={logo_polimi} width="250" height="190"></img>
             <br/>
             <h2 class="p-title">Ranking Dijkstra shortest path</h2>
             <h3 class="paragraph">
@@ -51,7 +51,7 @@ function CV() {
             <h2 class="p-title">
                 Scientific Diploma
             </h2>
-            <img src={logo_ulivi} width="250vw" height="250vh"></img>
+            <img src={logo_ulivi} width="250" height="250"></img>
         </div>
         </td>
         <td>
@@ -59,7 +59,15 @@ function CV() {
 
             <h1>Experience</h1>
             <br/>
-            <img src={logo_nttdata} width="240vw" height="240vh"></img>
+            <br/>
+            <img src={logo_nttdata} width="240" height="240"></img>
+            <h2 class="p-title">Software Developer Engineer</h2>
+            <h3 class="paragraph">
+            <br/>
+            I gained experience in the payments area by developing versatile software solutions that meet the requirements of different customers.
+            Problem solving and resoluteness ability has also increased over time by dealing with various problems present on the production environment which needed to be solved in a short time.
+            Meanwhile I had to face with long term activities which increased work planning skills: as result, the entire overview of development and integration to the end user was tracked and ready to be delivered.
+            </h3>
             <h2 class="p-title">Software Developer Engineer in Test</h2>
             <h3 class="paragraph">
             <b>Apprenticeship</b>
@@ -91,7 +99,7 @@ function CV() {
             <div class="section">
                 <h1>Courses</h1>
                 <br/>
-                <img src={logo_coursera} width="240vw" height="240vh"></img>
+                <img src={logo_coursera} width="240" height="240"></img>
                 <br/>
                 <br/>
                 <a href="https://www.credly.com/badges/2401be49-fc85-4ddc-98e2-db71475d6756/public_url"><h2 class="paragraph">Introduction to Cloud Computing</h2></a>
@@ -107,9 +115,9 @@ function CV() {
                 <a href="https://www.credly.com/badges/1edcdbcc-9941-4d99-9610-ac98358f047a/public_url"><h2 class="paragraph">Containers &amp; Kubernetes Essentials</h2></a>
                 <img  src="https://images.credly.com/size/340x340/images/66bed44e-4917-48b7-8e88-1b0c83d50437/Containers_and_Kubernetes_Essentials.png" width="150" height="150"/>
                 <a href="https://www.coursera.org/account/accomplishments/certificate/68JHBLGCQLEN"><h2 class="paragraph">Getting Started with Git and GitHub</h2></a>
-                <img src={logo_ibm} width="250" height="100"/>
+                <img src={logo_ibm} width="175" height="70"/>
                 <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XABSSQDSSKQU"><h2 class="paragraph">Cloud Application Development Foundations</h2></a>
-                <img src={logo_ibm} width="250" height="100"/>
+                <img src={logo_ibm} width="175" height="70"/>
                 <h2>JMeter™ Intro</h2>
                 <img src={logo_blazemeter} width="175" height="70"></img>
                 <h2>JMeter™ Pro</h2>
