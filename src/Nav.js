@@ -18,7 +18,7 @@ function Nav() {
 
         <nav class="nav">
             <div class="menu-icon">
-                <Button onClick={()=>setMenuStyle(menuStyle.visibility == "visible" ? menuBarHidden : menuBarVisible)}>
+                <Button style={{color: "white"}} onClick={()=>setMenuStyle(menuStyle.visibility == "visible" ? menuBarHidden : menuBarVisible)}>
                     <CgMenu style={{width:"50px", height:"50px"}}/>
                 </Button>
             </div>
