@@ -5,12 +5,12 @@ import { Helmet } from 'react-helmet'
 import CV from './CV'
 import Nav from './Nav';
 import Home from './Home';
+import Certificates from './Certificates';
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <Helmet>
       <title>Andrea Sestito</title>
     </Helmet>
@@ -20,6 +20,8 @@ root.render(
         <Routes>
           <Route path="/andreasestito" element={<Home />} />
           <Route path="/andreasestito/cv" element={<CV />} />
+          <Route path="/andreasestito/certificates" element={<Certificates />} />
+
         </Routes>
       </BrowserRouter>
     </React.Fragment>

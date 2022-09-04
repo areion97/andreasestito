@@ -6,7 +6,7 @@ import facebook_logo from "../src/images/fb-logo.png"
 
 function Home() {
   return (
-      <div class="content" >
+      <div class="content">
           <img style={{boxShadow: "9px 8px 20px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
           <table>
             <tr>
@@ -28,13 +28,13 @@ function Home() {
               <div>
                 <table>
                   <tr>
-                    <td>
-                      <a href=""><img  src={facebook_logo} width="58px" height="58px"></img></a>
+                    <td class="footer-icon">
+                      <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} width="58px" height="58px"></img></a>
                     </td>
-                    <td>
-                      <a href="https://www.linkedin.com/in/andrea-sestito-505b07200/"><img src={linkedin_logo} style={{backgroundColor: "white"}} width="58px" height="58px"></img></a>
+                    <td class="footer-icon">
+                      <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} style={{backgroundColor: "white"}} width="58px" height="58px"></img></a>
                     </td>
-                    <td>
+                    <td class="footer-icon">
                       <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} width="58px" height="58px"></img></a>
                     </td>
                   </tr>

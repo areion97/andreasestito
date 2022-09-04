@@ -8,6 +8,16 @@
   overflow: hidden;
   background-color: rgb(140,0,0);
 }
+footer {
+  padding: 10px;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: white !important;
+}
+.menu-icon {
+  float: left;
+}
+
 .fa-instagram {
   background: #125688;
   color: white;
@@ -76,7 +86,6 @@ h3 {
   font-weight: normal;
 }
 td {
-  padding: 20px;
   vertical-align: text-top !important;
 }
 
@@ -84,10 +93,9 @@ table {
   width: 100%;
 }
 @media (min-width: 543px) {
-
   .content {
     padding: 10px;
-    padding-top: 15vh;
+    padding-top: 10vh;
   }
 }
 
@@ -95,12 +103,13 @@ table {
   .content {
     padding: 10px;
     padding-top: 15vh;
-
   }
   td {
-    display: block;
-    margin: 0px !important;
+    display: inline-block;
     width: auto;
+  }
+  .footer-icon {
+    margin-left: 40px !important;
   }
   li {
     display: block;
