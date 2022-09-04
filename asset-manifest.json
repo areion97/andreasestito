@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andreasestito/static/css/main.eb270f93.css",
-    "main.js": "/andreasestito/static/js/main.6cda3d9a.js",
+    "main.css": "/andreasestito/static/css/main.6e219b1f.css",
+    "main.js": "/andreasestito/static/js/main.0e536ea9.js",
     "static/js/787.28cb0dcd.chunk.js": "/andreasestito/static/js/787.28cb0dcd.chunk.js",
     "static/media/Curriculum Andrea Sestito.pdf": "/andreasestito/static/media/Curriculum Andrea Sestito.b206de72eb7efa5d09ab.pdf",
     "static/media/profile.jpg": "/andreasestito/static/media/profile.500d82f6921fa304d305.jpg",
@@ -11,12 +11,12 @@
     "static/media/logo_polimi.png": "/andreasestito/static/media/logo_polimi.d15aae1a8c4940522e08.png",
     "static/media/blazemeter-logo.svg": "/andreasestito/static/media/blazemeter-logo.23bba74b6abba0731d0e45d8ebcc310b.svg",
     "index.html": "/andreasestito/index.html",
-    "main.eb270f93.css.map": "/andreasestito/static/css/main.eb270f93.css.map",
-    "main.6cda3d9a.js.map": "/andreasestito/static/js/main.6cda3d9a.js.map",
+    "main.6e219b1f.css.map": "/andreasestito/static/css/main.6e219b1f.css.map",
+    "main.0e536ea9.js.map": "/andreasestito/static/js/main.0e536ea9.js.map",
     "787.28cb0dcd.chunk.js.map": "/andreasestito/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb270f93.css",
-    "static/js/main.6cda3d9a.js"
+    "static/css/main.6e219b1f.css",
+    "static/js/main.0e536ea9.js"
   ]
 }
