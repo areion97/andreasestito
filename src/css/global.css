@@ -3,7 +3,6 @@
   position: fixed;
   width: 100%;
   list-style-type: none;
-  margin: 0;
   z-index: 999;
   overflow: hidden;
   background-color: rgb(140,0,0);
@@ -93,7 +92,7 @@ table {
 @media (min-width: 543px) {
   .content {
     padding: 10px;
-    padding-top: 10vh;
+    padding-top: 6vh;
   }
 }
 .responsive-image {
@@ -104,7 +103,7 @@ table {
   
   .content {
     padding: 10px;
-    padding-top: 15vh;
+    padding-top: 5vh;
   }
   td {
     display: inline-block;

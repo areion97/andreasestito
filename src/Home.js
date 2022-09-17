@@ -7,7 +7,7 @@ import facebook_logo from "../src/images/fb-logo.png"
 function Home() {
   return (
       <div class="content">
-          <img style={{boxShadow: "9px 8px 20px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
+          <img style={{boxShadow: "9px 8px 20px", marginTop:"50px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
           <table>
             <tr>
               <td>
