@@ -1,6 +1,6 @@
 import './css/global.css'
 import profile from "../src/images/profile.jpg"
-import instagram_logo from "../src/images/instagram_logo.webp"
+import instagram_logo from "../src/images/instagram_logo.png"
 import linkedin_logo from "../src/images/linkedin-logo.png"
 import facebook_logo from "../src/images/fb-logo.png"
 
