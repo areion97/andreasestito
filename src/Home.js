@@ -29,13 +29,13 @@ function Home() {
                 <table>
                   <tr>
                     <td class="footer-icon">
-                      <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} width="58px" height="58px"></img></a>
+                      <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                     <td class="footer-icon">
-                      <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} style={{backgroundColor: "white"}} width="58px" height="58px"></img></a>
+                      <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                     <td class="footer-icon">
-                      <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} width="58px" height="58px"></img></a>
+                      <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                   </tr>
                 </table>
