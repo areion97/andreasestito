@@ -7,7 +7,7 @@ import facebook_logo from "../src/images/fb-logo.png"
 function Home() {
   return (
       <div class="content">
-          <img style={{boxShadow: "9px 8px 20px", marginTop:"50px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
+          <img alt="me" style={{boxShadow: "9px 8px 20px", marginTop:"50px", padding: "20px", marginLeft: "30px"}} src={profile} width="250vw" height="300vh"></img>
           <table>
             <tr>
               <td>
@@ -29,13 +29,13 @@ function Home() {
                 <table>
                   <tr>
                     <td class="footer-icon">
-                      <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                      <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                     <td class="footer-icon">
-                      <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                      <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkding" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                     <td class="footer-icon">
-                      <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                      <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                     </td>
                   </tr>
                 </table>
