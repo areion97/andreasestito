@@ -1,5 +1,5 @@
 import './css/global.css';
-import logo_polimi from "./images/logo_polimi.png"
+import logo_polimi from "./images/ulivi.jpg"
 import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
 import logo_blazemeter from "./images/blazemeter-logo.svg"
