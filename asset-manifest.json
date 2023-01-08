@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andreasestito/static/css/main.0e178775.css",
-    "main.js": "/andreasestito/static/js/main.bf7484e7.js",
+    "main.css": "/andreasestito/static/css/main.f0bdd824.css",
+    "main.js": "/andreasestito/static/js/main.a0641b01.js",
     "static/media/FCE.jpg": "/andreasestito/static/media/FCE.7167cb40ae54fd339a1a.jpg",
     "static/media/IBM_Certificate.jpg": "/andreasestito/static/media/IBM_Certificate.90d4fa087b31432db713.jpg",
     "static/media/Curriculum Andrea Sestito.pdf": "/andreasestito/static/media/Curriculum Andrea Sestito.b206de72eb7efa5d09ab.pdf",
@@ -11,11 +11,11 @@
     "static/media/cambridge-logo.jpg": "/andreasestito/static/media/cambridge-logo.e1f5f4c0c21ff83bdf77.jpg",
     "static/media/blazemeter-logo.svg": "/andreasestito/static/media/blazemeter-logo.23bba74b6abba0731d0e45d8ebcc310b.svg",
     "index.html": "/andreasestito/index.html",
-    "main.0e178775.css.map": "/andreasestito/static/css/main.0e178775.css.map",
-    "main.bf7484e7.js.map": "/andreasestito/static/js/main.bf7484e7.js.map"
+    "main.f0bdd824.css.map": "/andreasestito/static/css/main.f0bdd824.css.map",
+    "main.a0641b01.js.map": "/andreasestito/static/js/main.a0641b01.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e178775.css",
-    "static/js/main.bf7484e7.js"
+    "static/css/main.f0bdd824.css",
+    "static/js/main.a0641b01.js"
   ]
 }
