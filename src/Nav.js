@@ -23,7 +23,7 @@ function Nav() {
                 </Button>
             </div>
             <div style={menuStyle} class="dropdown-menu">
-                <table>
+                <table style={{marginLeft: "10px"}}>
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>

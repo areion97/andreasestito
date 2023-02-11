@@ -1,5 +1,5 @@
 import './css/global.css';
-import logo_polimi from "./images/ulivi.jpg"
+import logo_polimi from "./images/polimi.png"
 import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
 import logo_blazemeter from "./images/blazemeter-logo.svg"
@@ -20,10 +20,12 @@ function CV() {
             <div class="section">
                 <h1>Education</h1>
                 <br/>
+
+                <img src={logo_polimi} width="250" height="190"></img>
+                <br/>
                 <h2 class="p-title">
                     Bachelor's Degree in Engineering of Computing Systems
                 </h2>
-                <img src={logo_polimi} width="250" height="190"></img>
                 <br/>
                 <h2 class="p-title">Ranking Dijkstra shortest path</h2>
                 <h3 class="paragraph">
@@ -57,17 +59,16 @@ function CV() {
             <div class="section">
                 <h1>Experience</h1>
                 <br/>
-                <img src={logo_nttdata} width="240" height="240"></img>
+                <img src={logo_nttdata} width="250" height="250"></img>
                 <h2 class="p-title">Software Developer Engineer</h2>
                 <h3 class="paragraph">
-                <br/>
                 I gained experience in the payments area by developing versatile software solutions that meet the requirements of different customers.
                 Problem solving and resoluteness ability has also increased over time by dealing with various problems present on the production environment which needed to be solved in a short time.
                 Meanwhile I had to face with long term activities which increased work planning skills: as result, the entire overview of development and integration to the end user was tracked and ready to be delivered.
                 </h3>
                 <h2 class="p-title">Software Developer Engineer in Test</h2>
                 <h3 class="paragraph">
-                <b>Apprenticeship</b>
+                <b>Permanent contract</b>
                 <br/>
                 <br/>
                 I developed a test automation for REST APIs incrementing project maintainability and reliability; I was focusing on software scalability according to client requirements.
@@ -80,13 +81,14 @@ function CV() {
                 <h3 class="paragraph">
                 <b>Apprenticeship</b><br/><br/>
                 I've worked in team where I learnt basics of Git and Agile methodology actively contributing to test coverage structuring a complete Test automation suite:
-                architecture as-is enables functional testing as well as performance testing.I've worked in team where I learnt basics of Git and Agile methodology actively
-                contributing to test coverage structuring a complete Test automation suite: architecture as-is enables functional testing as well as performance testing.
-                Software Developer Engineer InternSoftware Developer Engineer Intern
+                architecture as-is enables functional testing as well as performance testing.
+
                 </h3>
-                <h2 class="p-title">Internship</h2>
-            
+                <h2 class="p-title">Software Developer Engineer</h2>
+
                 <h3 class="paragraph">
+                <b>Internship</b><br/><br/>
+
                 I've been studying web application fundamentals from its structure to life-cycle.
                 Later on I developed a Web App covering architectural aspects such as deploying on a Servlet Container, setting up Apache Web Server and installing SSL certificate enabling HTTPS protocol.
                 </h3>

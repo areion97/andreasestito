@@ -83,7 +83,7 @@ h3 {
   font-weight: normal;
 }
 td {
-  vertical-align: text-top !important;
+  vertical-align: text-top;
 }
 
 table {
@@ -96,6 +96,7 @@ table {
     padding-top: 7vh;
   }
 }
+
 .responsive-image {
   width: 100%;
   height: auto;
@@ -118,8 +119,7 @@ table {
     display: block;
   }
   .nav {
-    width: 100%;
-    text-align: center;
+    text-align: left;
   }
   h1,h2,h3,.p-title, .paragraph {
     width: auto !important;
