@@ -1,8 +1,8 @@
 {
   "name": "my-app",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://areion97.github.io/andreasestito",
+  "version": "1.0.0",
+  "private": false,
+  "homepage": "https://areion97.github.io/andreasestito/",
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
