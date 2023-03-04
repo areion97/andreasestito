@@ -1,7 +1,7 @@
 import fce_certificate from "./images/FCE.jpg"
 import ibm_certificate from "./images/IBM_Certificate.jpg"
 import './css/global.css';
-
+import Footer from "./Footer";
 function Certificates() {
  
   return (
@@ -28,6 +28,8 @@ function Certificates() {
       </div>
   
     </div>
+    <Footer/>
+
   </div>
   );
 }

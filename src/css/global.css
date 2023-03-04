@@ -11,6 +11,18 @@
 footer {
   padding: 10px;
 }
+
+.centered {
+  margin: auto;
+  padding: 1%;
+}
+
+.centered-1 {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
 .menu-icon {
   float: left;
 }
@@ -113,7 +125,7 @@ table {
     width: auto;
   }
   .footer-icon {
-    margin-left: 40px !important;
+    margin-left: 50px;
   }
   li {
     display: block;

@@ -8,7 +8,7 @@ import logo_ibm from "./images/ibm-logo.png"
 
 import logo_ulivi from "./images/ulivi.jpg"
 import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
-
+import Footer from './Footer';
 
 function CV() {
   return (
@@ -129,7 +129,10 @@ function CV() {
       </table>
       <a style={{textDecoration: "underline"}} target="_blank" class="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a>
     </div>
+    <Footer/>
+
   </div>
+  
   );
 }
 

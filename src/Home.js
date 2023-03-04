@@ -1,8 +1,5 @@
-import './css/global.css'
 import profile from "../src/images/profile.jpg"
-import instagram_logo from "../src/images/instagram_logo.png"
-import linkedin_logo from "../src/images/linkedin-logo.png"
-import facebook_logo from "../src/images/fb-logo.png"
+import Footer from './Footer';
 
 function Home() {
   return (
@@ -36,23 +33,7 @@ function Home() {
           </table>
 
       </div>
-      <footer>
-          <div style={{textAlign: "center", width: "100%"}}>
-            <table>
-              <tr>
-                <td class="footer-icon">
-                  <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
-                </td>
-                <td class="footer-icon">
-                  <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkding" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
-                </td>
-                <td class="footer-icon">
-                  <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
-                </td>
-              </tr>
-            </table>
-          </div>
-      </footer>
+      <Footer/>
 
     </div>
 
