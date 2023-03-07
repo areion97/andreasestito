@@ -10,7 +10,7 @@ function Footer() {
         <footer>
             <table className="centered">
             <tr className="centered-1">
-                <td class="footer-icon">
+                <td>
                 <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
                 <td class="footer-icon">
