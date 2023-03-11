@@ -12,6 +12,10 @@ footer {
   padding: 10px;
 }
 
+td {
+  padding: 10px;
+}
+
 .centered {
   margin: auto;
   padding: 1%;
@@ -21,6 +25,14 @@ footer {
   margin: auto;
   width: 50%;
   text-align: center;
+}
+
+.divider {
+  border: 5px solid rgb(140,0,0);
+  padding: 0px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
 }
 
 .menu-icon {

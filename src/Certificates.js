@@ -14,12 +14,16 @@ function Certificates() {
             <h1 class="p-title">
               First Certificate in English
             </h1>
+            <div className="divider"></div>
+
             <img src={fce_certificate} alt="FCE Certificate" className="responsive-image"></img>
           </td>
           <td>
             <h1 class="p-title">
               IBM Full Stack Software Developer
             </h1>
+            <div className="divider"></div>
+
             <img src={ibm_certificate} alt="ibmCertificate" className="responsive-image"></img>
 
           </td>

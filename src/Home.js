@@ -7,7 +7,7 @@ function Home() {
       <div class="content">
           <table>
             <tr>
-              <td>
+              <td className="centered-1">
                 <img alt="me" style={{ border: "4px solid rgb(140,0,0)", marginTop:"50px", marginLeft: "30px"}} src={profile} width="250" height="333.33"></img>
              </td>
              <td style={{verticalAlign: "middle"}}>
