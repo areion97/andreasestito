@@ -12,8 +12,7 @@ function CV() {
   return (
   <div>
     <div class="content">
-
-    <table style={{marginTop: "20px"}}>
+    <table>
         <tr>
             <td>
                 <div class="section">
@@ -122,8 +121,6 @@ function CV() {
                     <img src={logo_blazemeter} width="175" height="70"></img>
                     <h2>JMeter™ Pro</h2>
                     <img src={logo_blazemeter} width="175" height="70"></img>
-                    <h2 class="p-title">First Certificate in English - Level B2</h2>
-                    <img src={logo_cambridge} width="250" height="250"></img>
                 </div>
             </td>
         </tr>

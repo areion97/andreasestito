@@ -8,6 +8,16 @@
   background-color: rgb(140,0,0);
 }
 
+tr {
+  height: auto;
+}
+
+td > h1 {
+  text-align: center;
+}
+.p-title {
+  font-size: 20px !important;
+}
 footer {
   padding: 10px;
 }
@@ -18,7 +28,6 @@ td {
 
 .centered {
   margin: auto;
-  padding: 1%;
 }
 
 .centered-1 {
@@ -102,6 +111,7 @@ code {
   word-wrap: break-word;
   width: auto;
   padding: 20px;
+  margin-top: 20px !important;
 }
 h3 {
   font-weight: normal;
@@ -145,6 +155,7 @@ table {
   .nav {
     text-align: left;
   }
+
   h1,h2,h3,.p-title, .paragraph {
     width: auto !important;
   }
