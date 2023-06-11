@@ -129,10 +129,10 @@ function CV() {
       </table>
       <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" class="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a>
 
-      <Footer/>
-
 
     </div>
+    <Footer/>
+
   </div>
   
   );

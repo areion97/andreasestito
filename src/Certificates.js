@@ -34,9 +34,9 @@ function Certificates() {
         </tr>
       </table>
       </div>
-      <Footer/>
 
     </div>
+    <Footer/>
 
   </div>
   );

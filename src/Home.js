@@ -31,9 +31,9 @@ function Home() {
               </td>
             </tr>
           </table>
-          <Footer/>
 
       </div>
+      <Footer/>
 
     </div>
 

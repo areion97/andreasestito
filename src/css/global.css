@@ -75,14 +75,19 @@ a {
 footer {
   background-color: rgb(200, 226, 253);
   box-shadow: 0px 15px 20px;
+  min-height: 50px;
   padding: 10px;
-  margin-left: -20px;
-  margin-right: -20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 #root {
   height: 100vh;
-  width: fit-content;
+  width: 100%;
+  position: relative;
+  display: flex;
+  height: auto;
 }
 
 
@@ -111,12 +116,10 @@ body {
   margin: 0 auto;
   overflow: scroll !important;
   background-color: rgba(200, 226, 253, 28%);
+  position: relative;
+  display: flex;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 .section {
   word-wrap: break-word;
@@ -137,9 +140,10 @@ table {
 
 @media (min-width: 543px) {
   .content {
-    padding: 10px;
+    padding: 20px;
     padding-top: 7vh;
-    height: 100vh;
+    height: auto;
+    position: relative;
   }
 }
 
@@ -152,12 +156,13 @@ table {
 @media (max-width: 543px) {
   
   .content {
-    padding: 10px;
     padding-top: 5vh;
-    height: 100vh;
+    height: auto;
+    position: relative;
   }
   td {
     display: inline-block;
+    padding: 0px;
     width: auto;
   }
   .footer-icon {
