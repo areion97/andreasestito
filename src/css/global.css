@@ -13,6 +13,16 @@ tr {
   height: auto;
 }
 
+.section h1 {
+  background-color: rgb(253, 220, 200);
+  padding: 10px;
+  color: black;
+  width: 90%;
+}
+.section a {
+  color: rgb(140,0,0);
+}
+
 td > h1 {
   text-align: center;
 }
@@ -78,18 +88,23 @@ footer {
   min-height: 50px;
   padding: 10px;
   position: absolute;
-  bottom: 0;
+  margin-left: -20px;
+  margin-right: -20px;
   width: 100%;
 }
 
 #root {
   height: 100vh;
-  width: 100%;
   position: relative;
   display: flex;
   height: auto;
+  width: fit-content;
+  position: relative;
 }
 
+html, body {
+  height: 100%;
+}
 
 .nav-link {
   color: white;
@@ -112,7 +127,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh;
   margin: 0 auto;
   overflow: scroll !important;
   background-color: rgba(200, 226, 253, 28%);
@@ -129,7 +143,9 @@ body {
 }
 h3 {
   font-weight: normal;
+  color: #555555;
 }
+
 td {
   vertical-align: text-top;
 }
@@ -138,12 +154,19 @@ table {
   width: 100%;
 }
 
-@media (min-width: 543px) {
+
+@media (min-width: 600px) {
   .content {
     padding: 20px;
     padding-top: 7vh;
     height: auto;
     position: relative;
+  }
+  #root {
+    position: inherit;
+  }
+  footer {
+    top: 100%;
   }
 }
 
@@ -153,8 +176,9 @@ table {
 }
 
 
-@media (max-width: 543px) {
+@media (max-width: 600px) {
   
+
   .content {
     padding-top: 5vh;
     height: auto;
@@ -182,10 +206,8 @@ table {
     width: 100% !important;
   }
   body {
-    overflow: scroll;
     padding: 0px !important;
     margin: 0 auto !important;
   }
 
 }
-

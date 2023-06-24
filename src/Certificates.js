@@ -36,7 +36,7 @@ function Certificates() {
       </div>
 
     </div>
-    <Footer/>
+    <Footer style={{position: "inherit"}}/>
 
   </div>
   );

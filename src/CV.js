@@ -19,6 +19,8 @@ function CV() {
                 <div class="section">
                     <h1 className="centered-1">Education</h1>
                     <br/>
+                    <br/>
+                    <br/>
                     <img alt="" src={logo_polimi} width="250" height="190"></img>
                     <br/>
                     <br/>
@@ -57,6 +59,8 @@ function CV() {
             <td>
                 <div class="section">
                     <h1 className="centered-1">Experience</h1>
+                    <br/>
+                    <br/>
                     <br/>
                     <img alt="" src={logo_dedalus} className="image" width="400" height="150"></img>
                     <h2 class="title">Product Software Specialist</h2>
@@ -100,6 +104,8 @@ function CV() {
                 <div class="section">
                     <h1 className="centered-1">Courses</h1>
                     <br/>
+                    <br/>
+                    <br/>
                     <img alt="" src={logo_coursera} className="image" width="240" height="240"></img>
                     <br/>
                     <br/>
@@ -129,9 +135,8 @@ function CV() {
       </table>
       <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" class="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a>
 
-
     </div>
-    <Footer/>
+    <Footer style={{position: "inherit"}}/>
 
   </div>
   

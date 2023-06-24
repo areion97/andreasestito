@@ -4,7 +4,7 @@ import Footer from './Footer';
 function Home() {
   return (
     <div>
-      <div class="content">
+      <div class="content" style={{height: "100%"}}>
           <table>
             <tr>
               <td className="centered-1">
@@ -21,19 +21,11 @@ function Home() {
                 </div>
              </td>
             </tr>
-            <tr>
-              <td>
-              <div class="section">
-               
-              </div>
-              </td>
-              <td>
-              </td>
-            </tr>
+
           </table>
+          <Footer style={{position: "absolute"}}/>
 
       </div>
-      <Footer/>
 
     </div>
 
