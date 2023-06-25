@@ -5,7 +5,7 @@ import { CgMenu } from 'react-icons/cg';
 
 function Nav() {
     const menuBarHidden = {visibility: "hidden", height: "30px"}
-    const menuBarVisible = {visibility: "visible"}
+    const menuBarVisible = {visibility: "visible",animation: "fadeIn 1.7s"}
 
 
     const [menuStyle, setMenuStyle] = useState(menuBarHidden);
@@ -23,7 +23,7 @@ function Nav() {
                 </Button>
             </div>
             <div style={menuStyle} class="dropdown-menu">
-                <table style={{marginLeft: "10px"}}>
+                <table class="menu-list">
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>

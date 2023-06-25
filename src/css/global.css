@@ -1,5 +1,4 @@
 .nav {
-  padding-left: 20px;
   position: fixed;
   width: 100%;
   list-style-type: none;
@@ -8,6 +7,14 @@
   background-color: rgb(140,0,0);
   box-shadow: 0px -5px 20px;
 }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.menu-list {
+  background: rgb(253,220,200);
+  background: linear-gradient(0deg, rgba(253,220,200,1) 99%, rgba(140,0,0,1) 100%);}
 
 tr {
   height: auto;
@@ -16,6 +23,7 @@ tr {
 .section h1 {
   background-color: rgb(253, 220, 200);
   padding: 10px;
+  padding-left: 20px;
   color: black;
   width: 90%;
 }
@@ -107,12 +115,15 @@ html, body {
 }
 
 .nav-link {
-  color: white;
+  color: black;
   width: 100%;
   padding: 10px;
   text-decoration: none;
 }
 
+.nav-link:hover {
+  color: white;;
+}
 .nav-submenu {
   color: black;
 }
@@ -156,6 +167,9 @@ table {
 
 
 @media (min-width: 600px) {
+  .menu-list {
+    text-align: center;
+  }
   .content {
     padding: 20px;
     padding-top: 7vh;
@@ -177,7 +191,9 @@ table {
 
 
 @media (max-width: 600px) {
-  
+  .menu-list {
+    text-align: center;
+  }
 
   .content {
     padding-top: 5vh;
