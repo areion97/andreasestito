@@ -1,8 +1,6 @@
 import fce_certificate from "./images/FCE.jpg"
 import ibm_certificate from "./images/IBM_Certificate.jpg"
 import cs50_certificate from "./images/CS50x.png"
-
-import './css/global.css';
 import Footer from "./Footer";
 function Certificates() {
  

@@ -1,4 +1,3 @@
-import './css/global.css';
 import logo_polimi from "./images/polimi.png"
 import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
