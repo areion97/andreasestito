@@ -6,6 +6,8 @@ import CV from './CV'
 import Nav from './Nav';
 import Home from './Home';
 import Certificates from './Certificates';
+import About from './About';
+import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +22,7 @@ root.render(
           <Route path="/andreasestito" element={<Home />} />
           <Route path="/andreasestito/cv" element={<CV />} />
           <Route path="/andreasestito/certificates" element={<Certificates />} />
+          <Route path="/andreasestito/about" element={<About />} />
 
         </Routes>
       </BrowserRouter>

@@ -45,6 +45,13 @@ function Nav() {
                             </Button>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <Button onClick={()=>setMenuStyle(menuBarHidden)}>
+                                <Link class="nav-link" to="/andreasestito/about"><h1>About</h1></Link>
+                            </Button>
+                        </td>
+                    </tr>
                 </table>
                
             </div>
