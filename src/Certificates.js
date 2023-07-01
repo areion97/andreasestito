@@ -6,7 +6,7 @@ function Certificates() {
  
   return (
   <div>
-    <div class="content">
+    <div className="content">
       <div className="section">
       <table>
         <tr>
@@ -34,7 +34,7 @@ function Certificates() {
       </div>
 
     </div>
-    <Footer style={{position: "inherit"}}/>
+    <Footer/>
 
   </div>
   );

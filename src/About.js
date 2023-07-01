@@ -10,7 +10,7 @@ function About() {
 
              </td>
              <td style={{verticalAlign: "middle"}}>
-                <div class="section" style={{ float: "top" }}>
+                <div className="section" style={{ float: "top" }}>
                   <h1>About</h1>   
                   <h3 style={{marginTop: "70px", color: "black", padding: "20px", backgroundColor: "rgba(218, 253, 200, 0.79)", borderRadius: "10px",  boxShadow: "black 0px 0px 5px"}}>
                     Focused on software optimization, evolution and improvement supporting development life cycle along with Test Automation tools.
@@ -24,7 +24,7 @@ function About() {
           </table>
 
       </div>
-      <Footer style={{position: "absolute", top: "100%"}}/>
+      <Footer/>
 
     </div>
 

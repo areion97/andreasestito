@@ -12,10 +12,10 @@ function Footer(props) {
                 <td>
                 <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
-                <td class="footer-icon">
+                <td className="footer-icon">
                 <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkding" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
-                <td class="footer-icon">
+                <td className="footer-icon">
                 <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
             </tr>
