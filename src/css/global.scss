@@ -22,7 +22,7 @@ tr {
 
 .pappagallo-bg {
   background-image: url('../images/pappagallo.jpg');
-  background-size: contain;
+  background-size: cover;
 }
 
 .section h1 {
@@ -32,6 +32,8 @@ tr {
   text-align: center;
   color: black;
   width: 90%;
+  margin: auto;
+  margin: 20px 0px 20px 0px;
   border-radius: 10px;
 }
 
@@ -49,15 +51,18 @@ td > h1 {
 td {
   padding: 10px;
 }
-
-.centered {
-  margin: auto;
+.flexbox-column {
+  display: flex;
+  justify-content: center;
 }
 
-.centered-1 {
-  margin: auto;
-  width: 50%;
-  text-align: center;
+.flexbox-row {
+  td {
+    text-align: center;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .divider {
@@ -146,9 +151,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0 auto;
   overflow: scroll !important;
-  background-color: rgba(200, 226, 253, .28);
+  background-color: rgba(200, 226, 253, .15);
   position: relative;
   display: flex;
+  text-align: justify;
 }
 
 
@@ -176,8 +182,12 @@ table {
   .menu-list {
     text-align: center;
   }
+  .pappagallo-bg {
+    background-image: url('../images/camicia.jpg');
+    background-size: contain;
+
+  }
   .content {
-    padding: 20px;
     padding-top: 7vh;
     height: auto;
     position: relative;
@@ -206,8 +216,13 @@ table {
     height: auto;
     position: relative;
   }
+  .flexbox-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   td {
-    display: inline-block;
     padding: 0px;
     width: auto;
   }
@@ -223,11 +238,13 @@ table {
 
   h1,h2,h3,.title, .paragraph {
     width: auto !important;
+    justify-content: center;
   }
 
   body {
     padding: 0px !important;
     margin: 0 auto !important;
+    overflow-x: hidden;
   }
 
 }

@@ -13,10 +13,10 @@ function CV() {
   <div>
     <div className="content">
     <table>
-        <tr>
+        <tr className="flexbox-column">
             <td>
                 <div className="section">
-                    <h1 className="centered-1">Education</h1>
+                    <h1>Education</h1>
                     <br/>
                     <br/>
                     <br/>
@@ -57,7 +57,7 @@ function CV() {
             </td>
             <td>
                 <div className="section">
-                    <h1 className="centered-1">Experience</h1>
+                    <h1 >Experience</h1>
                     <br/>
                     <br/>
                     <br/>
@@ -101,7 +101,7 @@ function CV() {
             </td>
             <td>
                 <div className="section">
-                    <h1 className="centered-1">Courses</h1>
+                    <h1 >Courses</h1>
                     <br/>
                     <br/>
                     <br/>

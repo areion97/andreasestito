@@ -5,14 +5,11 @@ function About() {
     <div className="content" style={{height: "100%"}}>
       <div className="pappagallo-bg" style={{height: "100%"}}>
           <table>
-            <tr>
-              <td className="centered-1">
-
-             </td>
-             <td style={{verticalAlign: "middle"}}>
-                <div className="section" style={{ float: "top" }}>
+            <tr className="flexbox-column">
+             <td>
+                <div className="section">
                   <h1>About</h1>   
-                  <h3 style={{marginTop: "70px", color: "black", padding: "20px", backgroundColor: "rgba(218, 253, 200, 0.79)", borderRadius: "10px",  boxShadow: "black 0px 0px 5px"}}>
+                  <h3 style={{ marginTop: "70px", color: "black", padding: "20px", backgroundColor: "rgba(218, 253, 200, 0.79)", borderRadius: "10px"}}>
                     Focused on software optimization, evolution and improvement supporting development life cycle along with Test Automation tools.
                     Interested in software quality and correctness, detailing test development environment according to project requirements.
                     Open-minded towards modern frameworks and applications and constantly up to date in technological innovation. 

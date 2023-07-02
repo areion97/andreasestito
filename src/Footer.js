@@ -7,8 +7,8 @@ function Footer(props) {
 
     return (
         <footer style={props.style}>
-            <table className="centered">
-            <tr className="centered-1">
+            <table >
+            <tr className="flexbox-row">
                 <td>
                 <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
