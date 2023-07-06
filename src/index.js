@@ -9,7 +9,9 @@ import Certificates from './Certificates';
 import About from './About';
 import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <Helmet>

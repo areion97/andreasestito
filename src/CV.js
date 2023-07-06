@@ -49,10 +49,13 @@ function CV() {
                         OOP paradigms are fully exploited in order to give to the project a solid structure; furthermore its architecture composed by MVC, State and Strategy design patterns enhances project mantainability and evolvability.
                     </h3>
                     <br/>
+
+                    <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
+                    <br/>
+                    <br/>
                     <h2 className="title">
                         Scientific Diploma
                     </h2>
-                    <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
                 </div>
             </td>
             <td>
