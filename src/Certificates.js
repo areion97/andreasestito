@@ -7,7 +7,7 @@ function Certificates() {
   return (
   <div>
     <div className="content">
-      <div className="section">
+      <div className="section-80">
         <table>
           <tr className="flexbox-column">
             <td>

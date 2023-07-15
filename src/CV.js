@@ -15,18 +15,12 @@ function CV() {
     <table>
         <tr className="flexbox-column">
             <td>
-                <div className="section">
+                <div className="section-80">
                     <h1>Education</h1>
-                    <br/>
-                    <br/>
-                    <br/>
                     <img alt="" src={logo_polimi} width="250" height="190"></img>
-                    <br/>
-                    <br/>
                     <h2 className="title">
                         Bachelor's Degree in Engineering of Computing Systems
                     </h2>
-                    <br/>
                     <h2 className="title">Ranking Dijkstra shortest path</h2>
                     <h3 className="paragraph">
                         <i>The project was developed for Bachelor's Thesis for the course of Algorithms and Principles of Computer Science.</i><br/><br/>
@@ -48,23 +42,17 @@ function CV() {
                         It is a first prototype of multiplayer game inspired by the board game Adrenaline written in Java.
                         OOP paradigms are fully exploited in order to give to the project a solid structure; furthermore its architecture composed by MVC, State and Strategy design patterns enhances project mantainability and evolvability.
                     </h3>
-                    <br/>
 
                     <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
-                    <br/>
-                    <br/>
                     <h2 className="title">
                         Scientific Diploma
                     </h2>
                 </div>
             </td>
             <td>
-                <div className="section">
+                <div className="section-80">
                     <h1 >Experience</h1>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <img alt="" src={logo_dedalus} className="image" width="400" height="150"></img>
+                    <img alt="" src={logo_dedalus} className="image" width="300" height="110"></img>
                     <h2 className="title">Product Software Specialist</h2>
 
                     <img alt="" src={logo_nttdata} className="image" width="250" height="250"></img>
@@ -77,8 +65,7 @@ function CV() {
                     <h2 className="title">Software Developer Engineer in Test</h2>
                     <h3 className="paragraph">
                     <b>Permanent contract</b>
-                    <br/>
-                    <br/>
+                    <br/><br/>
                     I developed a test automation for REST APIs incrementing project maintainability and reliability; I was focusing on software scalability according to client requirements.
 
                     During this period I got better knowledge of my role by leading both automation testing and application development.
@@ -87,34 +74,26 @@ function CV() {
                     </h3>
                     <h2 className="title">Software Developer Engineer</h2>
                     <h3 className="paragraph">
-                    <b>Apprenticeship</b><br/><br/>
-                    I've worked in team where I learnt basics of Git and Agile methodology actively contributing to test coverage structuring a complete Test automation suite:
-                    architecture as-is enables functional testing as well as performance testing.
+                        <b>Apprenticeship</b><br/><br/>
+                        I've worked in team where I learnt basics of Git and Agile methodology actively contributing to test coverage structuring a complete Test automation suite:
+                        architecture as-is enables functional testing as well as performance testing.
 
                     </h3>
                     <h2 className="title">Software Developer Engineer</h2>
 
                     <h3 className="paragraph">
                     <b>Internship</b><br/><br/>
-
-                    I've been studying web application fundamentals from its structure to life-cycle.
-                    Later on I developed a Web App covering architectural aspects such as deploying on a Servlet Container, setting up Apache Web Server and installing SSL certificate enabling HTTPS protocol.
+                        I've been studying web application fundamentals from its structure to life-cycle.
+                        Later on I developed a Web App covering architectural aspects such as deploying on a Servlet Container, setting up Apache Web Server and installing SSL certificate enabling HTTPS protocol.
                     </h3>
                 </div>
             </td>
             <td>
-                <div className="section">
+                <div className="section-80">
                     <h1 >Courses</h1>
-                    <br/>
-                    <br/>
-                    <br/>
                     <img alt="" src={logo_coursera} className="image" width="240" height="240"></img>
-                    <br/>
-                    <br/>
                     <a href="https://www.credly.com/badges/2401be49-fc85-4ddc-98e2-db71475d6756/public_url"><h2 className="paragraph">Introduction to Cloud Computing</h2></a>
                     <img alt="" src="https://images.credly.com/size/110x110/images/2d178f89-4816-4190-8c4a-3bdbfec9db01/Dev_Skills_Network_-_Cloud_Computing_Core.png" width="150" height="150"/>
-                    <br/>
-                    <br/>
                     <a href="https://www.credly.com/badges/c0a7ceed-8add-4af4-b538-9a9d9d3952ed/public_url"><h2 className="paragraph">Web Development with HTML, CSS, JavaScript Essentials</h2></a>
                     <img alt="" src="https://images.credly.com/size/110x110/images/6240e108-1407-4773-8621-cc2e4736d4e6/Web_Development_with_HTML-CSS-JavaScript_Essentials.png" width="150" height="150"/>
                     <a href="https://www.credly.com/badges/073fdb08-6131-471c-b7f7-aa791b9f70b9/public_url"><h2 className="paragraph">Developing Cloud Native Applications</h2></a>

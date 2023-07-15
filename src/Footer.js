@@ -6,16 +6,16 @@ import facebook_logo from "../src/images/fb-logo.png"
 function Footer(props) {
 
     return (
-        <footer>
+        <footer style={props.style}>
             <table>
             <tr className="flexbox-row">
                 <td>
                 <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
-                <td className="footer-icon">
+                <td>
                 <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkding" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
-                <td className="footer-icon">
+                <td>
                 <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
             </tr>
