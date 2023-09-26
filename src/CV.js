@@ -15,7 +15,7 @@ function CV() {
     <table>
         <tr className="flexbox-column">
             <td>
-                <div className="section-80">
+                <div className="section-90">
                     <h1>Education</h1>
                     <img alt="" src={logo_polimi} width="250" height="190"></img>
                     <h2 className="title">
@@ -50,7 +50,7 @@ function CV() {
                 </div>
             </td>
             <td>
-                <div className="section-80">
+                <div className="section-90">
                     <h1 >Experience</h1>
                     <img alt="" src={logo_dedalus} className="image" width="300" height="110"></img>
                     <h2 className="title">Product Software Specialist</h2>
@@ -89,7 +89,7 @@ function CV() {
                 </div>
             </td>
             <td>
-                <div className="section-80">
+                <div className="section-90">
                     <h1 >Courses</h1>
                     <img alt="" src={logo_coursera} className="image" width="240" height="240"></img>
                     <a href="https://www.credly.com/badges/2401be49-fc85-4ddc-98e2-db71475d6756/public_url"><h2 className="paragraph">Introduction to Cloud Computing</h2></a>
@@ -117,7 +117,6 @@ function CV() {
       <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a>
 
     </div>
-    <Footer/>
 
   </div>
   

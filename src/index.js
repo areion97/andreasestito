@@ -7,6 +7,8 @@ import Nav from './Nav';
 import Home from './Home';
 import Certificates from './Certificates';
 import About from './About';
+import Chat from './Chat'
+import Footer from './Footer';
 import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 
@@ -25,8 +27,10 @@ root.render(
           <Route path="/andreasestito/cv" element={<CV />} />
           <Route path="/andreasestito/certificates" element={<Certificates />} />
           <Route path="/andreasestito/about" element={<About />} />
-
         </Routes>
+        <Footer style={{position:"fixed"}}/>
+
+        <Chat />
       </BrowserRouter>
     </React.Fragment>
   </React.StrictMode>

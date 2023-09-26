@@ -1,13 +1,12 @@
 import fce_certificate from "./images/FCE.jpg"
 import ibm_certificate from "./images/IBM_Certificate.jpg"
 import cs50_certificate from "./images/CS50x.png"
-import Footer from "./Footer";
 function Certificates() {
  
   return (
   <div>
     <div className="content">
-      <div className="section-80">
+      <div className="section-90">
         <table>
           <tr className="flexbox-column">
             <td>
@@ -34,7 +33,6 @@ function Certificates() {
       </div>
 
     </div>
-    <Footer/>
 
   </div>
   );

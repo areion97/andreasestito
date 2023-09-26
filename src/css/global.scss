@@ -1,3 +1,9 @@
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
 .nav {
   position: fixed;
   width: 100%;
@@ -8,10 +14,6 @@
   box-shadow: 0px -5px 20px;
 }
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
 
 .menu-list {
   background: rgb(253,220,200);
@@ -28,15 +30,35 @@ td {
   background-image: url('../images/pappagallo.jpg');
   background-size: cover;
 }
+.chat {
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+}
 
 @mixin section {
   word-wrap: break-word;
   width: auto;
   margin: auto;
+  padding: 20px;
 }
 
 .section {
   @include section;
+  width: 100%;
+}
+
+.modal {
+  border-radius: 10px;
+  height: auto;
+  position: fixed;
+  background-color: rgba(3, 145, 253, .95);
+  box-shadow: 0px -5px 20px;
+}
+
+.section-90 {
+  @include section;
+  width: 90%;
 }
 
 .section-80 {
@@ -52,7 +74,7 @@ td {
   width: 33%;
 }
 
-.section,.section-50, .section-33,.section-80 {
+.section,.section-50, .section-33,.section-90, .section-80 {
   h1 {
     background-color: rgba(253, 220, 200, .7);
     padding: 10px;
@@ -134,9 +156,8 @@ a {
 footer {
   background-color: rgb(200, 226, 253);
   padding: 10px;
-  width: 100vw;
+  width: 100%;
   bottom: 0;
-
 }
 
 #root {
@@ -185,6 +206,33 @@ h3 {
   font-weight: normal;
   color: #555555;
 }
+.modal {
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button {
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    width: 70%;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  label,h2 {
+    color: white;
+  }
+
+  input, textarea {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0px;
+  }
+}
 
 td {
   vertical-align: text-top;
@@ -204,6 +252,11 @@ table {
   .menu-list {
     text-align: center;
   }
+  .modal {
+    width: 40%;
+    bottom: 200px;
+    right: 100px;
+  }
   .pappagallo-bg {
     background-image: url('../images/camicia.jpg');
     background-size: contain;
@@ -221,7 +274,11 @@ table {
   .menu-list {
     text-align: center;
   }
-
+  .modal {
+    width: 80%;
+    bottom: 100px;
+    right: 10;
+  }
   .content {
     height: auto;
     position: relative;

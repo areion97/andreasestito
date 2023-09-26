@@ -5,7 +5,7 @@ import { CgMenu } from 'react-icons/cg';
 
 function Nav() {
     const menuBarHidden = {visibility: "hidden", height: "30px"}
-    const menuBarVisible = {visibility: "visible",animation: "fadeIn 1.7s"}
+    const menuBarVisible = {visibility: "visible",animation: "fadeIn 1.5s"}
 
 
     const [menuStyle, setMenuStyle] = useState(menuBarHidden);

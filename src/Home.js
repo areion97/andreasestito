@@ -1,5 +1,4 @@
 import profile from "../src/images/profile.jpg"
-import Footer from './Footer';
 function Home() {
   return (
     <>
@@ -17,7 +16,6 @@ function Home() {
             </div>
       
           </div>
-        <Footer style={{position:"fixed"}}/>
      
       </div>
     </>
