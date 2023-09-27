@@ -37,11 +37,10 @@ function Chat() {
     }
 
     return (
-        <div style={{position: "fixed"}}>
+        <div className="fixed-container">
             {styleModal.visibility == "visible" &&
                 <div className='modal'>
                      <div className="section-80">
-                        <h2>Contact me</h2>
                         <form ref={form} onSubmit={sendEmail}>
                             <label>Name: </label>
                             <br />
