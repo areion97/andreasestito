@@ -9,8 +9,10 @@ import Certificates from './Certificates';
 import About from './About';
 import Chat from './Chat'
 import Footer from './Footer';
+import Toast from './Toast';
 import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import { Toaster } from "react-hot-toast"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -22,6 +24,10 @@ root.render(
     <React.Fragment>
     <BrowserRouter>
         <Nav/>
+        <Toaster 
+         
+         
+         />
         <Routes>
           <Route path="/andreasestito" element={<Home />} />
           <Route path="/andreasestito/cv" element={<CV />} />
@@ -29,14 +35,9 @@ root.render(
           <Route path="/andreasestito/about" element={<About />} />
         </Routes>
         <Footer style={{position:"fixed"}}/>
-
         <Chat />
       </BrowserRouter>
     </React.Fragment>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
