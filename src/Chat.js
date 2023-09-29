@@ -7,7 +7,7 @@ import {success, error} from "./Toast"
 import { toast } from "react-hot-toast"
 
 function Chat() {
-    const [styleModal, setStyleModal] = useState({visibility: "visible"});
+    const [styleModal, setStyleModal] = useState({visibility: "hidden"});
     const [name, setName] = useState(null);
     const [email, setEmail] = useState(null);
     const [message, setMessage] = useState(null);
