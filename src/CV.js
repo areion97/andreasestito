@@ -7,7 +7,6 @@ import logo_ulivi from "./images/ulivi.jpg"
 import logo_dedalus from "./images/logo-dedalus.png"
 
 import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
-import Footer from './Footer';
 function CV() {
   return (
   <div>

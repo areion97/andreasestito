@@ -3,8 +3,7 @@ import chat_svg from './images/chat.svg'
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
-import {success, error, promiseToast} from "./Toast"
-import { toast } from "react-hot-toast"
+import { error, promiseToast} from "./Toast"
 
 function Chat() {
     const [styleModal, setStyleModal] = useState({visibility: "hidden"});
@@ -25,13 +24,13 @@ function Chat() {
         }
     }
     function onChangeInput(event, name) {
-        if(name == "name") {
+        if(name === "name") {
             setName(event.target.value)
         }
-        if(name == "email") {
+        if(name === "email") {
             setEmail(event.target.value)
         }
-        if(name == "message") {
+        if(name === "message") {
             setMessage(event.target.value)
         }
     }
@@ -39,7 +38,7 @@ function Chat() {
 
     function toggleUntoggleModal() {
 
-        if(styleModal.visibility == "hidden") {
+        if(styleModal.visibility === "hidden") {
             setStyleModal({visibility: "visible"})
         }else {
             setStyleModal({visibility: "hidden"})
@@ -49,7 +48,7 @@ function Chat() {
 
     return (
         <div className="fixed-container">
-            {styleModal.visibility == "visible" &&
+            {styleModal.visibility === "visible" &&
                 <div className='modal'>
                      <div className="section-80">
                         <form ref={form} onSubmit={sendEmail}>
@@ -71,7 +70,7 @@ function Chat() {
             }
 
             <div className='chat'>
-                <img onClick={()=>toggleUntoggleModal()} src={chat_svg} width={50} height={50}/>
+                <img alt="chat" onClick={()=>toggleUntoggleModal()} src={chat_svg} width={50} height={50}/>
             </div>
 
         </div>

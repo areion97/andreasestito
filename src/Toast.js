@@ -1,5 +1,4 @@
-import { Toaster, toast } from "react-hot-toast"
-import { styled } from 'goober';
+import { toast } from "react-hot-toast"
 
 function success(message) {
     const toastId = toast.success(<div onClick={()=>toast.dismiss(toastId)}>{message}</div>);
@@ -18,5 +17,6 @@ function promiseToast(promise, loadingMessage, successMessage, errorMessage) {
           duration: 5000
         },
       });
+      return toastId;
 }
 export {success,error, promiseToast};
