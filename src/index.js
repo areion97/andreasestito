@@ -24,10 +24,7 @@ root.render(
     <React.Fragment>
     <BrowserRouter>
         <Nav/>
-        <Toaster 
-         
-         
-         />
+        <Toaster/>
         <Routes>
           <Route path="/andreasestito" element={<Home />} />
           <Route path="/andreasestito/cv" element={<CV />} />

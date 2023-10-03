@@ -3,7 +3,7 @@ import chat_svg from './images/chat.svg'
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
-import {success, error} from "./Toast"
+import {success, error, promiseToast} from "./Toast"
 import { toast } from "react-hot-toast"
 
 function Chat() {
@@ -18,16 +18,8 @@ function Chat() {
         if(!name || !email || !message) {
             error("Please fill in the form")
         }else {
-            toast.promise(emailjs.sendForm('service_cpcx647', 'template_853mmme', form.current, '87SPuhRK_gwZkd88g'), {
-                loading: 'Sending ...',
-                success: 'Thank you for contacting me. I will answer you as soon as possible.',
-                error: 'Something went wrong',
-              },
-              {
-                success: {
-                  duration: 7000
-                },
-              });
+            promiseToast(emailjs.sendForm('service_cpcx647', 'template_853mmme', form.current, '87SPuhRK_gwZkd88g'),'Sending ...', 'Thank you for contacting me. I will answer you as soon as possible.', 'Something went wrong');
+
             setStyleModal({visibility: "hidden"})
             return;
         }

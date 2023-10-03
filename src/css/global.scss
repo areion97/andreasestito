@@ -137,6 +137,7 @@ td {
   justify-content: space-evenly;
 }
 
+
 .menu-icon {
   float: left;
 }
@@ -170,6 +171,7 @@ a {
 footer {
   background-color: rgb(200, 226, 253);
   padding: 10px;
+  z-index: 1000;
   width: 100%;
   bottom: 0;
 }

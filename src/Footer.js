@@ -10,13 +10,13 @@ function Footer(props) {
             <table>
             <tr className="flexbox-row">
                 <td>
-                <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                    <a href="https://www.facebook.com/sestitoandre/"><img  src={facebook_logo} alt="fb" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
                 <td>
-                <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkding" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                    <a href="https://www.linkedin.com/in/andreasestito/"><img src={linkedin_logo} alt="lnkdin" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
                 <td>
-                <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
+                    <a href="https://www.instagram.com/sestitoandre/"><img src={instagram_logo} alt="igram" style={{backgroundColor: "none"}} width="58px" height="58px"></img></a>
                 </td>
             </tr>
             </table>
