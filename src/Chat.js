@@ -47,7 +47,7 @@ function Chat() {
     }
 
     return (
-        <div className="fixed-container">
+        <div className="modal-container">
             {styleModal.visibility === "visible" &&
                 <div className='modal'>
                      <div className="section-80">
@@ -67,13 +67,14 @@ function Chat() {
                         </form>
                      </div>
                  </div>
+
             }
 
             <div className='chat'>
                 <img alt="chat" onClick={()=>toggleUntoggleModal()} src={chat_svg} width={50} height={50}/>
             </div>
-
         </div>
+
     );
 
 }

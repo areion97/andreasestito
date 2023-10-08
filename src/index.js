@@ -31,7 +31,7 @@ root.render(
           <Route path="/andreasestito/certificates" element={<Certificates />} />
           <Route path="/andreasestito/about" element={<About />} />
         </Routes>
-        <Footer style={{position:"fixed"}}/>
+        <Footer />
         <Chat />
       </BrowserRouter>
     </React.Fragment>
