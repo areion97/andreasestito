@@ -5,9 +5,19 @@ import logo_blazemeter from "./images/blazemeter-logo.svg"
 import logo_ibm from "./images/ibm-logo.png"
 import logo_ulivi from "./images/ulivi.jpg"
 import logo_dedalus from "./images/logo-dedalus.png"
+import { Document, Page, pdfjs} from 'react-pdf'
+import tesina_superiori from "./files/Tesina Andrea Sestito.pdf"
+import curriculum_english from "./files/Curriculum Andrea Sestito 5 - English.pdf"
+import progetto_vhdl from "./files/Progetto Reti Logiche.pdf"
 
-import curriculum_pdf from "./files/Curriculum Andrea Sestito.pdf"
+import { useEffect } from "react"
 function CV() {
+
+    useEffect(() => {
+        pdfjs.GlobalWorkerOptions.workerSrc =`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+    },[]);
+
   return (
   <div>
     <div className="content">
@@ -26,6 +36,8 @@ function CV() {
                         The focus of the project was to return the first k graphs given n in input ordering them by shortest path to reach every node starting from an initial node.
                         Code needed to be strongly optimized in terms of memory and computational complexity.
                     </h3>
+                    <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/ProgettoAPI"><h3><b>Source Code</b></h3></a>
+
                     <h2 className="title">A VHDL solution for transferring addresses in microprocessors buses</h2>
                     <h3 className="paragraph">
                         <i>The project was developed for Bachelor's Thesis for the course of Logical Networks.</i><br/><br/>
@@ -35,18 +47,35 @@ function CV() {
                         <br/><br/>
                         ¹Working-zone methodology is used in modern microprocessors to reduce power consumption when sending adresses through buses.
                     </h3>
+                    <Document file={progetto_vhdl}>
+                        <Page pageNumber={1}/>
+                    </Document>
+                    <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={progetto_vhdl}><h3><b>Download PDF</b></h3></a>
+                    <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/progettoRetiLogiche"><h3><b>Source Code</b></h3></a>
+
+
                     <h2 className="title">Adrenaline: online multiplayer</h2>
                     <h3 className="paragraph">
                         <i>The project was developed for Bachelor's Thesis for the course of Software Engineering.</i><br/><br/>
                         It is a first prototype of multiplayer game inspired by the board game Adrenaline written in Java.
                         OOP paradigms are fully exploited in order to give to the project a solid structure; furthermore its architecture composed by MVC, State and Strategy design patterns enhances project mantainability and evolvability.
                     </h3>
+                    <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/ing-sw-2019"><h3><b>Source Code</b></h3></a>
 
+                    <br />
+                    <br />
+                    <br />
                     <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
                     <h2 className="title">
                         Scientific Diploma
                     </h2>
+                    <Document file={tesina_superiori}>
+                        <Page pageNumber={1}/>
+                    </Document>
+                    <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={tesina_superiori}><h3><b>Download PDF</b></h3></a>
+
                 </div>
+                
             </td>
             <td>
                 <div className="section-90">
@@ -112,7 +141,7 @@ function CV() {
                 </div>
             </td>
         </tr>
-        <tr><a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={curriculum_pdf}><h3><b>Download PDF</b></h3></a></tr>
+        <tr><a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={curriculum_english}><h3><b>Download CV</b></h3></a></tr>
       </table>
 
     </div>
