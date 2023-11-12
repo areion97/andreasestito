@@ -30,6 +30,7 @@ function CV() {
                     <h2 className="title">
                         Bachelor's Degree in Engineering of Computing Systems
                     </h2>
+                    <br />
                     <h2 className="title">Ranking Dijkstra shortest path</h2>
                     <h3 className="paragraph">
                         <i>The project was developed for Bachelor's Thesis for the course of Algorithms and Principles of Computer Science.</i><br/><br/>
@@ -37,6 +38,7 @@ function CV() {
                         Code needed to be strongly optimized in terms of memory and computational complexity.
                     </h3>
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/ProgettoAPI"><h3><b>Source Code</b></h3></a>
+                    <br />
 
                     <h2 className="title">A VHDL solution for transferring addresses in microprocessors buses</h2>
                     <h3 className="paragraph">
@@ -53,6 +55,7 @@ function CV() {
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={progetto_vhdl}><h3><b>Download PDF</b></h3></a>
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/progettoRetiLogiche"><h3><b>Source Code</b></h3></a>
 
+                    <br />
 
                     <h2 className="title">Adrenaline: online multiplayer</h2>
                     <h3 className="paragraph">
