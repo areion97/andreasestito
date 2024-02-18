@@ -1,11 +1,11 @@
-import profile from "../src/images/profile.jpg"
+import profile from "../src/images/me.jpg"
 function Home() {
   return (
     <>
         <div className="content">
           <div className="flexbox-column">
             <div className="section">
-              <img alt="me" style={{ border: "4px solid rgb(140,0,0)"}} src={profile} width="250" height="333.33"></img>
+              <img alt="me" src={profile} width="250" height="333.33"></img>
             </div>
             <div className="section-50">
 
