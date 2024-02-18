@@ -50,7 +50,7 @@ function CV() {
                         ¹Working-zone methodology is used in modern microprocessors to reduce power consumption when sending adresses through buses.
                     </h3>
                     <Document file={progetto_vhdl}>
-                        <Page pageNumber={1}/>
+                        <Page pageNumber={1} renderTextLayer={false}/>
                     </Document>
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={progetto_vhdl}><h3><b>Download PDF</b></h3></a>
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/progettoRetiLogiche"><h3><b>Source Code</b></h3></a>
@@ -73,7 +73,7 @@ function CV() {
                         Scientific Diploma
                     </h2>
                     <Document file={tesina_superiori}>
-                        <Page pageNumber={1}/>
+                        <Page pageNumber={1} renderTextLayer={false}/>
                     </Document>
                     <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={tesina_superiori}><h3><b>Download PDF</b></h3></a>
 
