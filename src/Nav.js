@@ -26,7 +26,7 @@ function Nav() {
                 <table className="menu-list">
                     <tr>
                         <td>
-                            <Button onClick={()=>setMenuStyle(menuBarHidden)}>
+                            <Button className="nav-btn" onClick={()=>setMenuStyle(menuBarHidden)}>
                                 <Link className="nav-link" to="/andreasestito"><h1>Home</h1></Link>
                             </Button>
                         </td>
@@ -48,10 +48,18 @@ function Nav() {
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>
+                                <Link className="nav-link" to="/andreasestito/hobby"><h1>Hobby</h1></Link>
+                            </Button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <Button onClick={()=>setMenuStyle(menuBarHidden)}>
                                 <Link className="nav-link" to="/andreasestito/about"><h1>About</h1></Link>
                             </Button>
                         </td>
                     </tr>
+
                 </table>
                
             </div>

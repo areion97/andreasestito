@@ -43,7 +43,6 @@ function CV() {
                     <h2 className="title">A VHDL solution for transferring addresses in microprocessors buses</h2>
                     <h3 className="paragraph">
                         <i>The project was developed for Bachelor's Thesis for the course of Logical Networks.</i><br/><br/>
-                        The project was developed for Bachelor's Thesis for the course of Logical Networks.
                         The aim of the project was to develop a VHDL entity which implemented working-zone encoding.¹
                         As IDE to support code editing and run simulations I used Vivado Design Suite: Behavioural and Post Sythesis Functional were successfully accomplished on top of FPGA xc7a200tfbg484-1.
                         <br/><br/>

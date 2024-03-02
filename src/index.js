@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
 import { Helmet } from 'react-helmet'
 import CV from './CV'
 import Nav from './Nav';
@@ -9,7 +8,7 @@ import Certificates from './Certificates';
 import About from './About';
 import Chat from './Chat'
 import Footer from './Footer';
-import Toast from './Toast';
+import Hobby from './Hobby';
 import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import { Toaster } from "react-hot-toast"
@@ -30,6 +29,7 @@ root.render(
           <Route path="/andreasestito/cv" element={<CV />} />
           <Route path="/andreasestito/certificates" element={<Certificates />} />
           <Route path="/andreasestito/about" element={<About />} />
+          <Route path="/andreasestito/hobby" element={<Hobby />} />
         </Routes>
         <Footer />
         <Chat />
