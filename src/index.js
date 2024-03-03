@@ -13,7 +13,7 @@ import '../src/css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import { Toaster } from "react-hot-toast"
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.body);
 
 root.render(
   <React.StrictMode>

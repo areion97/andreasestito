@@ -3,6 +3,18 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+html, body {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: stretch;
+  flex-wrap: wrap;
+
+}
 .modal-container {
   z-index: 300;
   position: fixed;
@@ -19,7 +31,6 @@
   z-index: 200;
   overflow: hidden;
   background-color: rgb(140,0,0);
-  box-shadow: 0px -5px 20px;
 }
 
 .menu-list {
@@ -197,17 +208,6 @@ footer {
   position: fixed;
 }
 
-#root {
-  height: 100vh;
-  position: relative;
-  display: flex;
-  height: auto;
-  width: -webkit-fill-available;
-  position: relative;
-}
-
-
-
 .nav-link {
   color: black;
   width: 100%;
@@ -224,14 +224,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 0 auto;
   overflow: scroll !important;
   background-color: rgba(200, 226, 253, .15);
-  position: relative;
-  display: flex;
 }
-
-
 
 h3 {
   font-weight: normal;
@@ -271,18 +266,12 @@ table {
   width: 100%;
 }
 
-
 .responsive-image {
   width: 100%;
   height: auto;
 }
 
 @media (min-width: 600px) {
-  .background {
-    width: inherit;
-    height: inherit;
-  }
-
   .menu-list {
     text-align: center;
   }
@@ -292,32 +281,23 @@ table {
     width: 25vw;
     right: 7vw;
     bottom: 150px;
-
   }
+
   .pappagallo-bg {
     background-image: url('../images/camicia.jpg');
     background-size: contain;
-
   }
-
-  #root {
-    position: inherit;
-    width: inherit;
-    height: inherit;
-  }
-  html, body {
-    width: -webkit-fill-available;
-    height: 100%;
-  }
-
 }
 
 
 @media (max-width: 600px) {
-  html, body {
+  html,body {
     height: 100%;
-    width: fit-content
+    padding: 0px !important;
+    margin: 0 auto !important;
+    overflow-x: hidden;
   }
+
   .background {
     height: 100%;
   }
@@ -367,13 +347,6 @@ table {
   h1,h2,h3,.title, .paragraph {
     width: auto !important;
     justify-content: center;
-  }
-
-  body {
-    padding: 0px !important;
-    margin: 0 auto !important;
-    overflow-x: hidden;
-    width: -webkit-fill-available;
   }
 
 }

@@ -84,7 +84,14 @@ function CV() {
                     <h1 >Experience</h1>
                     <img alt="dedalus" src={logo_dedalus} className="image" width="300" height="110"></img>
                     <h2 className="title">Product Development Specialist</h2>
-
+                    <h3 className="paragraph">
+                    As Product Development Specialist I take care of the product analysis, development and evolution.
+                    I have the possibility to face new technologies: recently I've put my hands on Apache Kafka and integrated very smoothly into the project.
+                    I obtained a complete overview of the product in a short time, thanks to mutual adaptation skills I can easily manage more tasks at a time, 
+                    in this way I keep myself motivated and at the same time I can improve focus area based on priorities. 
+                    I always keep updated for courses that might enhance my development journey towards a well structured solution. Once delivered the product I usually ask for feedback in order
+                    to have a constant alignment in terms of satisfaction of the client and the team.
+                    </h3>
                     <img alt="nttdata" src={logo_nttdata} className="image" width="250" height="250"></img>
                     <h2 className="title">Software Developer Engineer</h2>
                     <h3 className="paragraph">
