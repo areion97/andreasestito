@@ -52,6 +52,8 @@ td {
   background-image: url('../images/pappagallo.jpg');
   background-size: cover;
 }
+
+
 .chat {
   position: fixed;
   z-index: 100;
@@ -84,6 +86,7 @@ td {
   @include section;
   width: 90%;
 }
+
 .section-60 {
   @include section;
   width: 60%;
@@ -199,13 +202,11 @@ footer {
   position: relative;
   display: flex;
   height: auto;
-  width: 100vw;
+  width: -webkit-fill-available;
   position: relative;
 }
 
-html, body {
-  height: 100%;
-}
+
 
 .nav-link {
   color: black;
@@ -277,6 +278,14 @@ table {
 }
 
 @media (min-width: 600px) {
+  .background {
+    width: inherit;
+    height: inherit;
+  }
+  .section-90 {
+    @include section;
+    width: 33%;
+  }
   .menu-list {
     text-align: center;
   }
@@ -296,12 +305,29 @@ table {
 
   #root {
     position: inherit;
+    width: inherit;
+    height: inherit;
+  }
+  html, body {
+    height: 100%;
+    width: -webkit-fill-available
   }
 
 }
 
 
 @media (max-width: 600px) {
+  html, body {
+    height: 100%;
+    width: fit-content
+  }
+  .background {
+    height: 100%;
+  }
+  .flex-image {
+    width: inherit;
+  }
+
   .react-pdf__Page__canvas {
     width: 300px !important;
     height: 422.5px !important;
@@ -350,6 +376,7 @@ table {
     padding: 0px !important;
     margin: 0 auto !important;
     overflow-x: hidden;
+    width: -webkit-fill-available;
   }
 
 }
