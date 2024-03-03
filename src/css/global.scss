@@ -282,10 +282,7 @@ table {
     width: inherit;
     height: inherit;
   }
-  .section-90 {
-    @include section;
-    width: 33%;
-  }
+
   .menu-list {
     text-align: center;
   }
@@ -309,8 +306,8 @@ table {
     height: inherit;
   }
   html, body {
-    height: 100%;
-    width: -webkit-fill-available
+    width: -webkit-fill-available;
+    height: inherit;
   }
 
 }
