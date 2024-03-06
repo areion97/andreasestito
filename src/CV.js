@@ -1,21 +1,50 @@
 import logo_polimi from "./images/polimi.png"
 import logo_nttdata from "./images/nttdata.png"
 import logo_coursera from "./images/coursera.png"
-import logo_blazemeter from "./images/blazemeter-logo.svg"
 import logo_ibm from "./images/ibm-logo.png"
 import logo_ulivi from "./images/ulivi.jpg"
 import logo_dedalus from "./images/logo-dedalus.png"
 import { Document, Page, pdfjs} from 'react-pdf'
-import { Timeline } from "antd"
+import { Timeline, Divider} from "antd"
+import { LoadingOutlined } from "@ant-design/icons"
 import tesina_superiori from "./files/Tesina Andrea Sestito.pdf"
 import curriculum_english from "./files/Curriculum Andrea Sestito 5 - English.pdf"
 import progetto_vhdl from "./files/Progetto Reti Logiche.pdf"
 
-import { useEffect } from "react"
+import { useEffect, useState, useLayoutEffect} from "react"
 function CV() {
+    const [timelineMode, setTimelineMode] = useState("left")
+    const [isDesktop, setIsDesktop] = useState(false)
+
+    useWindowSize();
+    function useWindowSize() {
+        const [size, setSize] = useState([0, 0]);
+        useLayoutEffect(() => {
+          function updateSize() {
+            if(window.innerWidth > 600) {
+                setTimelineMode("alternate");
+                setIsDesktop(true);
+            }else {
+                setTimelineMode("left");
+                setIsDesktop(false);
+            }
+          }
+          window.addEventListener('resize', updateSize);
+          updateSize();
+          return () => window.removeEventListener('resize', updateSize);
+        }, []);
+        return size;
+      }
+      
+    useEffect(() => {
+        pdfjs.GlobalWorkerOptions.workerSrc =`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
+    },[]);
+
     const poliItems = 
     [
-        { children:
+        { 
+            children:
             <div>
                 <h2 className="title">Ranking Dijkstra shortest path</h2>                   
                 <h3 className="paragraph">
@@ -25,6 +54,7 @@ function CV() {
                 </h3>
                 <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/ProgettoAPI"><h3><b>Source Code</b></h3></a>
             </div>,
+        
         },
             
         { children: 
@@ -73,7 +103,7 @@ function CV() {
     ];
     const dedalusItems = [
         {
-            children:
+        children:
             <div>
                 <h2 className="title">Product Development Specialist</h2>
                 <h3 className="paragraph">
@@ -84,7 +114,8 @@ function CV() {
                 I always keep updated for courses that might enhance my development journey towards a well structured solution. Once delivered the product I usually ask for feedback in order
                 to have a constant alignment in terms of satisfaction of the client and the team.
                 </h3>            
-            </div>
+            </div>,
+        dot: <LoadingOutlined />
         }
     ];
 
@@ -140,10 +171,7 @@ function CV() {
         }
     ];
 
-    useEffect(() => {
-        pdfjs.GlobalWorkerOptions.workerSrc =`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-    },[]);
 
   return (
   <div>
@@ -151,22 +179,23 @@ function CV() {
 
     <table>
         <tr className="flexbox-column">
-            <td>
+            <td style={isDesktop ? {borderRight: "2px solid rgba(5, 5, 5, 0.06)"} : {}}>
                 <div className="section-90">
 
                     <h1>Education</h1>
                     <img alt="" src={logo_polimi} width="250" height="190"></img>
-                    <h2 className="title">
+                    <h2 className="title-centered">
                         Bachelor's Degree in Engineering of Computing Systems
                     </h2>
                     <br />
-                    <Timeline mode="left" items={poliItems} />
-                    <br />
+                    <Timeline mode={timelineMode} items={poliItems} />
+                    <Divider />
                     <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
-                    <h2 className="title">
+                    <h2 className="title-centered">
                         Scientific Diploma
                     </h2>
-                    <Timeline mode="left" items={uliviItems} />
+                    <br />
+                    <Timeline mode={timelineMode} items={uliviItems} />
 
                 </div>
                 
@@ -176,35 +205,36 @@ function CV() {
                     <h1 >Experience</h1>
                     <img alt="dedalus" src={logo_dedalus} className="image" width="300" height="110"></img>
                     <br/>
-                    <Timeline mode="left" items={dedalusItems} />
+                    <Timeline mode={timelineMode} items={dedalusItems} />
                     <img alt="nttdata" src={logo_nttdata} className="image" width="250" height="250"></img>
                     <br/>
-                    <Timeline mode="left" items={nttItems} />
+                    <Timeline mode={timelineMode} items={nttItems} />
 
                 </div>
             </td>
+           
+        </tr>
+        <Divider/>
+        <tr>
             <td>
-                <div className="section-90">
+                <div className="section-50">
                     <h1 >Courses</h1>
                     <img alt="credly" src={logo_coursera} className="image" width="240" height="240"></img>
-                    <a href="https://www.credly.com/badges/2401be49-fc85-4ddc-98e2-db71475d6756/public_url"><h2 className="paragraph">Introduction to Cloud Computing</h2></a>
+                    <a href="https://www.credly.com/badges/2401be49-fc85-4ddc-98e2-db71475d6756/public_url"><h2 className="title-centered">Introduction to Cloud Computing</h2></a>
                     <img alt="credly" src="https://images.credly.com/size/110x110/images/2d178f89-4816-4190-8c4a-3bdbfec9db01/Dev_Skills_Network_-_Cloud_Computing_Core.png" width="150" height="150"/>
-                    <a href="https://www.credly.com/badges/c0a7ceed-8add-4af4-b538-9a9d9d3952ed/public_url"><h2 className="paragraph">Web Development with HTML, CSS, JavaScript Essentials</h2></a>
+                    <a href="https://www.credly.com/badges/c0a7ceed-8add-4af4-b538-9a9d9d3952ed/public_url"><h2 className="title-centered">Web Development with HTML, CSS, JavaScript Essentials</h2></a>
                     <img alt="credly" src="https://images.credly.com/size/110x110/images/6240e108-1407-4773-8621-cc2e4736d4e6/Web_Development_with_HTML-CSS-JavaScript_Essentials.png" width="150" height="150"/>
-                    <a href="https://www.credly.com/badges/073fdb08-6131-471c-b7f7-aa791b9f70b9/public_url"><h2 className="paragraph">Developing Cloud Native Applications</h2></a>
+                    <a href="https://www.credly.com/badges/073fdb08-6131-471c-b7f7-aa791b9f70b9/public_url"><h2 className="title-centered">Developing Cloud Native Applications</h2></a>
                     <img alt="credly" src="https://images.credly.com/size/110x110/images/3545154f-08b4-4f6f-9592-c356d7108965/Developing_Cloud_Native_Applications.png" width="150" height="150"/>
-                    <a href="https://www.credly.com/badges/6f23312d-eb7c-49a9-9bb1-d4ff017abcb7/public_url"><h2 className="paragraph">Developing Cloud Apps with Node.js and React</h2></a>
+                    <a href="https://www.credly.com/badges/6f23312d-eb7c-49a9-9bb1-d4ff017abcb7/public_url"><h2 className="title-centered">Developing Cloud Apps with Node.js and React</h2></a>
                     <img alt="credly" src="https://images.credly.com/size/110x110/images/73c1a67e-b3e8-44f1-a049-a91532e4f19c/Developing_Cloud_Apps_with_Node.js_and_React.png" width="150" height="150"/>
-                    <a href="https://www.credly.com/badges/1edcdbcc-9941-4d99-9610-ac98358f047a/public_url"><h2 className="paragraph">Containers &amp; Kubernetes Essentials</h2></a>
+                    <a href="https://www.credly.com/badges/1edcdbcc-9941-4d99-9610-ac98358f047a/public_url"><h2 className="title-centered">Containers &amp; Kubernetes Essentials</h2></a>
                     <img alt="credly" src="https://images.credly.com/size/340x340/images/66bed44e-4917-48b7-8e88-1b0c83d50437/Containers_and_Kubernetes_Essentials.png" width="150" height="150"/>
-                    <a href="https://www.coursera.org/account/accomplishments/certificate/68JHBLGCQLEN"><h2 className="paragraph">Getting Started with Git and GitHub</h2></a>
+                    <a href="https://www.coursera.org/account/accomplishments/certificate/68JHBLGCQLEN"><h2 className="title-centered">Getting Started with Git and GitHub</h2></a>
                     <img alt="ibm" src={logo_ibm} width="175" height="70"/>
-                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XABSSQDSSKQU"><h2 className="paragraph">Cloud Application Development Foundations</h2></a>
+                    <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XABSSQDSSKQU"><h2 className="title-centered">Cloud Application Development Foundations</h2></a>
                     <img alt="ibm" src={logo_ibm} width="175" height="70"/>
-                    <h2>JMeter™ Intro</h2>
-                    <img alt="blazemeter" src={logo_blazemeter} width="175" height="70"></img>
-                    <h2>JMeter™ Pro</h2>
-                    <img alt="blazemeter" src={logo_blazemeter} width="175" height="70"></img>
+
                 </div>
             </td>
         </tr>

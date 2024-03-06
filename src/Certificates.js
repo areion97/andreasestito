@@ -1,12 +1,15 @@
 import fce_certificate from "./images/FCE.jpg"
 import ibm_certificate from "./images/IBM_Certificate.jpg"
 import cs50_certificate from "./images/edX CS50x.png"
+import jmeter_intro from "./images/jmeter-intro.jpg"
+import jmeter_pro from "./images/jmeter-pro.jpg"
+
 function Certificates() {
  
   return (
   <div>
     <div className="content">
-      <div className="section-90">
+      <div className="section">
         <table>
           <tr className="flexbox-column">
             <td>
@@ -16,6 +19,29 @@ function Certificates() {
 
               <img src={fce_certificate} alt="FCE Certificate" className="responsive-image"></img>
             </td>
+
+            <td>
+              <h1 className="title">
+                JMeter™ Intro
+              </h1>
+              <img src={jmeter_intro} alt="jmeter-intro-certificate" className="responsive-image"></img>
+            </td>
+            <td>
+            <h1 className="title">
+              JMeter™ Pro
+            </h1>
+            <img src={jmeter_pro} alt="jmeter-pro-certificate" className="responsive-image"></img>
+            </td>
+
+          </tr>
+          <tr className="flexbox-column">
+            <td>
+              <h1 className="title">
+                CS50x: CS50's Introduction to Computer Science
+              </h1>
+
+              <img src={cs50_certificate} alt="cs50-certificate" className="responsive-image"></img>
+            </td>
             <td>
               <h1 className="title">
                 IBM Full Stack Software Developer
@@ -23,13 +49,9 @@ function Certificates() {
              
               <img src={ibm_certificate} alt="ibmCertificate" className="responsive-image"></img>
              
-              <h1 className="title">
-                CS50x: CS50's Introduction to Computer Science
-              </h1>
-
-              <img src={cs50_certificate} alt="cs50-certificate" className="responsive-image"></img>
+             
             </td>
-    
+           
           </tr>
         </table>
       </div>

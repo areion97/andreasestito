@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://areion97.github.io/andreasestito/",
   "dependencies": {
+    "@ant-design/icons": "^5.3.1",
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
