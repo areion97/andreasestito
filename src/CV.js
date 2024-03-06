@@ -24,7 +24,7 @@ function CV() {
                     Code needed to be strongly optimized in terms of memory and computational complexity.
                 </h3>
                 <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/ProgettoAPI"><h3><b>Source Code</b></h3></a>
-            </div>
+            </div>,
         },
             
         { children: 
@@ -161,7 +161,6 @@ function CV() {
                     </h2>
                     <br />
                     <Timeline mode="left" items={poliItems} />
-                    <br />
                     <br />
                     <img alt="" src={logo_ulivi} className="image" width="250" height="250"></img>
                     <h2 className="title">

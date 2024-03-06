@@ -200,7 +200,7 @@ a {
 
 footer {
   background-color: rgb(200, 226, 253);
-  padding: 10px;
+  padding: 5px;
   z-index: 1000;
   width: 100%;
   bottom: 0;
@@ -274,6 +274,10 @@ table {
 @media (min-width: 600px) {
   .menu-list {
     text-align: center;
+  }
+  .react-pdf__Page__canvas {
+    width: 300px !important;
+    height: 422.5px !important;
   }
   .modal {
     margin-top: 10vh;
