@@ -59,7 +59,6 @@ function Nav() {
                             </Button>
                         </td>
                     </tr>
-
                 </table>
                
             </div>

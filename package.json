@@ -13,7 +13,7 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
-    "antd": "^4.23.0",
+    "antd": "^5.15.0",
     "bootstrap": "^5.2.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^5.0.0",
