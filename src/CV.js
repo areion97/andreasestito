@@ -4,9 +4,10 @@ import logo_coursera from "./images/coursera.png"
 import logo_ibm from "./images/ibm-logo.png"
 import logo_ulivi from "./images/ulivi.jpg"
 import logo_dedalus from "./images/logo-dedalus.png"
-import { Document, Page, pdfjs} from 'react-pdf'
 import { Timeline, Divider} from "antd"
 import { LoadingOutlined } from "@ant-design/icons"
+import tesina from "./images/tesina.jpg"
+import retilogiche from "./images/retilogiche.jpg"
 import tesina_superiori from "./files/Tesina Andrea Sestito.pdf"
 import curriculum_english from "./files/Curriculum Andrea Sestito 5 - English.pdf"
 import progetto_vhdl from "./files/Progetto Reti Logiche.pdf"
@@ -37,7 +38,6 @@ function CV() {
       }
       
     useEffect(() => {
-        pdfjs.GlobalWorkerOptions.workerSrc =`https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
     },[]);
 
@@ -67,9 +67,9 @@ function CV() {
                     <br/><br/>
                     ¹Working-zone methodology is used in modern microprocessors to reduce power consumption when sending adresses through buses.
                 </h3>
-                <Document file={progetto_vhdl}>
-                    <Page pageNumber={1} renderTextLayer={false}/>
-                </Document>
+                <img src={retilogiche} alt="Tesi Reti Logiche" className="responsive-image"></img>
+
+
                 <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={progetto_vhdl}><h3><b>Download PDF</b></h3></a>
                 <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href="https://github.com/areion97/progettoRetiLogiche"><h3><b>Source Code</b></h3></a>
             </div> 
@@ -94,9 +94,8 @@ function CV() {
         {
             children:
             <div>
-                <Document file={tesina_superiori}>
-                    <Page pageNumber={1} renderTextLayer={false}/>
-                </Document>
+                <img src={tesina} alt="Tesina Superiori" className="responsive-image"></img>
+
                 <a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={tesina_superiori}><h3><b>Download PDF</b></h3></a>
             </div>
         }

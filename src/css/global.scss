@@ -17,7 +17,7 @@ html, body {
   transform: scale(1);
   transition: 1s;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: 1s;
     .ant-timeline-item-head {
       transform: scale(2);
@@ -292,10 +292,7 @@ table {
   .menu-list {
     text-align: center;
   }
-  .react-pdf__Page__canvas {
-    width: 300px !important;
-    height: 422.5px !important;
-  }
+
   .modal {
     margin-top: 10vh;
     height: auto;
@@ -324,11 +321,6 @@ table {
   }
   .flex-image {
     width: inherit;
-  }
-
-  .react-pdf__Page__canvas {
-    width: 300px !important;
-    height: 422.5px !important;
   }
 
   .menu-list {
