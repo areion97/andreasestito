@@ -1,22 +1,38 @@
 {
   "files": {
-    "main.css": "/andreasestito/static/css/main.13b9d9a0.css",
-    "main.js": "/andreasestito/static/js/main.21f853c3.js",
+    "main.css": "/andreasestito/static/css/main.3e2d10b6.css",
+    "main.js": "/andreasestito/static/js/main.b4a6723d.js",
+    "static/media/pappagallo.jpg": "/andreasestito/static/media/pappagallo.9b299d80e7c305c78e6f.jpg",
+    "static/media/Progetto Reti Logiche.pdf": "/andreasestito/static/media/Progetto Reti Logiche.4a092bd3698e5f407def.pdf",
+    "static/media/aws-fundamentals.jpg": "/andreasestito/static/media/aws-fundamentals.505c8760caa263914ba2.jpg",
+    "static/media/gcloud-fundamentals.jpg": "/andreasestito/static/media/gcloud-fundamentals.b9a26dbb3316c1da80e1.jpg",
     "static/media/FCE.jpg": "/andreasestito/static/media/FCE.7167cb40ae54fd339a1a.jpg",
-    "static/media/profile.jpg": "/andreasestito/static/media/profile.497e4aa8c309eb3fefb3.jpg",
+    "static/media/me.jpg": "/andreasestito/static/media/me.938cfee7b922c5291aeb.jpg",
+    "static/media/camicia.jpg": "/andreasestito/static/media/camicia.79ec992455c53ec3e608.jpg",
+    "static/media/Tesina Andrea Sestito.pdf": "/andreasestito/static/media/Tesina Andrea Sestito.879f5ae5a8688ea649cd.pdf",
+    "static/media/tesina.jpg": "/andreasestito/static/media/tesina.1426c8943b1b1ff2dbb8.jpg",
+    "static/media/Curriculum Andrea Sestito 5 - English.pdf": "/andreasestito/static/media/Curriculum Andrea Sestito 5 - English.4caef09d5c9437a219ff.pdf",
     "static/media/IBM_Certificate.jpg": "/andreasestito/static/media/IBM_Certificate.90d4fa087b31432db713.jpg",
-    "static/media/Curriculum Andrea Sestito.pdf": "/andreasestito/static/media/Curriculum Andrea Sestito.b206de72eb7efa5d09ab.pdf",
+    "static/media/linux-opensource.jpg": "/andreasestito/static/media/linux-opensource.556a3757580f0fb476cb.jpg",
+    "static/media/linux-for-developers.jpg": "/andreasestito/static/media/linux-for-developers.7d9f540959883f422f9a.jpg",
     "static/media/instagram_logo.png": "/andreasestito/static/media/instagram_logo.ee4d774bc7caab103e21.png",
+    "static/media/garden-microsoft.jpg": "/andreasestito/static/media/garden-microsoft.f00619624c9fe12f3e7c.jpg",
+    "static/media/retilogiche.jpg": "/andreasestito/static/media/retilogiche.2750c7f82450f62d0398.jpg",
     "static/media/ulivi.jpg": "/andreasestito/static/media/ulivi.d0d01605eb6ab45f57aa.jpg",
-    "static/media/cambridge-logo.jpg": "/andreasestito/static/media/cambridge-logo.e1f5f4c0c21ff83bdf77.jpg",
+    "static/media/edX CS50x.png": "/andreasestito/static/media/edX CS50x.8339458834b45e35cca7.png",
+    "static/media/myes-advanced2.jpg": "/andreasestito/static/media/myes-advanced2.0ba5a57b148f3532bb16.jpg",
     "static/media/polimi.png": "/andreasestito/static/media/polimi.d15aae1a8c4940522e08.png",
-    "static/media/blazemeter-logo.svg": "/andreasestito/static/media/blazemeter-logo.23bba74b6abba0731d0e45d8ebcc310b.svg",
+    "static/media/git-fundamentals.jpg": "/andreasestito/static/media/git-fundamentals.3083eeddf8ce94002808.jpg",
+    "static/media/jmeter-pro.jpg": "/andreasestito/static/media/jmeter-pro.cd800ae6c84f64d00c98.jpg",
+    "static/media/jmeter-intro.jpg": "/andreasestito/static/media/jmeter-intro.24ade0662582ecb64550.jpg",
+    "static/media/logo-dedalus.png": "/andreasestito/static/media/logo-dedalus.582534abc70e209ac492.png",
+    "static/media/chat.svg": "/andreasestito/static/media/chat.d15d3f34fd11720720911790e045384f.svg",
     "index.html": "/andreasestito/index.html",
-    "main.13b9d9a0.css.map": "/andreasestito/static/css/main.13b9d9a0.css.map",
-    "main.21f853c3.js.map": "/andreasestito/static/js/main.21f853c3.js.map"
+    "main.3e2d10b6.css.map": "/andreasestito/static/css/main.3e2d10b6.css.map",
+    "main.b4a6723d.js.map": "/andreasestito/static/js/main.b4a6723d.js.map"
   },
   "entrypoints": [
-    "static/css/main.13b9d9a0.css",
-    "static/js/main.21f853c3.js"
+    "static/css/main.3e2d10b6.css",
+    "static/js/main.b4a6723d.js"
   ]
 }
