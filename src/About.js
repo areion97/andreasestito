@@ -1,5 +1,5 @@
-
 function About() {
+
   return (
     <div className="pappagallo-bg">
       <div className="content">
@@ -10,7 +10,9 @@ function About() {
             Interested in software quality and correctness, detailing test development environment according to project requirements.
             Open-minded towards modern frameworks and applications and constantly up to date in technological innovation. 
           </h3>
+                       
         </div>
+
       </div>
 
     </div>

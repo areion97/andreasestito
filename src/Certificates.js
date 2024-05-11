@@ -7,6 +7,9 @@ import gcloud_fundamentals from "./images/gcloud-fundamentals.jpg"
 import aws_fundamentals from "./images/aws-fundamentals.jpg"
 import linux from "./images/linux-for-developers.jpg"
 import opensource from "./images/linux-opensource.jpg"
+import git_fundamentals from "./images/git-fundamentals.jpg"
+import myes_advanced2 from "./images/myes-advanced2.jpg"
+
 
 
 function Certificates() {
@@ -16,18 +19,32 @@ function Certificates() {
     <div className="content">
       <div className="section">
         <table>
+          
           <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Computer science</h2>
             <td>
               <img src={cs50_certificate} alt="cs50-certificate" className="responsive-image"></img>
               <br />
             </td>
             <td>
+              <br />
+            </td>
+
+          </tr>
+          <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Technology stack</h2>
+
+            <td>
               <img src={ibm_certificate} alt="ibmCertificate" className="responsive-image"></img>
               <br />
             </td>
-           
+            <td>
+              <br />
+            </td>
           </tr>
           <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Cloud</h2>
+
             <td>
               <img src={gcloud_fundamentals} alt="gcloud-certificate" className="responsive-image"></img>
               <br />
@@ -38,6 +55,8 @@ function Certificates() {
             </td>
           </tr>
           <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Open source</h2>
+
             <td>
               <img src={linux} alt="linux-certificate" className="responsive-image"></img>
               <br />
@@ -46,12 +65,17 @@ function Certificates() {
               <img src={opensource} alt="opensource-certificate" className="responsive-image"></img>
               <br />
             </td>
-          </tr>
-          <tr className="flexbox-column">
             <td>
-              <img src={fce_certificate} alt="FCE Certificate" className="responsive-image"></img>
+            <img src={git_fundamentals} alt="git fundamentals" className="responsive-image"/>
               <br />
             </td>
+          </tr>
+
+ 
+
+          <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Test automation</h2>
+
             <td>
               <img src={jmeter_intro} alt="jmeter-intro-certificate" className="responsive-image"></img>
               <br />
@@ -60,6 +84,21 @@ function Certificates() {
               <img src={jmeter_pro} alt="jmeter-pro-certificate" className="responsive-image"></img>
               <br />
             </td>
+          </tr>
+
+          <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Language</h2>
+
+            <td>
+              <img src={fce_certificate} alt="FCE Certificate" className="responsive-image"></img>
+              <br />
+            </td>
+            <td>
+              <img src={myes_advanced2} alt="MYES Advanced 2 Certificate" className="responsive-image"></img>
+
+              <br />
+            </td>
+
           </tr>
         </table>
       </div>

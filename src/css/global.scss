@@ -25,6 +25,12 @@ html, body {
     }
   }
 }
+.flex-header-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
 .modal-container {
   z-index: 300;
   position: fixed;
@@ -288,7 +294,15 @@ table {
   height: auto;
 }
 
+
 @media (min-width: 600px) {
+  .flex-header-col {
+    margin-right: 100px !important;
+  }
+  .border-right {
+    padding: 50px;
+    border-right: 1px solid black;
+  }
   .menu-list {
     text-align: center;
   }
