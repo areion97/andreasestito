@@ -1,5 +1,4 @@
 import profile from "../src/images/me.jpg"
-import { useEffect } from "react";
 
 function Home() {
   return (
