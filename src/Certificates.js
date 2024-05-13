@@ -4,11 +4,13 @@ import cs50_certificate from "./images/edX CS50x.png"
 import jmeter_intro from "./images/jmeter-intro.jpg"
 import jmeter_pro from "./images/jmeter-pro.jpg"
 import gcloud_fundamentals from "./images/gcloud-fundamentals.jpg"
+import springcloud from "./images/SpringBoot and Spring Cloud.jpg"
 import aws_fundamentals from "./images/aws-fundamentals.jpg"
 import linux from "./images/linux-for-developers.jpg"
 import opensource from "./images/linux-opensource.jpg"
 import git_fundamentals from "./images/git-fundamentals.jpg"
 import myes_advanced2 from "./images/myes-advanced2.jpg"
+import kafka from "./images/Kafka.jpg"
 
 
 
@@ -22,6 +24,7 @@ function Certificates() {
           
           <tr className="flexbox-column">
             <h2 className="flex-header-col border-right">Computer science</h2>
+
             <td>
               <img src={cs50_certificate} alt="cs50-certificate" className="responsive-image"></img>
               <br />
@@ -53,6 +56,10 @@ function Certificates() {
               <img src={aws_fundamentals} alt="aws-certificate" className="responsive-image"></img>
               <br />
             </td>
+            <td>
+              <img src={springcloud} alt="spring boot and spring cloud certificate" className="responsive-image"></img>
+              <br />
+            </td>
           </tr>
           <tr className="flexbox-column">
             <h2 className="flex-header-col border-right">Open source</h2>
@@ -70,9 +77,6 @@ function Certificates() {
               <br />
             </td>
           </tr>
-
- 
-
           <tr className="flexbox-column">
             <h2 className="flex-header-col border-right">Test automation</h2>
 
@@ -82,6 +86,16 @@ function Certificates() {
             </td>
             <td>
               <img src={jmeter_pro} alt="jmeter-pro-certificate" className="responsive-image"></img>
+              <br />
+            </td>
+          </tr>
+          <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Message broker</h2>
+            <td>
+              <img src={kafka} alt="kafka certificate" className="responsive-image"></img>
+              <br />
+            </td>
+            <td>
               <br />
             </td>
           </tr>
@@ -95,7 +109,6 @@ function Certificates() {
             </td>
             <td>
               <img src={myes_advanced2} alt="MYES Advanced 2 Certificate" className="responsive-image"></img>
-
               <br />
             </td>
 
