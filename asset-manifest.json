@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andreasestito/static/css/main.3e2d10b6.css",
-    "main.js": "/andreasestito/static/js/main.ae193a64.js",
+    "main.css": "/andreasestito/static/css/main.3ad6174d.css",
+    "main.js": "/andreasestito/static/js/main.b1b7cc27.js",
     "static/media/pappagallo.jpg": "/andreasestito/static/media/pappagallo.9b299d80e7c305c78e6f.jpg",
     "static/media/Progetto Reti Logiche.pdf": "/andreasestito/static/media/Progetto Reti Logiche.4a092bd3698e5f407def.pdf",
     "static/media/aws-fundamentals.jpg": "/andreasestito/static/media/aws-fundamentals.505c8760caa263914ba2.jpg",
@@ -16,6 +16,7 @@
     "static/media/linux-opensource.jpg": "/andreasestito/static/media/linux-opensource.556a3757580f0fb476cb.jpg",
     "static/media/linux-for-developers.jpg": "/andreasestito/static/media/linux-for-developers.7d9f540959883f422f9a.jpg",
     "static/media/instagram_logo.png": "/andreasestito/static/media/instagram_logo.ee4d774bc7caab103e21.png",
+    "static/media/Kafka.jpg": "/andreasestito/static/media/Kafka.fa59877f0c8cea35b4e8.jpg",
     "static/media/garden-microsoft.jpg": "/andreasestito/static/media/garden-microsoft.f00619624c9fe12f3e7c.jpg",
     "static/media/retilogiche.jpg": "/andreasestito/static/media/retilogiche.2750c7f82450f62d0398.jpg",
     "static/media/ulivi.jpg": "/andreasestito/static/media/ulivi.d0d01605eb6ab45f57aa.jpg",
@@ -23,16 +24,17 @@
     "static/media/myes-advanced2.jpg": "/andreasestito/static/media/myes-advanced2.0ba5a57b148f3532bb16.jpg",
     "static/media/polimi.png": "/andreasestito/static/media/polimi.d15aae1a8c4940522e08.png",
     "static/media/git-fundamentals.jpg": "/andreasestito/static/media/git-fundamentals.3083eeddf8ce94002808.jpg",
+    "static/media/SpringBoot and Spring Cloud.jpg": "/andreasestito/static/media/SpringBoot and Spring Cloud.96e260bda06214b04769.jpg",
     "static/media/jmeter-pro.jpg": "/andreasestito/static/media/jmeter-pro.cd800ae6c84f64d00c98.jpg",
     "static/media/jmeter-intro.jpg": "/andreasestito/static/media/jmeter-intro.24ade0662582ecb64550.jpg",
     "static/media/logo-dedalus.png": "/andreasestito/static/media/logo-dedalus.582534abc70e209ac492.png",
     "static/media/chat.svg": "/andreasestito/static/media/chat.d15d3f34fd11720720911790e045384f.svg",
     "index.html": "/andreasestito/index.html",
-    "main.3e2d10b6.css.map": "/andreasestito/static/css/main.3e2d10b6.css.map",
-    "main.ae193a64.js.map": "/andreasestito/static/js/main.ae193a64.js.map"
+    "main.3ad6174d.css.map": "/andreasestito/static/css/main.3ad6174d.css.map",
+    "main.b1b7cc27.js.map": "/andreasestito/static/js/main.b1b7cc27.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e2d10b6.css",
-    "static/js/main.ae193a64.js"
+    "static/css/main.3ad6174d.css",
+    "static/js/main.b1b7cc27.js"
   ]
 }
