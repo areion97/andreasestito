@@ -10,8 +10,11 @@ import linux from "./images/linux-for-developers.jpg"
 import opensource from "./images/linux-opensource.jpg"
 import git_fundamentals from "./images/git-fundamentals.jpg"
 import myes_advanced2 from "./images/myes-advanced2.jpg"
+import myes_advanced3 from "./images/myes-advanced3.jpg"
+import linux_fundation_git from "./images/linux-fundation-git.jpg"
+import speex_b21 from "./images/speex-b21.jpg"
 import kafka from "./images/Kafka.jpg"
-
+import iot_arduino_basics from "./images/iot-arduino-basics.jpg"
 
 
 function Certificates() {
@@ -65,17 +68,38 @@ function Certificates() {
             <h2 className="flex-header-col border-right">Open source</h2>
 
             <td>
-              <img src={linux} alt="linux-certificate" className="responsive-image"></img>
-              <br />
+              <tr>
+                <td>
+                  <img src={linux} alt="linux-certificate" className="responsive-image"></img>
+                  <br />
+                </td>
+              </tr>
+
+              <tr>
+                <td>
+                  <img src={opensource} alt="opensource-certificate" className="responsive-image"></img>
+                  <br />
+                </td>
+              </tr>
+
             </td>
+
             <td>
-              <img src={opensource} alt="opensource-certificate" className="responsive-image"></img>
-              <br />
+                <tr className="flexbox-column">
+                  <td>
+                    <img src={linux_fundation_git} alt="git fundamentals from the linux fundation" className="responsive-image"/>
+                      <br />
+                  </td>
+                </tr>
+                <tr className="flexbox-column">
+
+                  <td>
+                    <img src={git_fundamentals} alt="git fundamentals" className="responsive-image"/>
+                    <br />
+                  </td>
+                </tr>
             </td>
-            <td>
-            <img src={git_fundamentals} alt="git fundamentals" className="responsive-image"/>
-              <br />
-            </td>
+
           </tr>
           <tr className="flexbox-column">
             <h2 className="flex-header-col border-right">Test automation</h2>
@@ -101,6 +125,15 @@ function Certificates() {
           </tr>
 
           <tr className="flexbox-column">
+            <h2 className="flex-header-col border-right">Internet of Things</h2>
+            <td>
+              <img src={iot_arduino_basics} alt="iot_arduino_basics" className="responsive-image"></img>
+              <br />
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr className="flexbox-column">
             <h2 className="flex-header-col border-right">Language</h2>
 
             <td>
@@ -108,11 +141,26 @@ function Certificates() {
               <br />
             </td>
             <td>
-              <img src={myes_advanced2} alt="MYES Advanced 2 Certificate" className="responsive-image"></img>
+              <img src={speex_b21} alt="Speex B2.1 Certificate" className="responsive-image"></img>
               <br />
             </td>
+            <td>
+              <tr clasName="flexbox-column">
+                <td>
+                  <img src={myes_advanced2} alt="MYES Advanced 2 Certificate" className="responsive-image"></img>
+                  <br />
+                </td>
 
+              </tr>
+              <tr>
+                <td>
+                  <img src={myes_advanced3} alt="MYES Advanced 3 Certificate" className="responsive-image"></img>
+                  <br />
+                </td>
+              </tr>
+            </td>
           </tr>
+
         </table>
       </div>
 
