@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/andreasestito/static/css/main.3ad6174d.css",
-    "main.js": "/andreasestito/static/js/main.8c563a3b.js",
+    "main.js": "/andreasestito/static/js/main.2d69fecb.js",
     "static/media/pappagallo.jpg": "/andreasestito/static/media/pappagallo.9b299d80e7c305c78e6f.jpg",
     "static/media/Progetto Reti Logiche.pdf": "/andreasestito/static/media/Progetto Reti Logiche.4a092bd3698e5f407def.pdf",
+    "static/media/iot-arduino-basics.jpg": "/andreasestito/static/media/iot-arduino-basics.dae841e8bb123515032a.jpg",
+    "static/media/linux-fundation-git.jpg": "/andreasestito/static/media/linux-fundation-git.5dad54c5e71ae0b3ab49.jpg",
     "static/media/aws-fundamentals.jpg": "/andreasestito/static/media/aws-fundamentals.505c8760caa263914ba2.jpg",
     "static/media/gcloud-fundamentals.jpg": "/andreasestito/static/media/gcloud-fundamentals.b9a26dbb3316c1da80e1.jpg",
     "static/media/FCE.jpg": "/andreasestito/static/media/FCE.7167cb40ae54fd339a1a.jpg",
@@ -23,6 +25,7 @@
     "static/media/speex-b21.jpg": "/andreasestito/static/media/speex-b21.769576b91b366c358cc5.jpg",
     "static/media/edX CS50x.png": "/andreasestito/static/media/edX CS50x.8339458834b45e35cca7.png",
     "static/media/myes-advanced2.jpg": "/andreasestito/static/media/myes-advanced2.0ba5a57b148f3532bb16.jpg",
+    "static/media/myes-advanced3.jpg": "/andreasestito/static/media/myes-advanced3.7f838f112c1f36e1543c.jpg",
     "static/media/polimi.png": "/andreasestito/static/media/polimi.d15aae1a8c4940522e08.png",
     "static/media/git-fundamentals.jpg": "/andreasestito/static/media/git-fundamentals.3083eeddf8ce94002808.jpg",
     "static/media/SpringBoot and Spring Cloud.jpg": "/andreasestito/static/media/SpringBoot and Spring Cloud.96e260bda06214b04769.jpg",
@@ -32,10 +35,10 @@
     "static/media/chat.svg": "/andreasestito/static/media/chat.d15d3f34fd11720720911790e045384f.svg",
     "index.html": "/andreasestito/index.html",
     "main.3ad6174d.css.map": "/andreasestito/static/css/main.3ad6174d.css.map",
-    "main.8c563a3b.js.map": "/andreasestito/static/js/main.8c563a3b.js.map"
+    "main.2d69fecb.js.map": "/andreasestito/static/js/main.2d69fecb.js.map"
   },
   "entrypoints": [
     "static/css/main.3ad6174d.css",
-    "static/js/main.8c563a3b.js"
+    "static/js/main.2d69fecb.js"
   ]
 }
