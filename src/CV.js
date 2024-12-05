@@ -17,7 +17,7 @@ function CV() {
 
     useWindowSize();
     function useWindowSize() {
-        const [size, setSize] = useState([0, 0]);
+        const [size, ] = useState([0, 0]);
         useLayoutEffect(() => {
           function updateSize() {
             if(window.innerWidth > 600) {
@@ -180,6 +180,7 @@ function CV() {
     <div className="content">
 
     <table>
+        <tbody>
         <tr className="flexbox-column">
             <td style={isDesktop ? {borderRight: "2px solid rgba(5, 5, 5, 0.06)"} : {}}>
                 <div className="section-90">
@@ -200,7 +201,7 @@ function CV() {
                     <Timeline mode={timelineMode} items={uliviItems} />
 
                 </div>
-                
+
             </td>
             <td>
                 <div className="section-90">
@@ -214,26 +215,31 @@ function CV() {
 
                 </div>
             </td>
-           
-        </tr>
-        <Divider/>
-        <tr>
-            <td>
-                <div className="section-50">
-                    <h1 >Courses</h1>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="20ac41c4-15cb-407e-b796-3465531e78ba" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6532de11-f049-4972-ab56-d99322549263" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5c541f53-9398-4f51-98ac-423b8fc9ae79" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1edcdbcc-9941-4d99-9610-ac98358f047a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6f23312d-eb7c-49a9-9bb1-d4ff017abcb7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>   
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="073fdb08-6131-471c-b7f7-aa791b9f70b9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c0a7ceed-8add-4af4-b538-9a9d9d3952ed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>  
-                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2401be49-fc85-4ddc-98e2-db71475d6756" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-                </div>
-            </td>
         </tr>
-        <tr><a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={curriculum_english}><h3><b>Download CV</b></h3></a></tr>
+        </tbody>
+        <Divider/>
+        <tbody>
+            <tr>
+                <td>
+                    <div className="section-50">
+                        <h1 >Courses</h1>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="20ac41c4-15cb-407e-b796-3465531e78ba" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6532de11-f049-4972-ab56-d99322549263" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="5c541f53-9398-4f51-98ac-423b8fc9ae79" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="1edcdbcc-9941-4d99-9610-ac98358f047a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="6f23312d-eb7c-49a9-9bb1-d4ff017abcb7" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="073fdb08-6131-471c-b7f7-aa791b9f70b9" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="c0a7ceed-8add-4af4-b538-9a9d9d3952ed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2401be49-fc85-4ddc-98e2-db71475d6756" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr><a style={{textDecoration: "underline"}} target="_blank" rel="noreferrer" className="nav-submenu" href={curriculum_english}><h3><b>Download CV</b></h3></a></tr>
+        </tbody>
       </table>
 
     </div>
