@@ -1,11 +1,20 @@
 const path = require('path');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: {
+        index: "./src/index.js",
+    },
     output: {
         filename: "./static/js/main.[contenthash].js",
         path: path.resolve(__dirname, "./build"),
     },
+    plugins: [
+        new MiniCssExtractPlugin({
+            filename: "./static/css/[name].[contenthash].css",
+            chunkFilename: "./static/css/[name].[id].[contenthash].css",
+        }),
+    ],
     module: {
         rules: [
             {
@@ -25,11 +34,7 @@ module.exports = {
             {
                 test: /\.s[ac]ss$/i,
                 exclude: /node_modules/,
-                use: [
-                    "style-loader",
-                    "css-loader",
-                    "sass-loader",
-                ],
+                use: [MiniCssExtractPlugin.loader, "css-loader"],
             },
 
         ]
