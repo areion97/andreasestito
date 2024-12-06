@@ -4,6 +4,8 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         filename: "main.[contenthash].js",
+        filename: "main.[contenthash].css",
+
         path: path.resolve(__dirname, "./build"),
     },
     module: {
