@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e45f376c2d597a57e10e.css",
+    "main.js": "/static/js/main.8ddfc3a101fcac9d222b.js",
+    "static/media/pappagallo.jpg": "/static/media/pappagallo.9b299d80e7c305c78e6f.jpg",
+    "static/media/Progetto Reti Logiche.pdf": "/static/media/Progetto Reti Logiche.4a092bd3698e5f407def.pdf",
+    "static/media/iot-arduino-basics.jpg": "/static/media/iot-arduino-basics.dae841e8bb123515032a.jpg",
+    "static/media/linux-fundation-git.jpg": "/static/media/linux-fundation-git.5dad54c5e71ae0b3ab49.jpg",
+    "static/media/aws-fundamentals.jpg": "/static/media/aws-fundamentals.505c8760caa263914ba2.jpg",
+    "static/media/gcloud-fundamentals.jpg": "/static/media/gcloud-fundamentals.b9a26dbb3316c1da80e1.jpg",
+    "static/media/FCE.jpg": "/static/media/FCE.7167cb40ae54fd339a1a.jpg",
+    "static/media/me.jpg": "/static/media/me.938cfee7b922c5291aeb.jpg",
+    "static/media/camicia.jpg": "/static/media/camicia.79ec992455c53ec3e608.jpg",
+    "static/media/Tesina Andrea Sestito.pdf": "/static/media/Tesina Andrea Sestito.879f5ae5a8688ea649cd.pdf",
+    "static/media/tesina.jpg": "/static/media/tesina.1426c8943b1b1ff2dbb8.jpg",
+    "static/media/Curriculum Andrea Sestito 5 - English.pdf": "/static/media/Curriculum Andrea Sestito 5 - English.4caef09d5c9437a219ff.pdf",
+    "static/media/IBM_Certificate.jpg": "/static/media/IBM_Certificate.90d4fa087b31432db713.jpg",
+    "static/media/linux-opensource.jpg": "/static/media/linux-opensource.556a3757580f0fb476cb.jpg",
+    "static/media/linux-for-developers.jpg": "/static/media/linux-for-developers.7d9f540959883f422f9a.jpg",
+    "static/media/instagram_logo.png": "/static/media/instagram_logo.ee4d774bc7caab103e21.png",
+    "static/media/Kafka.jpg": "/static/media/Kafka.fa59877f0c8cea35b4e8.jpg",
+    "static/media/garden-microsoft.jpg": "/static/media/garden-microsoft.f00619624c9fe12f3e7c.jpg",
+    "static/media/retilogiche.jpg": "/static/media/retilogiche.2750c7f82450f62d0398.jpg",
+    "static/media/ulivi.jpg": "/static/media/ulivi.d0d01605eb6ab45f57aa.jpg",
+    "static/media/speex-b21.jpg": "/static/media/speex-b21.769576b91b366c358cc5.jpg",
+    "static/media/edX CS50x.png": "/static/media/edX CS50x.8339458834b45e35cca7.png",
+    "static/media/myes-advanced2.jpg": "/static/media/myes-advanced2.0ba5a57b148f3532bb16.jpg",
+    "static/media/myes-advanced3.jpg": "/static/media/myes-advanced3.7f838f112c1f36e1543c.jpg",
+    "static/media/polimi.png": "/static/media/polimi.d15aae1a8c4940522e08.png",
+    "static/media/git-fundamentals.jpg": "/static/media/git-fundamentals.3083eeddf8ce94002808.jpg",
+    "static/media/SpringBoot and Spring Cloud.jpg": "/static/media/SpringBoot and Spring Cloud.96e260bda06214b04769.jpg",
+    "static/media/jmeter-pro.jpg": "/static/media/jmeter-pro.cd800ae6c84f64d00c98.jpg",
+    "static/media/jmeter-intro.jpg": "/static/media/jmeter-intro.24ade0662582ecb64550.jpg",
+    "static/media/logo-dedalus.png": "/static/media/logo-dedalus.582534abc70e209ac492.png",
+    "static/media/chat.svg": "/static/media/chat.d15d3f34fd11720720911790e045384f.svg",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.e45f376c2d597a57e10e.css",
+    "static/js/main.8ddfc3a101fcac9d222b.js"
+  ]
+}
