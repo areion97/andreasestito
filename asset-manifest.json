@@ -33,7 +33,9 @@
     "static/media/jmeter-intro.jpg": "/static/media/jmeter-intro.24ade0662582ecb64550.jpg",
     "static/media/logo-dedalus.png": "/static/media/logo-dedalus.582534abc70e209ac492.png",
     "static/media/chat.svg": "/static/media/chat.d15d3f34fd11720720911790e045384f.svg",
-    "index.html": "/index.html"
+    "index.html": "/index.html",
+    "main.fa346cc0.css.map": "/static/css/main.fa346cc0.css.map",
+    "main.c8b48976.js.map": "/static/js/main.c8b48976.js.map"
   },
   "entrypoints": [
     "static/css/main.e45f376c2d597a57e10e.css",
