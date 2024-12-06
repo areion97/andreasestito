@@ -11,8 +11,8 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "./static/css/[name].[contenthash].css",
-            chunkFilename: "./static/css/[name].[id].[contenthash].css",
+            filename: "./static/css/main.[contenthash].css",
+            chunkFilename: "./static/css/main.[id].[contenthash].css",
         }),
     ],
     module: {
