@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/andreasestito/static/css/main.e45f376c2d597a57e10e.css",
-    "main.js": "/nadreasestito/static/js/main.c8b48976.js",
+    "main.css": "/andreasestito/static/css/main.fa346cc0.css",
+    "main.js": "/andreasestito/static/js/main.c8b48976.js",
     "static/media/pappagallo.jpg": "/static/media/pappagallo.9b299d80e7c305c78e6f.jpg",
     "static/media/Progetto Reti Logiche.pdf": "/static/media/Progetto Reti Logiche.4a092bd3698e5f407def.pdf",
     "static/media/iot-arduino-basics.jpg": "/static/media/iot-arduino-basics.dae841e8bb123515032a.jpg",
@@ -38,7 +38,7 @@
     "main.c8b48976.js.map": "/static/js/main.c8b48976.js.map"
   },
   "entrypoints": [
-    "/andreasestito/static/css/main.e45f376c2d597a57e10e.css",
+    "/andreasestito/static/css/main.fa346cc0.css",
     "/andreasestito/static/js/main.c8b48976.js"
   ]
 }
