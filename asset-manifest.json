@@ -38,7 +38,7 @@
     "main.c8b48976.js.map": "/static/js/main.c8b48976.js.map"
   },
   "entrypoints": [
-    "static/css/main.e45f376c2d597a57e10e.css",
-    "static/js/main.8ddfc3a101fcac9d222b.js"
+    "/andreasestito/static/css/main.e45f376c2d597a57e10e.css",
+    "/andreasestito/static/js/main.8ddfc3a101fcac9d222b.js"
   ]
 }
