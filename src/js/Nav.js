@@ -27,35 +27,35 @@ function Nav() {
                     <tr>
                         <td>
                             <Button className="nav-btn" onClick={()=>setMenuStyle(menuBarHidden)}>
-                                <Link className="nav-link" to="/andreasestito"><h1>Home</h1></Link>
+                                <Link className="nav-link" to="/"><h1>Home</h1></Link>
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>
-                                <Link className="nav-link" to="/andreasestito/cv"><h1>Curriculum Vitae</h1></Link>
+                                <Link className="nav-link" to="/cv"><h1>Curriculum Vitae</h1></Link>
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>
-                                <Link className="nav-link" to="/andreasestito/certificates"><h1>Certificates</h1></Link>
+                                <Link className="nav-link" to="/certificates"><h1>Certificates</h1></Link>
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>
-                                <Link className="nav-link" to="/andreasestito/hobby"><h1>Hobby</h1></Link>
+                                <Link className="nav-link" to="/hobby"><h1>Hobby</h1></Link>
                             </Button>
                         </td>
                     </tr>
                     <tr>
                         <td>
                             <Button onClick={()=>setMenuStyle(menuBarHidden)}>
-                                <Link className="nav-link" to="/andreasestito/about"><h1>About</h1></Link>
+                                <Link className="nav-link" to="/about"><h1>About</h1></Link>
                             </Button>
                         </td>
                     </tr>

@@ -10,7 +10,7 @@ import Chat from './Chat'
 import Footer from './Footer';
 import Hobby from './Hobby';
 import '../css/global.scss'
-import { Route, Routes, BrowserRouter } from 'react-router-dom'
+import { Route, Routes, HashRouter } from 'react-router-dom'
 import { Toaster } from "react-hot-toast"
 
 const root = ReactDOM.createRoot(document.body);
@@ -21,19 +21,19 @@ root.render(
       <title>Andrea Sestito</title>
     </Helmet>
     <React.Fragment>
-    <BrowserRouter>
+    <HashRouter>
         <Nav/>
         <Toaster/>
         <Routes>
-          <Route path="/andreasestito" element={<Home />} />
-          <Route path="/andreasestito/cv" element={<CV />} />
-          <Route path="/andreasestito/certificates" element={<Certificates />} />
-          <Route path="/andreasestito/about" element={<About />} />
-          <Route path="/andreasestito/hobby" element={<Hobby />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/cv" element={<CV />} />
+          <Route path="/certificates" element={<Certificates />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/hobby" element={<Hobby />} />
         </Routes>
         <Footer />
         <Chat />
-      </BrowserRouter>
+      </HashRouter>
     </React.Fragment>
   </React.StrictMode>
 );
