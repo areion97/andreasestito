@@ -9,7 +9,7 @@ import About from './About';
 import Chat from './Chat'
 import Footer from './Footer';
 import Hobby from './Hobby';
-import '../src/css/global.scss'
+import '../css/global.scss'
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import { Toaster } from "react-hot-toast"
 

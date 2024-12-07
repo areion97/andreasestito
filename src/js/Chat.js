@@ -1,5 +1,5 @@
 import React from "react"
-import chat_svg from './images/chat.svg'
+import chat_svg from '../images/chat.svg'
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";

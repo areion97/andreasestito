@@ -1,4 +1,4 @@
-import garden_microsoft from "../src/images/garden-microsoft.jpg"
+import garden_microsoft from "../images/garden-microsoft.jpg"
 
 function Hobby() {
   return (

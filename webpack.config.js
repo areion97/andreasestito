@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        index: "./src/index.js",
+        index: "./src/js/index.js",
     },
     output: {
         filename: "./static/js/main.[contenthash].js",
@@ -21,33 +21,64 @@ module.exports = {
             filename: "./static/css/main.[contenthash].css",
             chunkFilename: "./static/css/main.[id].[contenthash].css",
         }),
+
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, "./public/index.html"),
+        }),
         new WebpackAssetsManifest({
             output: 'asset-manifest.json',
+            publicPath: true
         }),
-        new HtmlWebpackPlugin({
-            template: 'public/index.html'
+
+
+        new CopyPlugin({
+            patterns: [
+
+                {
+                    from: "src/files/",
+                    to: "static/media"
+                },
+                {
+                    from: "src/images/",
+                    to: "static/media"
+                },
+            ]
         })
+
+
     ],
     module: {
         rules: [
             {
                 test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
+                include: path.resolve(__dirname, "./src/js/"),
+                exclude: /src\/images|src\/files/,
                 use: { loader: 'babel-loader' },
 
             },
+
             {
                 test: /\.jpe?g$|\.gif$|\.png$|\.PNG$|\.svg$|\.woff(2)?$|\.ttf$|\.eot$|\.pdf$/,
                 exclude: /node_modules/,
-                loader: 'file-loader',
-                options: {
-                    name: './static/media/[name].[ext]'
-                }
+                use: {
+                    options: {
+                        name: './static/media/[name].[ext]'
+                    },
+                    loader: 'url-loader?limit=100000' },
+
+
             },
+
+
             {
                 test: /\.s[ac]ss$/i,
-                exclude: /node_modules/,
-                use: ["style-loader", "css-loader","sass-loader"],
+                exclude: /node_modules|src\/images|src\/files/,
+
+            use: [
+                "style-loader",
+                "css-loader",
+                "sass-loader",],
+
             },
 
         ]

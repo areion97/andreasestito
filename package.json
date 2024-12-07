@@ -18,6 +18,7 @@
     "@testing-library/user-event": "^14.5.2",
     "antd": "^5.22.3",
     "bootstrap": "^5.3.3",
+    "copy-webpack-plugin": "^12.0.2",
     "font-awesome": "^4.7.0",
     "gh-pages": "^6.2.0",
     "html-webpack-plugin": "^5.6.3",
@@ -30,7 +31,8 @@
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^4.2.4",
-    "webpack-assets-manifest": "^5.2.1"
+    "webpack-assets-manifest": "^5.2.1",
+    "url-loader": "^4.1.1"
   },
   "scripts": {
     "deploy": "gh-pages -b master -d build",
@@ -69,6 +71,7 @@
     "mini-css-extract-plugin": "^2.9.2",
     "sass": "^1.82.0",
     "sass-loader": "^16.0.4",
+    "url-loader": "^4.1.1",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   }

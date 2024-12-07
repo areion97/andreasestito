@@ -1,4 +1,4 @@
-import profile from "../src/images/me.jpg"
+import profile from "../images/me.jpg"
 
 function Home() {
   return (

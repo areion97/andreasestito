@@ -1,7 +1,7 @@
 import React from "react";
-import instagram_logo from "../src/images/instagram_logo.png"
-import linkedin_logo from "../src/images/linkedin-logo.png"
-import facebook_logo from "../src/images/fb-logo.png"
+import instagram_logo from "../images/instagram_logo.png"
+import linkedin_logo from "../images/linkedin-logo.png"
+import facebook_logo from "../images/fb-logo.png"
 
 function Footer(props) {
 
