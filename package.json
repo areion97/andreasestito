@@ -36,10 +36,8 @@
   },
   "scripts": {
     "deploy": "gh-pages -b master -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "webpack-build": "webpack",
-    "webpack-serve": "npx webpack && webpack-dev-server",
+    "start": "npx webpack && webpack-dev-server",
+    "build": "npx webpack && webpack-dev-server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
