@@ -13,11 +13,11 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-# Expose port 8080
-EXPOSE 8080
+# Expose port 3000
+EXPOSE 3000
 
 # Define environment variable
-ENV PORT=8080
+ENV PORT=3000
 
 # Command to run the app
 CMD ["npm", "start"]
