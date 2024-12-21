@@ -1,8 +1,8 @@
-import garden_microsoft from "../images/garden-microsoft.jpg"
+import garden_microsoft from '../images/garden-microsoft.jpg';
 
 function Hobby() {
   return (
-    <div style={{backgroundColor: "#961a36", width: "100%"}}>
+    <div style={{ backgroundColor: '#961a36', width: '100%' }}>
       <div className="content">
         <table>
           <tr className="flexbox-column">
@@ -20,4 +20,3 @@ function Hobby() {
 }
 
 export default Hobby;
-
