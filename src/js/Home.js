@@ -3,6 +3,7 @@ import profile from '../images/me.jpg';
 function Home() {
   return (
     <>
+    <div className="container">
       <div className="content">
         <div className="flexbox-column">
           <div
@@ -21,6 +22,7 @@ function Home() {
             </h3>
           </div>
         </div>
+      </div>
       </div>
     </>
   );

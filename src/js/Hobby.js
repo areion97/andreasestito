@@ -2,6 +2,7 @@ import garden_microsoft from '../images/garden-microsoft.jpg';
 
 function Hobby() {
   return (
+    <div className="container">
     <div style={{ backgroundColor: '#961a36', width: '100%' }}>
       <div className="content">
         <table>
@@ -15,6 +16,7 @@ function Hobby() {
           </tr>
         </table>
       </div>
+    </div>
     </div>
   );
 }

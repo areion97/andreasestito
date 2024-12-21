@@ -10,7 +10,7 @@ function Nav() {
   const [menuStyle, setMenuStyle] = useState(menuBarHidden);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
+    //window.scrollTo(0, 0);
   }, [menuStyle]);
 
   return (
