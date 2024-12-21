@@ -1,6 +1,6 @@
 {
   "index.html": "/index.html",
-  "index.js": "/static/js/main.8dc84df09ed5b8bd6b65.js",
+  "index.js": "/static/js/main.b5ff34ac64729ba16fb5.js",
   "static/media/CS50x.png": "/static/media/CS50x.png",
   "static/media/Curriculum Andrea Sestito 5 - English.pdf": "/static/media/Curriculum%20Andrea%20Sestito%205%20-%20English.pdf",
   "static/media/FCE.jpg": "/static/media/FCE.jpg",
@@ -21,6 +21,7 @@
   "static/media/garden-microsoft.jpg": "/static/media/garden-microsoft.jpg",
   "static/media/gcloud-fundamentals.jpg": "/static/media/gcloud-fundamentals.jpg",
   "static/media/git-fundamentals.jpg": "/static/media/git-fundamentals.jpg",
+  "static/media/github-mark.svg": "/static/media/github-mark.svg",
   "static/media/ibm-logo.png": "/static/media/ibm-logo.png",
   "static/media/instagram_logo.png": "/static/media/instagram_logo.png",
   "static/media/iot-arduino-basics.jpg": "/static/media/iot-arduino-basics.jpg",
