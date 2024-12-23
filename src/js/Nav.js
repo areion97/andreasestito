@@ -3,9 +3,10 @@ import Button from '@mui/material/Button';
 import { useEffect, useState } from 'react';
 import { CgMenu } from 'react-icons/cg';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
+import styles from '../css/nav.module.scss';
 
 function Nav() {
-  const menuBarHidden = { visibility: 'hidden', height: '30px' };
+  const menuBarHidden = { visibility: 'hidden', height: '9px' };
   const menuBarVisible = { visibility: 'visible', animation: 'fadeIn 1.5s' };
 
   const [menuStyle, setMenuStyle] = useState(menuBarHidden);
@@ -26,8 +27,8 @@ function Nav() {
   }, [menuStyle, darkMode]);
 
   return (
-    <nav className="nav">
-      <div className="menu-icon">
+    <nav className={styles.nav}>
+      <div className={styles.menuIcon}>
         <Button
           style={{ color: 'white' }}
           onClick={() =>
@@ -44,16 +45,16 @@ function Nav() {
           {darkMode ? <BsFillSunFill /> : <BsFillMoonFill />}
         </Button>
       </div>
-      <div style={menuStyle} className="dropdown-menu">
-        <table className="menu-list">
+      <div style={menuStyle} className={styles.dropdownMenu}>
+        <table className={styles.menuList}>
           <tr>
             <td>
               <Button
-                className="nav-btn"
+                className={styles.navBtn}
                 onClick={() => setMenuStyle(menuBarHidden)}
               >
-                <Link className="nav-link" to="/">
-                  <h1>Home</h1>
+                <Link className={styles.navLink} to="/">
+                  <h1 className={styles.navH1}>Home</h1>
                 </Link>
               </Button>
             </td>
@@ -61,8 +62,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className="nav-link" to="/cv">
-                  <h1>Curriculum Vitae</h1>
+                <Link className={styles.navLink} to="/cv">
+                  <h1 className={styles.navH1}>Curriculum Vitae</h1>
                 </Link>
               </Button>
             </td>
@@ -70,8 +71,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className="nav-link" to="/certificates">
-                  <h1>Certificates</h1>
+                <Link className={styles.navLink} to="/certificates">
+                  <h1 className={styles.navH1}>Certificates</h1>
                 </Link>
               </Button>
             </td>
@@ -79,8 +80,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className="nav-link" to="/hobby">
-                  <h1>Hobby</h1>
+                <Link className={styles.navLink} to="/hobby">
+                  <h1 className={styles.navH1}>Hobby</h1>
                 </Link>
               </Button>
             </td>
@@ -88,8 +89,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className="nav-link" to="/about">
-                  <h1>About</h1>
+                <Link className={styles.navLink} to="/about">
+                  <h1 className={styles.navH1}>About</h1>
                 </Link>
               </Button>
             </td>
