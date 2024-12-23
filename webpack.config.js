@@ -40,6 +40,10 @@ module.exports = {
           from: 'src/images/',
           to: 'static/media',
         },
+        {
+          from: 'src/css/',
+          to: 'static/css',
+        },
       ],
     }),
   ],

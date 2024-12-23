@@ -9,7 +9,6 @@ import Chat from './Chat';
 import Footer from './Footer';
 import Hobby from './Hobby';
 import { Toaster } from 'react-hot-toast';
-import '../css/global.scss';
 
 function App() {
   return (
