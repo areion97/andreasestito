@@ -9,11 +9,11 @@ import Chat from './Chat';
 import Footer from './Footer';
 import Hobby from './Hobby';
 import { Toaster } from 'react-hot-toast';
-
-function App() {
+import PropTypes from 'prop-types';
+function App({ darkMode, setDarkMode }) {
   return (
     <HashRouter>
-      <Nav />
+      <Nav darkMode={darkMode} setDarkMode={setDarkMode} />
       <Toaster />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,5 +27,9 @@ function App() {
     </HashRouter>
   );
 }
+App.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+  setDarkMode: PropTypes.func.isRequired,
+};
 
 export default App;

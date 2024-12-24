@@ -1,34 +1,25 @@
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { CgMenu } from 'react-icons/cg';
 import { BsFillMoonFill, BsFillSunFill } from 'react-icons/bs';
-import styles from '../css/nav.module.scss';
+import PropTypes from 'prop-types';
 
-function Nav() {
+function Nav({ setDarkMode, darkMode }) {
   const menuBarHidden = { visibility: 'hidden', height: '9px' };
   const menuBarVisible = { visibility: 'visible', animation: 'fadeIn 1.5s' };
 
   const [menuStyle, setMenuStyle] = useState(menuBarHidden);
-  const [darkMode, setDarkMode] = useState(() => {
-    const savedMode = localStorage.getItem('darkMode');
-    return savedMode ? JSON.parse(savedMode) : false;
-  });
 
   const toggleDarkMode = () => {
     const newMode = !darkMode;
     setDarkMode(newMode);
     localStorage.setItem('darkMode', JSON.stringify(newMode));
-    document.body.className = newMode ? 'dark-mode' : '';
   };
 
-  useEffect(() => {
-    document.body.className = darkMode ? 'dark-mode' : '';
-  }, [menuStyle, darkMode]);
-
   return (
-    <nav className={styles.nav}>
-      <div className={styles.menuIcon}>
+    <nav className="nav">
+      <div className="menuIcon">
         <Button
           style={{ color: 'white' }}
           onClick={() =>
@@ -45,16 +36,16 @@ function Nav() {
           {darkMode ? <BsFillSunFill /> : <BsFillMoonFill />}
         </Button>
       </div>
-      <div style={menuStyle} className={styles.dropdownMenu}>
-        <table className={styles.menuList}>
+      <div style={menuStyle} className="dropdownMenu">
+        <table className="menuList">
           <tr>
             <td>
               <Button
-                className={styles.navBtn}
+                className="navBtn"
                 onClick={() => setMenuStyle(menuBarHidden)}
               >
-                <Link className={styles.navLink} to="/">
-                  <h1 className={styles.navH1}>Home</h1>
+                <Link className="navLink" to="/">
+                  <h1 className="navH1">Home</h1>
                 </Link>
               </Button>
             </td>
@@ -62,8 +53,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className={styles.navLink} to="/cv">
-                  <h1 className={styles.navH1}>Curriculum Vitae</h1>
+                <Link className="navLink" to="/cv">
+                  <h1 className="navH1">Curriculum Vitae</h1>
                 </Link>
               </Button>
             </td>
@@ -71,8 +62,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className={styles.navLink} to="/certificates">
-                  <h1 className={styles.navH1}>Certificates</h1>
+                <Link className="navLink" to="/certificates">
+                  <h1 className="navH1">Certificates</h1>
                 </Link>
               </Button>
             </td>
@@ -80,8 +71,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className={styles.navLink} to="/hobby">
-                  <h1 className={styles.navH1}>Hobby</h1>
+                <Link className="navLink" to="/hobby">
+                  <h1 className="navH1">Hobby</h1>
                 </Link>
               </Button>
             </td>
@@ -89,8 +80,8 @@ function Nav() {
           <tr>
             <td>
               <Button onClick={() => setMenuStyle(menuBarHidden)}>
-                <Link className={styles.navLink} to="/about">
-                  <h1 className={styles.navH1}>About</h1>
+                <Link className="navLink" to="/about">
+                  <h1 className="navH1">About</h1>
                 </Link>
               </Button>
             </td>
@@ -100,5 +91,10 @@ function Nav() {
     </nav>
   );
 }
+
+Nav.propTypes = {
+  setDarkMode: PropTypes.func.isRequired,
+  darkMode: PropTypes.bool.isRequired,
+};
 
 export default Nav;

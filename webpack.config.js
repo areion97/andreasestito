@@ -71,7 +71,7 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         exclude: /node_modules|src\/images|src\/files/,
 
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        use: ['css-loader'],
       },
     ],
   },
