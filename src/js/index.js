@@ -26,7 +26,7 @@ export const ThemeSelector = ({ children }) => {
 
     const linkGlobal = createLink('global');
     document.head.appendChild(linkGlobal);
-    
+
     const linkHome = createLink('home.module');
     document.head.appendChild(linkHome);
 
