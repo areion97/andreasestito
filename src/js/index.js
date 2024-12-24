@@ -10,26 +10,30 @@ export const ThemeSelector = ({ children }) => {
     return savedMode ? JSON.parse(savedMode) : false;
   });
 
-  useEffect(() => {
+  const createLink = (cssName) => {
     const linkNav = document.createElement('link');
     linkNav.rel = 'stylesheet';
     linkNav.type = 'text/css';
     linkNav.href = darkMode
-      ? './andreasestito/static/css/nav.module-dark.css'
-      : './andreasestito/static/css/nav.module.css';
+      ? `./andreasestito/static/css/${cssName}-dark.css`
+      : `./andreasestito/static/css/${cssName}.css`;
+    return linkNav;
+  };
+
+  useEffect(() => {
+    const linkNav = createLink('nav.module');
     document.head.appendChild(linkNav);
 
-    const linkGlobal = document.createElement('link');
-    linkGlobal.rel = 'stylesheet';
-    linkGlobal.type = 'text/css';
-    linkGlobal.href = darkMode
-      ? './andreasestito/static/css/global-dark.css'
-      : './andreasestito/static/css/global.css';
+    const linkGlobal = createLink('global');
     document.head.appendChild(linkGlobal);
+    
+    const linkHome = createLink('home.module');
+    document.head.appendChild(linkHome);
 
     return () => {
       document.head.removeChild(linkNav);
       document.head.removeChild(linkGlobal);
+      document.head.removeChild(linkHome);
     };
   }, [darkMode]);
 
