@@ -16,6 +16,7 @@ import speex_b21 from '../images/speex-b21.jpg';
 import kafka from '../images/Kafka.jpg';
 import iot_arduino_basics from '../images/iot-arduino-basics.jpg';
 import linux_foundation_specialization from '../images/TheLinuxFoundationProfessionalCertificate.jpg';
+import myes_expert1 from '../images/myes-expert1.jpg';
 
 function Certificates() {
   return (
@@ -194,8 +195,18 @@ function Certificates() {
                     <br />
                   </td>
                 </tr>
-              </td>
+              </td>        
             </tr>
+            <tr>
+                  <td>
+                    <img
+                      src={myes_expert1}
+                      alt="MYES Expert 1 Certificate"
+                      className="responsive-image"
+                    ></img>
+                    <br />
+                  </td>
+                </tr>
           </table>
         </div>
       </div>
