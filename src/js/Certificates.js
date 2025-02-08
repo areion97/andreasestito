@@ -15,6 +15,7 @@ import linux_fundation_git from '../images/linux-fundation-git.jpg';
 import speex_b21 from '../images/speex-b21.jpg';
 import kafka from '../images/Kafka.jpg';
 import iot_arduino_basics from '../images/iot-arduino-basics.jpg';
+import linux_foundation_specialization from '../images/TheLinuxFoundationProfessionalCertificate.jpg';
 
 function Certificates() {
   return (
@@ -84,45 +85,19 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Open source</h2>
 
               <td>
-                <tr>
-                  <td>
-                    <img
-                      src={linux}
-                      alt="linux-certificate"
-                      className="responsive-image"
-                    ></img>
-                    <br />
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <img
-                      src={opensource}
-                      alt="opensource-certificate"
-                      className="responsive-image"
-                    ></img>
-                    <br />
-                  </td>
-                </tr>
-              </td>
-
-              <td>
-                <tr className="flexbox-column">
-                  <td>
-                    <img
-                      src={linux_fundation_git}
-                      alt="git fundamentals from the linux fundation"
-                      className="responsive-image"
-                    />
-                    <br />
-                  </td>
-                </tr>
                 <tr className="flexbox-column">
                   <td>
                     <img
                       src={git_fundamentals}
                       alt="git fundamentals"
+                      className="responsive-image"
+                    />
+                    <br />
+                  </td>
+                  <td>
+                    <img
+                      src={linux_foundation_specialization}
+                      alt="linux foundation specialization"
                       className="responsive-image"
                     />
                     <br />
