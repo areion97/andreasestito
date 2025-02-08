@@ -195,18 +195,18 @@ function Certificates() {
                     <br />
                   </td>
                 </tr>
-              </td>        
+              </td>
             </tr>
             <tr>
-                  <td>
-                    <img
-                      src={myes_expert1}
-                      alt="MYES Expert 1 Certificate"
-                      className="responsive-image"
-                    ></img>
-                    <br />
-                  </td>
-                </tr>
+              <td>
+                <img
+                  src={myes_expert1}
+                  alt="MYES Expert 1 Certificate"
+                  className="responsive-image"
+                ></img>
+                <br />
+              </td>
+            </tr>
           </table>
         </div>
       </div>
