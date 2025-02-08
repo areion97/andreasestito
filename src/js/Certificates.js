@@ -196,8 +196,6 @@ function Certificates() {
                   </td>
                 </tr>
               </td>
-            </tr>
-            <tr>
               <td>
                 <img
                   src={myes_expert1}
@@ -206,6 +204,9 @@ function Certificates() {
                 ></img>
                 <br />
               </td>
+            </tr>
+            <tr>
+
             </tr>
           </table>
         </div>
