@@ -1,40 +1,57 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import { Helmet } from 'react-helmet'
-import CV from './CV'
-import Nav from './Nav';
-import Home from './Home';
-import Certificates from './Certificates';
-import About from './About';
-import Chat from './Chat'
-import Footer from './Footer';
-import Hobby from './Hobby';
-import '../css/global.scss'
-import { Route, Routes, HashRouter } from 'react-router-dom'
-import { Toaster } from "react-hot-toast"
+import App from './App';
+import PropTypes from 'prop-types';
 
-const root = ReactDOM.createRoot(document.body);
+export const ThemeSelector = ({ children }) => {
+  const [darkMode, setDarkMode] = useState(() => {
+    // Retrieve the initial state from localStorage
+    const savedMode = localStorage.getItem('darkMode');
+    return savedMode ? JSON.parse(savedMode) : false;
+  });
+
+  const createLink = (cssName) => {
+    const linkNav = document.createElement('link');
+    linkNav.rel = 'stylesheet';
+    linkNav.type = 'text/css';
+    linkNav.href = darkMode
+      ? `./andreasestito/static/css/${cssName}-dark.css`
+      : `./andreasestito/static/css/${cssName}.css`;
+    return linkNav;
+  };
+
+  useEffect(() => {
+    const linkNav = createLink('nav.module');
+    document.head.appendChild(linkNav);
+
+    const linkGlobal = createLink('global');
+    document.head.appendChild(linkGlobal);
+
+    const linkHome = createLink('home.module');
+    document.head.appendChild(linkHome);
+
+    return () => {
+      document.head.removeChild(linkNav);
+      document.head.removeChild(linkGlobal);
+      document.head.removeChild(linkHome);
+    };
+  }, [darkMode]);
+
+  return <>{children(darkMode, setDarkMode)}</>;
+};
+
+ThemeSelector.propTypes = {
+  children: PropTypes.func.isRequired,
+};
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <Helmet>
-      <title>Andrea Sestito</title>
-    </Helmet>
-    <React.Fragment>
-    <HashRouter>
-        <Nav/>
-        <Toaster/>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cv" element={<CV />} />
-          <Route path="/certificates" element={<Certificates />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/hobby" element={<Hobby />} />
-        </Routes>
-        <Footer />
-        <Chat />
-      </HashRouter>
-    </React.Fragment>
+    <ThemeSelector>
+      {(darkMode, setDarkMode) => (
+        <App darkMode={darkMode} setDarkMode={setDarkMode} />
+      )}
+    </ThemeSelector>
   </React.StrictMode>
 );
-
