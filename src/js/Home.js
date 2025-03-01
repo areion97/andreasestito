@@ -7,11 +7,14 @@ function Home() {
     <div className="container">
       <Card>
         <div className="profileSection">
-          <img alt="me" src={profile} className="profileImage"></img>
+          <img width={250} height={600}alt="me" src={profile} className="profileImage"></img>
         </div>
         <div className="introductionText">
-          My name is Andrea and I am from Parma, Italy. I created this website
+          <h2>
+          💻🏋🏻‍♂️🚗📷🎸<br /><br />
+          My name is Andrea and I am from Parma, Italy. <br /> I created this website
           to introduce what are my main hobbies and passions.
+          </h2>
           <br />
           <br />
         </div>

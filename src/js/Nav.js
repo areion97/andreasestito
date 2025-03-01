@@ -14,7 +14,8 @@ function Nav({ setDarkMode, darkMode }) {
   const toggleDarkMode = () => {
     const newMode = !darkMode;
     setDarkMode(newMode);
-    localStorage.setItem('darkMode', JSON.stringify(newMode));
+    localStorage.setItem('darkMode', JSON.stringify(newMode))
+    
   };
 
   return (

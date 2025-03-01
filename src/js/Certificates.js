@@ -205,9 +205,7 @@ function Certificates() {
                 <br />
               </td>
             </tr>
-            <tr>
-
-            </tr>
+            <tr></tr>
           </table>
         </div>
       </div>

@@ -32,7 +32,8 @@
     "react-scripts": "5.0.1",
     "url-loader": "^4.1.1",
     "web-vitals": "^4.2.4",
-    "webpack-assets-manifest": "^5.2.1"
+    "webpack-assets-manifest": "^5.2.1",
+    "yarn": "^1.22.22"
   },
   "scripts": {
     "deploy": "gh-pages -b master -d build",

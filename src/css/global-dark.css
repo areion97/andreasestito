@@ -8,11 +8,11 @@
 }
 
 .ant-timeline .ant-timeline-item-head {
-  background-color: #2c3e50;
+  background-color: #ecf0f1;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: white;
+  color: #34495e;
   margin: 0.5em 0;
 }
 
@@ -37,7 +37,7 @@ a:hover {
 }
 
 button {
-  background-color: #2c3e50;
+  background-color: #8e44ad;
   color: #fff;
   border: none;
   padding: 0.5em 1em;
@@ -45,7 +45,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background-color: #2c3e50;
+  background-color: #732d91;
 }
 
 input, textarea {
@@ -67,8 +67,9 @@ html, body {
   align-content: stretch;
   flex-wrap: wrap;
   font-family: 'Arial, sans-serif';
-  background-color: #2c3e50;
-  color: #2c3e50;
+  background-color: #121212;
+  color: white;
+}
 
 .ant-timeline > li {
   transform: scale(1);
@@ -170,12 +171,12 @@ td {
 
 .section, .section-50, .section-33, .section-90, .section-80 {
   h1 {
-    background-color: #444; /* Changed from #555 */
+    background-color: rgba(253, 220, 200, .7);
     padding: 10px;
     text-align: center;
     margin-top: 40px !important;
     margin-bottom: 40px !important;
-    color: white;
+    color: black;
     margin: auto;
     border-radius: 10px;
     position: relative;
@@ -232,9 +233,8 @@ td {
   float: left;
 }
 
-
 footer {
-  background-color: #444; /* Changed from rgb(200, 226, 253) */
+  background-color: rgb(200, 226, 253);
   padding: 5px;
   z-index: 1000;
   width: 100%;
@@ -243,13 +243,13 @@ footer {
 }
 
 .nav-link {
-  color: white;
+  color: black;
   width: 100%;
   text-decoration: none;
 }
 
 .nav-submenu {
-  color: white;
+  color: black;
 }
 
 body {
@@ -263,7 +263,7 @@ body {
 
 h3 {
   font-weight: normal;
-  color: white;
+  color: #555555;
   font-size: 18px;
 }
 
@@ -281,7 +281,7 @@ h3 {
   }
 
   label, h2 {
-    color: #2c3e50;
+    color: white;
   }
 
   input, textarea {
@@ -312,7 +312,7 @@ table {
   }
   .border-right {
     padding: 50px;
-    border-right: 1px solid white;
+    border-right: 1px solid black;
   }
 
   .modal {

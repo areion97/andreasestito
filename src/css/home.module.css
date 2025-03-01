@@ -1,49 +1,32 @@
 .container {
-  max-width: 1400px; /* Increase max-width */
-  margin: auto; /* Center the container */
-  padding: 30px 20px 20px; /* Increase padding */
-  background-color: #4ca1af;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center; /* Center content vertically */
+  margin-top: 100px;
 }
 
-.content, .card {
-  display: flex;
-  flex-direction: row; /* Change to row layout */
-  align-items: flex-start; /* Align items to the top */
-  justify-content: flex-start; /* Align items to the left */
-  flex-grow: 1; /* Allow content to grow */
-}
-
-.section {
-  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  padding: 10px;
-  background-color: white;
-  border-radius: 10px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .profileSection {
   margin-right: 20px; /* Add margin to the right */
   max-width: 250px; /* Set max width */
   overflow: hidden;
+  padding: 20px;
   flex-direction: column; /* Change to column layout */
   align-items: flex-start; /* Align items to the top */
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 .card {
-  background: linear-gradient(135deg, #2c3e50, #4ca1af 70%, #4ca1af 100%); /* Adjust gradient to fade into #4ca1af */
+  background: linear-gradient(135deg, #2c3e50, rgb(0, 128, 128) 70%, rgb(0, 128, 128) 100%); /* Adjust gradient to fade into #4ca1af */
   background-size: cover;
   background-position: center;
   padding: 20px 0; /* Adjust padding */
   padding-top: 20px; /* Adjust padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  margin: auto; /* Center the card within the container */
 }
 
 .profileImage {
@@ -54,33 +37,14 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.section50 {
-  text-align: left; /* Align text to the left */
-  color: #ffffff;
-  width: calc(100% - 290px); /* Adjust width to fit next to profile image */
-}
-
-.introductionSection {
-  padding: 10px; /* Adjust padding */
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-}
-
-h1 {
-  font-size: 2.5em;
-  color: #ffffff;
-  background-color: rgba(44, 62, 80, 0.8); /* Add background color */
-  padding: 10px; /* Add padding for better spacing */
-  border-radius: 5px;
-}
-
-h3 {
-  font-size: 1.5em;
-}
 
 .introductionText {
+  margin: auto;
   color: #ffffff;
-  margin-left: 20px; /* Move text to the right of the image */
+}
+
+.introductionText > h2 {
+  color: #ffffff;
 }
 
 .cardContent {
@@ -89,35 +53,8 @@ h3 {
   align-items: flex-start;
 }
 
-.section h1 {
-  background-color: rgba(240, 240, 240, 0.7); /* Change background color */
-}
+
 
 @media (max-width: 768px) {
-  .card {
-    flex-direction: column; /* Change to column layout on small screens */
-    align-items: center; /* Center items */
-  }
-
-  .section {
-    width: 100%; /* Make sections full width on small screens */
-    margin: 10px 0; /* Adjust margin */
-  }
-
-  .section50 {
-    width: 100%; /* Make introduction section full width on small screens */
-    text-align: center; /* Center text */
-  }
-
-  .profileImage {
-    max-width: 250px; /* Adjust max width for small screens */
-  }
-
-  h1 {
-    font-size: 2em; /* Adjust font size */
-  }
-
-  h3 {
-    font-size: 1.2em; /* Adjust font size */
-  }
+ 
 }
