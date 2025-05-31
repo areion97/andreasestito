@@ -29,8 +29,8 @@ a:hover {
   max-width: 1200px;
   padding: 0.5em;
   margin: 0 auto;
-  background-color: #fff;
-  border: 1px solid white;
+  background-color: #121212;
+  border: 1px solid #121212;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: fadeIn 0.5s ease-in-out;
@@ -241,7 +241,9 @@ footer {
   bottom: 0;
   position: fixed;
 }
-
+.navLink {
+  width: 100%;
+}
 .nav-submenu {
   color: white;
 }
@@ -316,6 +318,11 @@ table {
     right: 7vw;
     bottom: 150px;
   }
+  .flex-image {
+    width: inherit;
+    margin: auto;
+  }
+
 }
 
 @media (max-width: 600px) {
@@ -325,12 +332,11 @@ table {
     margin: 0 auto !important;
     overflow-x: hidden;
   }
-
-  .background {
-    height: 100%;
-  }
   .flex-image {
     width: inherit;
+  }
+  .background {
+    height: 100%;
   }
 
   .modal {
@@ -364,5 +370,10 @@ table {
   h1, h2, h3, .title, .paragraph {
     width: auto !important;
     justify-content: center;
+  }
+
+
+  .profileSection {
+    width: 100%;
   }
 }

@@ -5,7 +5,6 @@ import Card from './Card';
 function Home() {
   return (
     <div className="container">
-      <Card>
         <div className="profileSection">
           <img
             width={250}
@@ -28,7 +27,6 @@ function Home() {
           <br />
           <br />
         </div>
-      </Card>
     </div>
   );
 }

@@ -7,7 +7,7 @@ import { LoadingOutlined } from '@ant-design/icons';
 import tesina from '../images/tesina.jpg';
 import retilogiche from '../images/retilogiche.jpg';
 import tesina_superiori from '../files/Tesina Andrea Sestito.pdf';
-import curriculum_english from '../files/Curriculum Andrea Sestito 5 - English.pdf';
+import curriculum_english from '../files/CurriculumAndrea-Sestito-5inEnglish.pdf';
 import progetto_vhdl from '../files/Progetto Reti Logiche.pdf';
 
 import { useEffect, useState, useLayoutEffect } from 'react';
@@ -34,6 +34,23 @@ function CV() {
     }, []);
     return size;
   }
+
+function downloadFile(fileContent, fileName, contentType) {
+ const blob = fileContent instanceof Blob
+    ? fileContent
+    : new Blob([fileContent], { type: contentType });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = fileContent
+  a.download = fileName;
+  a.click();
+
+  URL.revokeObjectURL(url); // clean up
+}
+
+
+
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -446,17 +463,13 @@ function CV() {
           </tbody>
           <tbody>
             <tr>
-              <a
+              <button
                 style={{ textDecoration: 'underline' }}
-                target="_blank"
-                rel="noreferrer"
                 className="nav-submenu"
-                href={curriculum_english}
+                onClick={() =>downloadFile(curriculum_english, 'CurriculumAndrea-Sestito-5inEnglish.pdf', 'application/pdf')}
               >
-                <h3>
-                  <b>Download CV</b>
-                </h3>
-              </a>
+                <b>Download CV</b>
+              </button>
             </tr>
           </tbody>
         </table>
