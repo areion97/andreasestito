@@ -242,12 +242,9 @@ footer {
   position: fixed;
 }
 
-.nav-link {
-  color: black;
+.navLink {
   width: 100%;
-  text-decoration: none;
 }
-
 .nav-submenu {
   color: black;
 }
