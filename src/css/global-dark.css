@@ -12,7 +12,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #34495e;
+  color: white;
   margin: 0.5em 0;
 }
 
@@ -30,7 +30,7 @@ a:hover {
   padding: 0.5em;
   margin: 0 auto;
   background-color: #fff;
-  border: 1px solid #bdc3c7;
+  border: 1px solid white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   animation: fadeIn 0.5s ease-in-out;
@@ -176,7 +176,7 @@ td {
     text-align: center;
     margin-top: 40px !important;
     margin-bottom: 40px !important;
-    color: black;
+    color: white;
     margin: auto;
     border-radius: 10px;
     position: relative;
@@ -243,13 +243,13 @@ footer {
 }
 
 .nav-link {
-  color: black;
+  color: white;
   width: 100%;
   text-decoration: none;
 }
 
 .nav-submenu {
-  color: black;
+  color: white;
 }
 
 body {
@@ -263,7 +263,7 @@ body {
 
 h3 {
   font-weight: normal;
-  color: #555555;
+  color: white;
   font-size: 18px;
 }
 
@@ -312,7 +312,7 @@ table {
   }
   .border-right {
     padding: 50px;
-    border-right: 1px solid black;
+    border-right: 1px solid white;
   }
 
   .modal {

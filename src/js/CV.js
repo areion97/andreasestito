@@ -294,9 +294,10 @@ function CV() {
             <tr className="flexbox-column">
               <td
                 style={
-                  isDesktop
+                  isDesktop ? (localStorage.getItem('darkMode') === 'false'
                     ? { borderRight: '2px solid rgba(5, 5, 5, 0.06)' }
-                    : {}
+                    : { borderRight: '2px solid white' }
+                  ) : {}
                 }
               >
                 <div className="section-90">
