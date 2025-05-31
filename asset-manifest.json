@@ -1,12 +1,6 @@
 {
   "index.html": "/index.html",
   "index.js": "/static/js/main.f62bfc60b9de411de0c6.js",
-  "static/css/global-dark.css": "/static/css/global-dark.css",
-  "static/css/global.css": "/static/css/global.css",
-  "static/css/home.module-dark.css": "/static/css/home.module-dark.css",
-  "static/css/home.module.css": "/static/css/home.module.css",
-  "static/css/nav.module-dark.css": "/static/css/nav.module-dark.css",
-  "static/css/nav.module.css": "/static/css/nav.module.css",
   "static/media/CS50x.png": "/static/media/CS50x.png",
   "static/media/CurriculumAndrea-Sestito-5inEnglish.pdf": "/static/media/CurriculumAndrea-Sestito-5inEnglish.pdf",
   "static/media/FCE.jpg": "/static/media/FCE.jpg",
