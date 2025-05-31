@@ -35,22 +35,20 @@ function CV() {
     return size;
   }
 
-function downloadFile(fileContent, fileName, contentType) {
- const blob = fileContent instanceof Blob
-    ? fileContent
-    : new Blob([fileContent], { type: contentType });
-  const url = URL.createObjectURL(blob);
+  function downloadFile(fileContent, fileName, contentType) {
+    const blob =
+      fileContent instanceof Blob
+        ? fileContent
+        : new Blob([fileContent], { type: contentType });
+    const url = URL.createObjectURL(blob);
 
-  const a = document.createElement("a");
-  a.href = fileContent
-  a.download = fileName;
-  a.click();
+    const a = document.createElement('a');
+    a.href = fileContent;
+    a.download = fileName;
+    a.click();
 
-  URL.revokeObjectURL(url); // clean up
-}
-
-
-
+    URL.revokeObjectURL(url); // clean up
+  }
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -311,10 +309,11 @@ function downloadFile(fileContent, fileName, contentType) {
             <tr className="flexbox-column">
               <td
                 style={
-                  isDesktop ? (localStorage.getItem('darkMode') === 'false'
-                    ? { borderRight: '2px solid rgba(5, 5, 5, 0.06)' }
-                    : { borderRight: '2px solid white' }
-                  ) : {}
+                  isDesktop
+                    ? localStorage.getItem('darkMode') === 'false'
+                      ? { borderRight: '2px solid rgba(5, 5, 5, 0.06)' }
+                      : { borderRight: '2px solid white' }
+                    : {}
                 }
               >
                 <div className="section-90">
@@ -466,7 +465,13 @@ function downloadFile(fileContent, fileName, contentType) {
               <button
                 style={{ textDecoration: 'underline' }}
                 className="nav-submenu"
-                onClick={() =>downloadFile(curriculum_english, 'CurriculumAndrea-Sestito-5inEnglish.pdf', 'application/pdf')}
+                onClick={() =>
+                  downloadFile(
+                    curriculum_english,
+                    'CurriculumAndrea-Sestito-5inEnglish.pdf',
+                    'application/pdf'
+                  )
+                }
               >
                 <b>Download CV</b>
               </button>
