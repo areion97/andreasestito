@@ -25,7 +25,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './public/index.html'),
     }),
-    
+
     new WebpackAssetsManifest({
       output: 'asset-manifest.json',
       publicPath: true,
@@ -69,9 +69,8 @@ module.exports = {
       },
 
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.css$/i,
         exclude: /node_modules|src\/images|src\/files/,
-
         use: ['css-loader'],
       },
     ],
