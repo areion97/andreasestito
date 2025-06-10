@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import PropTypes from 'prop-types';
 
+import '../css/nav.module.css';
+import '../css/global.css';
+import '../css/home.module.css';
+import '../css/nav.module-dark.css';
+import '../css/global-dark.css';
+import '../css/home.module-dark.css';
+
 export const ThemeSelector = ({ children }) => {
   const [darkMode, setDarkMode] = useState(() => {
     // Retrieve the initial state from localStorage

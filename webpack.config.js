@@ -1,9 +1,10 @@
 const path = require('path');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { WebpackAssetsManifest } = require('webpack-assets-manifest');
 const CopyPlugin = require('copy-webpack-plugin');
-
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const loader = require('sass-loader');
 
 module.exports = {
   mode: 'development',
@@ -18,8 +19,8 @@ module.exports = {
   },
   plugins: [
     new MiniCssExtractPlugin({
-      filename: './static/css/main.[contenthash].css',
-      chunkFilename: './static/css/main.[id].[contenthash].css',
+      filename: 'static/css/main.[contenthash].css',
+      chunkFilename: 'static/css/main.[id].[contenthash].css',
     }),
 
     new HtmlWebpackPlugin({
@@ -30,7 +31,16 @@ module.exports = {
       output: 'asset-manifest.json',
       publicPath: true,
     }),
-
+    new WebpackManifestPlugin({
+        fileName: 'manifest.json', // The output manifest file
+        publicPath: '/andreasestito/',
+        generate: (seed, files) => {
+          return files.reduce((manifest, file) => {
+            manifest[file.name] = file.path;
+            return manifest;
+          }, seed);
+        },
+      }),
     new CopyPlugin({
       patterns: [
         {
@@ -70,8 +80,8 @@ module.exports = {
 
       {
         test: /\.css$/i,
-        exclude: /node_modules|src\/images|src\/files/,
-        use: ['css-loader'],
+        exclude: /node_modules/,
+        use: [MiniCssExtractPlugin.loader, {loader: 'css-loader' }],
       },
     ],
   },
