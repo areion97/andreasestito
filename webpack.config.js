@@ -25,6 +25,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './public/index.html'),
     }),
+    
     new WebpackAssetsManifest({
       output: 'asset-manifest.json',
       publicPath: true,
