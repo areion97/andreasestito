@@ -1,6 +1,13 @@
 {
   "index.html": "/index.html",
   "index.js": "/static/js/main.b5ff34ac64729ba16fb5.js",
+  "index.css": "/static/css/main.231deff41f8245133823.css",
+  "static/css/global.css": "/static/css/global.css",
+  "static/css/global-dark.css": "/static/css/global-dark.css",
+  "static/css/home-module-dark.css": "/static/css/home-module-dark.css",
+  "static/css/home-module.css": "/static/css/home-module.css",
+  "static/css/nav.module.css": "/static/css/nav.module.css",
+  "static/css/nav.moduke-dark.css": "/static/css/nav.module-dark.css",
   "static/media/CS50x.png": "/static/media/CS50x.png",
   "static/media/Curriculum Andrea Sestito 5 - English.pdf": "/static/media/Curriculum%20Andrea%20Sestito%205%20-%20English.pdf",
   "static/media/TheLinuxFoundationProfessionalCertificate.jpg": "/static/media/TheLinuxFoundationProfessionalCertificate.jpg",
