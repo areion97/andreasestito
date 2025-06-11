@@ -1,7 +1,7 @@
 {
   "index.css": "/andreasestito/static/css/main.231deff41f8245133823.css",
-  "index.html": "/index.html",
-  "index.js": "/andreasestito/static/js/main.d399ab4ad7fa9ed109ca.js",
+  "index.html": "/andreasestito/index.html",
+  "index.js": "/andreasestito/./static/js/main.d399ab4ad7fa9ed109ca.js",
   "static/css/global-dark.css": "/andreasestito/static/css/global-dark.css",
   "static/css/global.css": "/andreasestito/static/css/global.css",
   "static/css/home.module-dark.css": "/andreasestito/static/css/home.module-dark.css",
