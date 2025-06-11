@@ -22,8 +22,8 @@ export const ThemeSelector = ({ children }) => {
     linkNav.rel = 'stylesheet';
     linkNav.type = 'text/css';
     linkNav.href = darkMode
-      ? `./andreasestito/static/css/${cssName}-dark.css`
-      : `./andreasestito/static/css/${cssName}.css`;
+      ? `./static/css/${cssName}-dark.css`
+      : `./static/css/${cssName}.css`;
     return linkNav;
   };
 
