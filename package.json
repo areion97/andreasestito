@@ -38,7 +38,7 @@
   "scripts": {
     "deploy": "gh-pages -b master -d build",
     "start": "prettier --write \"src/**/*.{js,jsx}\" && eslint \"src/**/*.{js,jsx,ts,tsx}\" && npx webpack && webpack-dev-server",
-    "build": "react-scripts build",
+    "build": "webpack",
     "webpack-build": "webpack",
     "webpack-serve": "npx webpack && webpack-dev-server",
     "test": "react-scripts test",
