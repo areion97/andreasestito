@@ -14,7 +14,7 @@ module.exports = {
   output: {
     filename: './static/js/main.[contenthash].js',
     path: path.resolve(__dirname, './build'),
-    publicPath: '/andreasestito',
+    publicPath: '/',
     clean: true,
   },
   plugins: [
@@ -33,7 +33,7 @@ module.exports = {
     }),
     new WebpackManifestPlugin({
         fileName: 'manifest.json', // The output manifest file
-        publicPath: '/andreasestito/',
+        publicPath: '/',
         generate: (seed, files) => {
           return files.reduce((manifest, file) => {
             manifest[file.name] = file.path;
