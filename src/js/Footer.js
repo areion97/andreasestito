@@ -23,7 +23,7 @@ function Footer(props) {
             </a>
           </td>
           <td>
-            <a href="https://www.instagram.com/sestitoandre/">
+            <a href="https://www.instagram.com/sestitoandres/">
               <img
                 src={instagram_logo}
                 alt="instagram"
@@ -45,7 +45,7 @@ function Footer(props) {
             </a>
           </td>
           <td>
-            <a href="https://www.linkedin.com/in/sestitoandre/">
+            <a href="https://www.linkedin.com/in/andreasestito/">
               <img
                 src={linkedin_logo}
                 alt="linkedin"
