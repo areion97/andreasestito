@@ -363,10 +363,10 @@ function CV() {
             </tr>
           </tbody>
           <Divider />
-          <tbody>
-            <tr>
-              <td>
-                <div className="section-50">
+          <div className="section-50">
+            <tbody>
+              <tr>
+                <td>
                   <h1>Courses</h1>
                   <div
                     data-iframe-width="150"
@@ -456,10 +456,35 @@ function CV() {
                     async
                     src="//cdn.credly.com/assets/utilities/embed.js"
                   ></script>
-                </div>
-              </td>
-            </tr>
-          </tbody>
+
+                  <div
+                    data-iframe-width="150"
+                    data-iframe-height="270"
+                    data-share-badge-id="0bf9c40a-09b4-4a2e-b352-0a6717095730"
+                    data-share-badge-host="https://www.credly.com"
+                  ></div>
+                  <script
+                    type="text/javascript"
+                    async
+                    src="//cdn.credly.com/assets/utilities/embed.js"
+                  ></script>
+                  <div
+                    data-iframe-width="150"
+                    data-iframe-height="270"
+                    data-share-badge-id="87b12762-108c-43be-844a-5797bb864bf0"
+                    data-share-badge-host="https://www.credly.com"
+                  ></div>
+                  <script
+                    type="text/javascript"
+                    async
+                    src="//cdn.credly.com/assets/utilities/embed.js"
+                  ></script>
+                </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </div>
+
           <tbody>
             <tr>
               <button
