@@ -29,6 +29,7 @@ function About() {
           ? {
               backgroundImage: `url(${pappagalloForDestkop})`,
               backgroundSize: 'contain',
+              height: '100vh',
             }
           : {
               backgroundImage: `url(${pappagalloforMobile})`,
