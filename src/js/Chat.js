@@ -4,6 +4,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import { error, promiseToast } from './Toast';
+import Image from './Image';
 
 function Chat() {
   const [styleModal, setStyleModal] = useState({ visibility: 'hidden' });
@@ -91,7 +92,7 @@ function Chat() {
       )}
 
       <div className="chat">
-        <img
+        <Image
           alt="chat"
           onClick={() => toggleUntoggleModal()}
           src={chat_svg}

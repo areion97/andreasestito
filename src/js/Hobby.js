@@ -1,6 +1,6 @@
 import React from 'react';
 import garden_microsoft from '../images/garden-microsoft.jpg';
-
+import Image from './Image';
 function Hobby() {
   return (
     <div className="container">
@@ -11,7 +11,7 @@ function Hobby() {
               <td>
                 <div className="section-50">
                   <h1>Photography</h1>
-                  <img
+                  <Image
                     className="flex-image"
                     src={garden_microsoft}
                     alt="Garden Microsoft"

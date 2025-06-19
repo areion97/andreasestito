@@ -9,11 +9,13 @@ import retilogiche from '../images/retilogiche.jpg';
 import tesina_superiori from '../files/Tesina Andrea Sestito.pdf';
 import curriculum_english from '../files/CurriculumAndrea-Sestito-5inEnglish.pdf';
 import progetto_vhdl from '../files/Progetto Reti Logiche.pdf';
-
+import { Spin } from 'antd';
+import Image from './Image.js';
 import { useEffect, useState, useLayoutEffect } from 'react';
 function CV() {
   const [timelineMode, setTimelineMode] = useState('left');
   const [isDesktop, setIsDesktop] = useState(false);
+  const [loadingCV, setLoadingCV] = useState(false); // Add this state
 
   useWindowSize();
   function useWindowSize() {
@@ -36,18 +38,20 @@ function CV() {
   }
 
   function downloadFile(fileContent, fileName, contentType) {
-    const blob =
-      fileContent instanceof Blob
-        ? fileContent
-        : new Blob([fileContent], { type: contentType });
-    const url = URL.createObjectURL(blob);
-
-    const a = document.createElement('a');
-    a.href = fileContent;
-    a.download = fileName;
-    a.click();
-
-    URL.revokeObjectURL(url); // clean up
+    setLoadingCV(true); // Start loading
+    fetch(fileContent)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+      })
+      .finally(() => setLoadingCV(false)); // Stop loading
   }
 
   useEffect(() => {
@@ -114,18 +118,21 @@ function CV() {
             ¹Working-zone methodology is used in modern microprocessors to
             reduce power consumption when sending adresses through buses.
           </h3>
-          <img
+          <Image
             src={retilogiche}
             alt="Tesi Reti Logiche"
             className="responsive-image"
-          ></img>
+          />
 
           <a
             style={{ textDecoration: 'underline' }}
-            target="_blank"
-            rel="noreferrer"
             className="nav-submenu"
-            href={progetto_vhdl}
+            onClick={() =>
+                  downloadFile(
+                    progetto_vhdl,
+                    'progetto_vhdl.pdf',
+                    'application/pdf'
+                  )}
           >
             <h3>
               <b>Download PDF</b>
@@ -183,18 +190,21 @@ function CV() {
     {
       children: (
         <div>
-          <img
+          <Image
             src={tesina}
             alt="Tesina Superiori"
             className="responsive-image"
-          ></img>
+          />
 
           <a
             style={{ textDecoration: 'underline' }}
-            target="_blank"
-            rel="noreferrer"
             className="nav-submenu"
-            href={tesina_superiori}
+            onClick={() =>
+                  downloadFile(
+                    tesina_superiori,
+                    'progetto_vhdl.pdf',
+                    'application/pdf'
+                  )}
           >
             <h3>
               <b>Download PDF</b>
@@ -318,20 +328,20 @@ function CV() {
               >
                 <div className="section-90">
                   <h1>Education</h1>
-                  <img alt="" src={logo_polimi} width="250" height="190"></img>
+                  <Image alt="" src={logo_polimi} width="250" height="190"/>
                   <h2 className="title-centered">
                     Bachelor's Degree in Engineering of Computing Systems
                   </h2>
                   <br />
                   <Timeline mode={timelineMode} items={poliItems} />
                   <Divider />
-                  <img
+                  <Image
                     alt=""
                     src={logo_ulivi}
                     className="image"
                     width="250"
                     height="250"
-                  ></img>
+                  />
                   <h2 className="title-centered">Scientific Diploma</h2>
                   <br />
                   <Timeline mode={timelineMode} items={uliviItems} />
@@ -340,22 +350,22 @@ function CV() {
               <td>
                 <div className="section-90">
                   <h1>Experience</h1>
-                  <img
+                  <Image
                     alt="dedalus"
                     src={logo_dedalus}
                     className="image"
                     width="300"
                     height="110"
-                  ></img>
+                  />
                   <br />
                   <Timeline mode={timelineMode} items={dedalusItems} />
-                  <img
+                  <Image
                     alt="nttdata"
                     src={logo_nttdata}
                     className="image"
                     width="250"
                     height="250"
-                  ></img>
+                  />
                   <br />
                   <Timeline mode={timelineMode} items={nttItems} />
                 </div>
@@ -497,8 +507,15 @@ function CV() {
                     'application/pdf'
                   )
                 }
+                disabled={loadingCV}
               >
-                <b>Download CV</b>
+                {loadingCV ? (
+                  <>
+                    <Spin size="small" /> Downloading...
+                  </>
+                ) : (
+                  <b>Download CV</b>
+                )}
               </button>
             </tr>
           </tbody>

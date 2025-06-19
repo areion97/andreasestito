@@ -1,18 +1,18 @@
 import React from 'react';
 import profile from '../images/me.jpg';
 import Card from './Card';
-
+import Image from './Image';
 function Home() {
   return (
     <div className="container">
       <div className="profileSection">
-        <img
+        <Image
           width={250}
           height={600}
           alt="me"
           src={profile}
           className="profileImage"
-        ></img>
+        />
       </div>
       <div className="introductionText">
         <h2>

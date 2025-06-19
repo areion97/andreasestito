@@ -17,7 +17,7 @@ import kafka from '../images/Kafka.jpg';
 import iot_arduino_basics from '../images/iot-arduino-basics.jpg';
 import linux_foundation_specialization from '../images/TheLinuxFoundationProfessionalCertificate.jpg';
 import myes_expert1 from '../images/myes-expert1.jpg';
-
+import Image from './Image'
 function Certificates() {
   return (
     <div>
@@ -28,11 +28,11 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Computer science</h2>
 
               <td>
-                <img
+                <Image
                   src={cs50_certificate}
                   alt="cs50-certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
@@ -43,11 +43,11 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Technology stack</h2>
 
               <td>
-                <img
+                <Image
                   src={ibm_certificate}
                   alt="ibmCertificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
@@ -58,27 +58,27 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Cloud</h2>
 
               <td>
-                <img
+                <Image
                   src={gcloud_fundamentals}
                   alt="gcloud-certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
-                <img
+                <Image
                   src={aws_fundamentals}
                   alt="aws-certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
-                <img
+                <Image
                   src={springcloud}
                   alt="spring boot and spring cloud certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
             </tr>
@@ -88,7 +88,7 @@ function Certificates() {
               <td>
                 <tr className="flexbox-column">
                   <td>
-                    <img
+                    <Image
                       src={git_fundamentals}
                       alt="git fundamentals"
                       className="responsive-image"
@@ -96,7 +96,7 @@ function Certificates() {
                     <br />
                   </td>
                   <td>
-                    <img
+                    <Image
                       src={linux_foundation_specialization}
                       alt="linux foundation specialization"
                       className="responsive-image"
@@ -110,30 +110,30 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Test automation</h2>
 
               <td>
-                <img
+                <Image
                   src={jmeter_intro}
                   alt="jmeter-intro-certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
-                <img
+                <Image
                   src={jmeter_pro}
                   alt="jmeter-pro-certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
             </tr>
             <tr className="flexbox-column">
               <h2 className="flex-header-col border-right">Message broker</h2>
               <td>
-                <img
+                <Image
                   src={kafka}
                   alt="kafka certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
@@ -146,11 +146,11 @@ function Certificates() {
                 Internet of Things
               </h2>
               <td>
-                <img
+                <Image
                   src={iot_arduino_basics}
                   alt="iot_arduino_basics"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td></td>
@@ -159,49 +159,49 @@ function Certificates() {
               <h2 className="flex-header-col border-right">Language</h2>
 
               <td>
-                <img
+                <Image
                   src={fce_certificate}
                   alt="FCE Certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
-                <img
+                <Image
                   src={speex_b21}
                   alt="Speex B2.1 Certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
               <td>
                 <tr className="flexbox-column">
                   <td>
-                    <img
+                    <Image
                       src={myes_advanced2}
                       alt="MYES Advanced 2 Certificate"
                       className="responsive-image"
-                    ></img>
+                    />
                     <br />
                   </td>
                 </tr>
                 <tr>
                   <td>
-                    <img
+                    <Image
                       src={myes_advanced3}
                       alt="MYES Advanced 3 Certificate"
                       className="responsive-image"
-                    ></img>
+                    />
                     <br />
                   </td>
                 </tr>
               </td>
               <td>
-                <img
+                <Image
                   src={myes_expert1}
                   alt="MYES Expert 1 Certificate"
                   className="responsive-image"
-                ></img>
+                />
                 <br />
               </td>
             </tr>
