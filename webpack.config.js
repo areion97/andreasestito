@@ -56,7 +56,7 @@ module.exports = {
           to: 'static/css',
         },
         {
-          from: ' public/favicon.ico',
+          from: 'public/favicon.ico',
           to: 'favicon.ico',
         },
         {
