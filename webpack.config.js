@@ -31,16 +31,7 @@ module.exports = {
       output: 'asset-manifest.json',
       publicPath: true,
     }),
-    new WebpackManifestPlugin({
-        fileName: 'manifest.json', // The output manifest file
-        publicPath: '/',
-        generate: (seed, files) => {
-          return files.reduce((manifest, file) => {
-            manifest[file.name] = file.path;
-            return manifest;
-          }, seed);
-        },
-      }),
+   
     new CopyPlugin({
       patterns: [
         {
