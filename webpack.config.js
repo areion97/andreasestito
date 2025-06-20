@@ -55,6 +55,14 @@ module.exports = {
           from: 'src/css/',
           to: 'static/css',
         },
+        {
+          from: ' public/favicon.ico',
+          to: 'favicon.ico',
+        },
+        {
+          from: 'public/manifest.json',
+          to: 'manifest.json',
+        },
       ],
     }),
   ],
@@ -87,9 +95,9 @@ module.exports = {
   },
   devServer: {
     port: 3000,
-    open: ['/andreasestito'],
+    open: ['/'],
     static: {
-      publicPath: '/andreasestito/',
+      publicPath: '/',
       directory: path.join(__dirname, 'build'),
     },
   },
